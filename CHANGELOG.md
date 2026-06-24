@@ -13,9 +13,19 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 ### Added
 - Initial repository scaffolding: JSON Schema, source manifest, build pipeline
   (`scripts/build_tables.py`), governance/contribution/license files, and CI.
-- Sample Master Controls across four domains: `MC-RM-01`, `MC-DG-03`, `MC-HO-01`,
-  and `MC-TR-02` (the latter demonstrating a `none` gap — an EU AI Act Art.50 obligation
-  with no clean ISO/NIST equivalent).
+- Draft Master Control Set: **23 controls across all 7 domains** (accountability,
+  risk-management, data-governance, transparency, human-oversight, security, lifecycle),
+  69 mappings total (45 full, 21 partial, 3 none). Framework identifiers verified against
+  the published structure of ISO/IEC 42001 Annex A, NIST AI RMF 1.0 (72 subcategories),
+  and the EU AI Act.
+- Documented gaps (`relationship: none`): EU AI Act Art.50 synthetic-content disclosure
+  and Art.15 cybersecurity have no clean ISO/IEC 42001 equivalent (ISO defers security to
+  ISO/IEC 27001).
+
+### Note
+- Mappings authored in this draft carry `reviewer: "draft"`. They are grounded in the
+  frameworks' published structure but are **pending human review** against the methodology
+  paper before being signed off (`reviewer: "vinod"`) for a v1.0 release.
 
 ### Tracking
 - **EU AI Act — Digital Omnibus on AI:** provisional political agreement reached

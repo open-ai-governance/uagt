@@ -1,0 +1,36 @@
+id: MC-LC-04
+title: Record-keeping and event logging
+domain: lifecycle
+objective: >
+  Automatically record events (logs) over the lifetime of an AI system to enable
+  traceability and audit.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.6.2.8"
+    label: "AI system recording of event logs"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.6.2.8 requires recording of event logs over the AI system life cycle.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MANAGE-4.1"
+    label: "Post-deployment monitoring incl. capture"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      NIST captures logging within monitoring (MANAGE 4.1 / MEASURE 2.4) rather than as a
+      discrete record-keeping control.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.12"
+    label: "Record-keeping"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.12 requires automatic recording of logs; Art.19 and Art.26(6) add provider and
+      deployer log-retention duties.
+    reviewer: "draft"

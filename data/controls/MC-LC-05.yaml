@@ -1,0 +1,37 @@
+id: MC-LC-05
+title: Incident reporting and corrective action
+domain: lifecycle
+objective: >
+  Detect, report, and correct serious incidents and malfunctions of AI systems, internally
+  and to relevant parties.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.8.4"
+    label: "Communication of incidents"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.8.4 (with A.8.3 external reporting and clause 10.2 corrective action) covers
+      incident communication and correction.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MANAGE-4.3"
+    label: "Incidents and errors communicated; recovery documented"
+    relationship: full
+    confidence: high
+    rationale: >
+      MANAGE 4.3 requires incidents and errors to be communicated with tracking and
+      recovery documented.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.73"
+    label: "Reporting of serious incidents"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.73 requires providers to report serious incidents to market-surveillance
+      authorities.
+    reviewer: "draft"

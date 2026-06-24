@@ -1,0 +1,36 @@
+id: MC-LC-03
+title: Deployment, operation and post-market monitoring
+domain: lifecycle
+objective: >
+  Monitor AI systems in operation after deployment and maintain a plan to detect and
+  respond to issues over time.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.6.2.6"
+    label: "AI system operation and monitoring"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.6.2.6 (with A.6.2.5 deployment) covers operation and monitoring of AI systems.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MANAGE-4.1"
+    label: "Post-deployment monitoring plans implemented"
+    relationship: full
+    confidence: high
+    rationale: >
+      MANAGE 4.1 requires post-deployment monitoring plans covering capture, appeal,
+      incident, and change.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.72"
+    label: "Post-market monitoring by providers"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.72 requires providers to establish and document a post-market monitoring system
+      and plan.
+    reviewer: "draft"

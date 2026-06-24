@@ -1,0 +1,37 @@
+id: MC-AC-02
+title: Roles, responsibilities and accountability
+domain: accountability
+objective: >
+  Define and assign clear roles, responsibilities, and lines of accountability for the
+  development, deployment, and oversight of AI systems.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.3.2"
+    label: "AI roles and responsibilities"
+    relationship: full
+    confidence: high
+    rationale: >
+      Annex A.3.2 (with clause 5.3) requires defined and communicated AI roles and
+      responsibilities.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "GOVERN-2.1"
+    label: "Roles, responsibilities and lines of communication documented"
+    relationship: full
+    confidence: high
+    rationale: >
+      GOVERN 2.1 requires documented, clear roles, responsibilities, and communication
+      lines.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.16"
+    label: "Obligations of providers of high-risk AI systems"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.16 allocates accountability to providers (Art.26 to deployers); these are
+      statutory obligations rather than an internal responsibility model, hence partial.
+    reviewer: "draft"

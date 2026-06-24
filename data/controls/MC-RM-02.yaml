@@ -1,0 +1,37 @@
+id: MC-RM-02
+title: AI impact and fundamental-rights assessment
+domain: risk-management
+objective: >
+  Assess the impacts of AI systems on individuals, groups, and society, including
+  fundamental rights, before and during deployment.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.5.2"
+    label: "AI system impact assessment process"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.5.2-A.5.4 (with clause 6.1.4/8.4) establish an impact-assessment process covering
+      individuals, groups, and society.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MAP-5.1"
+    label: "Likelihood and magnitude of impacts documented"
+    relationship: full
+    confidence: medium
+    rationale: >
+      MAP 5.1 requires documenting the likelihood and magnitude of each beneficial and
+      harmful impact.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.27"
+    label: "Fundamental rights impact assessment for high-risk AI systems"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.27 mandates a fundamental-rights impact assessment for certain deployers of
+      high-risk systems.
+    reviewer: "draft"

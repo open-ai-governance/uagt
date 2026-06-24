@@ -1,0 +1,37 @@
+id: MC-HO-02
+title: Operator competence and human-AI configuration
+domain: human-oversight
+objective: >
+  Configure human-AI interaction and ensure operators are competent to oversee the system
+  in its intended context of use.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.9.4"
+    label: "Intended use of the AI system"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      A.9.4 (with A.9.2 responsible use) constrains use to intended purpose; operator
+      competence is implied rather than prescribed.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MAP-3.5"
+    label: "Human-oversight processes defined and assessed"
+    relationship: full
+    confidence: medium
+    rationale: >
+      MAP 3.5 (with MAP 3.4 operator proficiency) defines and assesses human-oversight
+      processes per GOVERN policies.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.26"
+    label: "Obligations of deployers of high-risk AI systems"
+    relationship: full
+    confidence: medium
+    rationale: >
+      Art.26 requires deployers to assign competent human oversight and use the system per
+      its instructions.
+    reviewer: "draft"

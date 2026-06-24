@@ -1,0 +1,37 @@
+id: MC-AC-03
+title: AI system inventory and registration
+domain: accountability
+objective: >
+  Maintain an inventory of AI systems and register in-scope systems with relevant
+  authorities, so systems can be tracked and governed by risk.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.4.2"
+    label: "Resource documentation"
+    relationship: partial
+    confidence: low
+    rationale: >
+      A.4.2 documents AI resources but is not a system-of-record inventory; coverage is
+      partial.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "GOVERN-1.6"
+    label: "Mechanisms to inventory AI systems"
+    relationship: full
+    confidence: high
+    rationale: >
+      GOVERN 1.6 directly requires mechanisms to inventory AI systems, resourced by risk
+      priority.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.49"
+    label: "Registration"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.49 requires registration of high-risk systems in the EU database (Art.71); an
+      external register for in-scope systems, narrower than an internal inventory.
+    reviewer: "draft"

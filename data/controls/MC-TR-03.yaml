@@ -1,0 +1,35 @@
+id: MC-TR-03
+title: Technical documentation
+domain: transparency
+objective: >
+  Maintain technical documentation sufficient to demonstrate how an AI system was
+  developed and how it meets applicable requirements.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.6.2.7"
+    label: "AI system technical documentation"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.6.2.7 requires technical documentation of the AI system across its life cycle.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MAP-2.3"
+    label: "Scientific integrity and TEVV documentation"
+    relationship: partial
+    confidence: low
+    rationale: >
+      NIST treats documentation as cross-cutting and has no single technical-documentation
+      subcategory; coverage is partial.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.11"
+    label: "Technical documentation"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.11 with Annex IV prescribes technical documentation for high-risk systems.
+    reviewer: "draft"

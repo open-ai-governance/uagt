@@ -1,0 +1,37 @@
+id: MC-RM-03
+title: Risk tolerance and acceptance criteria
+domain: risk-management
+objective: >
+  Define organizational risk tolerance and criteria for accepting residual AI risk, and
+  align risk-management activity to them.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "6.1"
+    label: "Actions to address risks and opportunities"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Clause 6.1 frames risk criteria and treatment, but ISO does not separately codify a
+      risk-tolerance statement.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "GOVERN-1.3"
+    label: "Risk-management activity set per risk tolerance"
+    relationship: full
+    confidence: high
+    rationale: >
+      GOVERN 1.3 (with MAP 1.5) sets the level of risk-management activity according to
+      documented risk tolerance.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.9"
+    label: "Risk management system"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.9 requires judging acceptable residual risk within the risk-management system;
+      partial to a standalone tolerance control.
+    reviewer: "draft"

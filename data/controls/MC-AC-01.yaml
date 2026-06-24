@@ -1,0 +1,37 @@
+id: MC-AC-01
+title: AI policy and governance framework
+domain: accountability
+objective: >
+  Establish, approve, and maintain an organizational AI policy and governance framework
+  that sets direction and accountability for responsible AI.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.2.2"
+    label: "AI policy"
+    relationship: full
+    confidence: high
+    rationale: >
+      Annex A.2.2 requires a documented AI policy; clause 5.2 mandates leadership
+      approval.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "GOVERN-1.4"
+    label: "Risk-management process established via transparent policies"
+    relationship: full
+    confidence: medium
+    rationale: >
+      GOVERN 1.4 establishes the risk-management process through transparent
+      organizational policies and controls.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.17"
+    label: "Quality management system"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.17 requires a QMS including a compliance strategy and written policies; broader
+      than, but encompassing, an AI policy for high-risk providers.
+    reviewer: "draft"

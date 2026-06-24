@@ -1,0 +1,36 @@
+id: MC-DG-04
+title: Privacy and personal data protection
+domain: data-governance
+objective: >
+  Identify and manage privacy risks and protect personal data used by AI systems, in
+  coordination with applicable data-protection law.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.4.3"
+    label: "Data resources"
+    relationship: partial
+    confidence: low
+    rationale: >
+      ISO/IEC 42001 manages data resources but defers privacy-specific controls to ISO/IEC
+      27701 and external regimes; coverage is partial.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MEASURE-2.10"
+    label: "Privacy risk examined and documented"
+    relationship: full
+    confidence: medium
+    rationale: >
+      MEASURE 2.10 requires privacy risk to be examined and documented.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.10"
+    label: "Data and data governance"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.10(5) conditions special-category data processing; broader privacy obligations
+      sit in the GDPR outside the AI Act, hence partial.
+    reviewer: "draft"

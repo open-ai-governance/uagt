@@ -1,0 +1,36 @@
+id: MC-SE-01
+title: Accuracy and robustness
+domain: security
+objective: >
+  Ensure AI systems achieve appropriate levels of accuracy and remain robust against
+  errors, faults, and inconsistencies over their lifecycle.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.6.2.4"
+    label: "AI system verification and validation"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      A.6.2.4 covers verification and validation; accuracy/robustness performance levels
+      are not a discrete Annex A control.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MEASURE-2.5"
+    label: "Validity and reliability demonstrated"
+    relationship: full
+    confidence: high
+    rationale: >
+      MEASURE 2.5 (with 2.3, 2.6) demonstrates validity, reliability, and safe behavior
+      under deployment-like conditions.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.15"
+    label: "Accuracy, robustness and cybersecurity"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.15 binds appropriate accuracy and robustness for high-risk systems.
+    reviewer: "draft"

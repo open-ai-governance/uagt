@@ -1,0 +1,36 @@
+id: MC-AC-04
+title: AI literacy, competence and training
+domain: accountability
+objective: >
+  Ensure personnel and relevant partners have sufficient AI literacy and competence for
+  their roles in the AI lifecycle.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.4.6"
+    label: "Human resources"
+    relationship: full
+    confidence: medium
+    rationale: >
+      A.4.6 (with clause 7.2 competence) addresses the competence of human resources for
+      AI systems.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "GOVERN-2.2"
+    label: "Personnel and partners receive AI risk-management training"
+    relationship: full
+    confidence: high
+    rationale: >
+      GOVERN 2.2 requires that personnel and partners receive AI risk-management training.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.4"
+    label: "AI literacy"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.4 obliges providers and deployers to ensure a sufficient level of AI literacy
+      among staff operating AI systems.
+    reviewer: "draft"

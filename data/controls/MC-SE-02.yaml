@@ -1,0 +1,36 @@
+id: MC-SE-02
+title: Security, cybersecurity and resilience
+domain: security
+objective: >
+  Protect AI systems against security threats, including adversarial manipulation, and
+  ensure resilience to attacks and failures.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 42001 defers information-security controls to ISO/IEC 27001; Annex A
+      contains no dedicated AI cybersecurity control, so there is no clean equivalent.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MEASURE-2.7"
+    label: "Security and resilience evaluated and documented"
+    relationship: full
+    confidence: high
+    rationale: >
+      MEASURE 2.7 requires security and resilience to be evaluated and documented.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.15"
+    label: "Accuracy, robustness and cybersecurity"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.15 binds cybersecurity, including resilience to adversarial manipulation, for
+      high-risk systems.
+    reviewer: "draft"

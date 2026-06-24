@@ -1,0 +1,36 @@
+id: MC-TR-01
+title: Transparency and information to deployers and users
+domain: transparency
+objective: >
+  Provide deployers and users with clear information enabling appropriate interpretation
+  and use of an AI system's outputs.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.8.2"
+    label: "System documentation and information for users"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.8.2 requires system documentation and information for users of the AI system.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MEASURE-2.8"
+    label: "Transparency and accountability risks examined"
+    relationship: full
+    confidence: medium
+    rationale: >
+      MEASURE 2.8 (with 2.9 explainability) examines transparency and accountability of
+      system behavior.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.13"
+    label: "Transparency and provision of information to deployers"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.13 requires high-risk systems to be transparent and accompanied by instructions
+      for use for deployers.
+    reviewer: "draft"

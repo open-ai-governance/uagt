@@ -1,0 +1,36 @@
+id: MC-LC-02
+title: Verification, validation and testing (TEVV)
+domain: lifecycle
+objective: >
+  Test, evaluate, verify, and validate AI systems against defined criteria before and
+  during deployment.
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.6.2.4"
+    label: "AI system verification and validation"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.6.2.4 directly requires verification and validation of AI systems.
+    reviewer: "draft"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MEASURE-2.1"
+    label: "Test sets, metrics and TEVV documented"
+    relationship: full
+    confidence: high
+    rationale: >
+      MEASURE 2.1 (with 2.3) documents test sets, metrics, and TEVV tools used for
+      evaluation.
+    reviewer: "draft"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.15"
+    label: "Accuracy, robustness and cybersecurity"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.15 implies testing of accuracy/robustness; formal conformity testing sits in
+      Art.43, so coverage of a general TEVV control is partial.
+    reviewer: "draft"
