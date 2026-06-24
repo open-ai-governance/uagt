@@ -1,0 +1,84 @@
+{
+  "captured_at_utc": "2026-06-24T04:32:30Z",
+  "repo": "VinodDhiman/uagt",
+  "signals": [
+    {
+      "signal": "stars",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/VinodDhiman/uagt",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "forks",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/VinodDhiman/uagt",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "watchers",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/VinodDhiman/uagt",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "network",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/VinodDhiman/uagt",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "open_issues",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/VinodDhiman/uagt",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "views_14d",
+      "value": 0,
+      "source": "GitHub Traffic API",
+      "endpoint": "/repos/VinodDhiman/uagt/traffic/views",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "views_unique_14d",
+      "value": 0,
+      "source": "GitHub Traffic API",
+      "endpoint": "/repos/VinodDhiman/uagt/traffic/views",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "clones_14d",
+      "value": 0,
+      "source": "GitHub Traffic API",
+      "endpoint": "/repos/VinodDhiman/uagt/traffic/clones",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "clones_unique_14d",
+      "value": 0,
+      "source": "GitHub Traffic API",
+      "endpoint": "/repos/VinodDhiman/uagt/traffic/clones",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    },
+    {
+      "signal": "top_referrers",
+      "value": 0,
+      "source": "GitHub Traffic API",
+      "endpoint": "/repos/VinodDhiman/uagt/traffic/popular/referrers",
+      "timestamp_utc": "2026-06-24T04:32:30Z",
+      "detail": []
+    },
+    {
+      "signal": "release_downloads",
+      "value": 0,
+      "source": "GitHub Releases API",
+      "endpoint": "/repos/VinodDhiman/uagt/releases",
+      "timestamp_utc": "2026-06-24T04:32:30Z"
+    }
+  ]
+}
