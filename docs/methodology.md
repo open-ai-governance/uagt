@@ -2,7 +2,7 @@
 
 **UAGT — the Unified AI Governance Taxonomy** — is set out in:
 
-> Vinod Kumar, *Bridging AI Risk Frameworks: Reconciling ISO/IEC 42001, the NIST AI Risk
+> Vinod Dhiman, *Bridging AI Risk Frameworks: Reconciling ISO/IEC 42001, the NIST AI Risk
 > Management Framework, and the EU AI Act into a Unified Governance Taxonomy.*
 
 The paper is the cited methodology; **this repository is its open, machine-readable

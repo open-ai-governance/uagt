@@ -9,9 +9,9 @@ pulled toward all three at once. UAGT publishes the reconciliation between them 
 single normalized control set, so practitioners stop re-deriving the same mapping and
 the field gets a shared, maintained reference point.
 
-> **Status:** v0.1 scaffolding. Sample data only — not yet a complete or authoritative
-> crosswalk. Not compliance certification, not legal advice, not a substitute for the
-> source standards.
+> **Status:** v1.0.0 — first public release. A reviewed three-way crosswalk implementing
+> the UAGT taxonomy across 8 governance domains. Not compliance certification, not legal
+> advice, and not a substitute for the source standards; references identifiers only.
 
 ## What makes this different
 
@@ -25,7 +25,7 @@ against a pinned source manifest**, and **neutrally governed** for community con
 This repository is the open, machine-readable implementation of the **Unified AI
 Governance Taxonomy (UAGT)** set out in the paper *Bridging AI Risk Frameworks: Reconciling
 ISO/IEC 42001, the NIST AI Risk Management Framework, and the EU AI Act into a Unified
-Governance Taxonomy* (Vinod Kumar). The taxonomy's **5 analytical layers** and
+Governance Taxonomy* (Vinod Dhiman). The taxonomy's **5 analytical layers** and
 **8 regulation-stable governance domains (D1–D8)**, bound by a **traceability spine**, are
 the structure this repository encodes. See
 [`docs/methodology.md`](docs/methodology.md).

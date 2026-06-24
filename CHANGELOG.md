@@ -10,6 +10,12 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-06-24
+
+First public release. The repository is the open, machine-readable implementation of the
+Unified AI Governance Taxonomy (UAGT): the 8 governance domains, the traceability spine,
+and the three-way crosswalk all build from one canonical source.
+
 ### Added
 - Initial repository scaffolding: JSON Schema, source manifest, build pipeline
   (`scripts/build_tables.py`), governance/contribution/license files, and CI.

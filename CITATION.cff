@@ -21,13 +21,13 @@ keywords:
   - crosswalk
   - compliance
 license: CC-BY-4.0
-version: "0.1.0"
-date-released: "2026-06-23"
+version: "1.0.0"
+date-released: "2026-06-24"
 # A release DOI (Zenodo) and concept DOI will be added here at v1.0 (FR8).
 references:
   - type: article
     title: "Bridging AI Risk Frameworks: Reconciling ISO/IEC 42001, the NIST AI Risk Management Framework, and the EU AI Act into a Unified Governance Taxonomy"
     authors:
       - given-names: Vinod
-        family-names: Kumar
+        family-names: Dhiman
     notes: "The cited methodology (UAGT) that this crosswalk implements. Add DOI when the preprint is posted."
