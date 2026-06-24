@@ -1,9 +1,14 @@
-id: MC-SE-02
+id: MC-D6-03
 title: Security, cybersecurity and resilience
-domain: security
+domain: d6-robustness-accuracy-security
 objective: >
   Protect AI systems against security threats, including adversarial manipulation, and
   ensure resilience to attacks and failures.
+principle: "Secure and resilient by design"
+evidence:
+  - "security test/pentest results"
+  - "threat model"
+  - "resilience plan"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,8 +17,8 @@ mappings:
     relationship: none
     confidence: high
     rationale: >
-      ISO/IEC 42001 defers information-security controls to ISO/IEC 27001; Annex A
-      contains no dedicated AI cybersecurity control, so there is no clean equivalent.
+      ISO/IEC 42001 defers information-security controls to ISO/IEC 27001; no dedicated AI
+      cybersecurity control in Annex A.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
@@ -31,6 +36,5 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      Art.15 binds cybersecurity, including resilience to adversarial manipulation, for
-      high-risk systems.
+      Art.15 binds cybersecurity, including resilience to adversarial manipulation.
     reviewer: "Vinod Dhiman"

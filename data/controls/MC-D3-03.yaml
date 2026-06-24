@@ -1,0 +1,39 @@
+id: MC-D3-03
+title: Data representativeness and bias examination
+domain: d3-data-governance-quality
+objective: >
+  Ensure datasets are relevant and representative and that data-side bias is examined and
+  mitigated.
+principle: "Fairness; non-discrimination"
+evidence:
+  - "bias evaluation report"
+  - "representativeness analysis"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.7.4"
+    label: "Quality of data for AI systems"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      ISO addresses data quality; representativeness/bias is examined via quality, not a
+      dedicated control.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MEASURE-2.11"
+    label: "Fairness and bias evaluated and documented"
+    relationship: full
+    confidence: high
+    rationale: >
+      MEASURE 2.11 evaluates fairness and harmful bias.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.10"
+    label: "Data and data governance"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.10 requires examination of datasets in view of possible biases.
+    reviewer: "Vinod Dhiman"

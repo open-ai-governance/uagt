@@ -1,9 +1,14 @@
-id: MC-LC-01
+id: MC-D6-05
 title: Responsible design and development
-domain: lifecycle
+domain: d6-robustness-accuracy-security
 objective: >
   Define and follow processes for the responsible design and development of AI systems
   against documented requirements.
+principle: "Build responsibly from the start"
+evidence:
+  - "design specification"
+  - "development records"
+  - "responsible-AI design checklist"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,18 +17,17 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      A.6.1.3 (with A.6.1.2 objectives and A.6.2.2 requirements) establishes responsible
-      design and development processes.
+      A.6.1.3 with A.6.1.2 and A.6.2.2 establishes responsible design and development
+      processes.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
     ref: "MAP-1.1"
-    label: "Intended purpose, context and requirements documented"
+    label: "Purpose, context and requirements documented"
     relationship: partial
     confidence: medium
     rationale: >
-      MAP 1.1 documents purpose, context, and requirements that drive design; NIST spreads
-      lifecycle activity across functions.
+      MAP 1.1 documents purpose, context, and requirements driving design.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
     version: "2024/1689"
@@ -32,6 +36,6 @@ mappings:
     relationship: partial
     confidence: low
     rationale: >
-      Art.16 obliges providers to ensure systems are designed to meet Section-2
-      requirements; there is no single lifecycle article, hence partial.
+      Art.16 obliges providers to design systems to meet requirements; there is no single
+      lifecycle article.
     reviewer: "Vinod Dhiman"

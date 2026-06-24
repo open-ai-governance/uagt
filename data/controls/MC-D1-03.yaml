@@ -1,9 +1,13 @@
-id: MC-AC-03
+id: MC-D1-03
 title: AI system inventory and registration
-domain: accountability
+domain: d1-accountability-governance
 objective: >
   Maintain an inventory of AI systems and register in-scope systems with relevant
-  authorities, so systems can be tracked and governed by risk.
+  authorities so systems can be tracked and governed by risk.
+principle: "Visibility of AI systems in use"
+evidence:
+  - "AI system inventory/register"
+  - "EU database registration record"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -33,5 +37,5 @@ mappings:
     confidence: medium
     rationale: >
       Art.49 requires registration of high-risk systems in the EU database (Art.71); an
-      external register for in-scope systems, narrower than an internal inventory.
+      external register, narrower than an internal inventory.
     reviewer: "Vinod Dhiman"

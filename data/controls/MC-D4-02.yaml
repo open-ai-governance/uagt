@@ -1,9 +1,13 @@
-id: MC-TR-03
+id: MC-D4-02
 title: Technical documentation
-domain: transparency
+domain: d4-transparency-documentation
 objective: >
-  Maintain technical documentation sufficient to demonstrate how an AI system was
-  developed and how it meets applicable requirements.
+  Maintain technical documentation sufficient to demonstrate how an AI system was developed
+  and how it meets applicable requirements.
+principle: "Demonstrable, documented compliance"
+evidence:
+  - "technical documentation file (Annex IV)"
+  - "design and development records"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,17 +16,17 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      A.6.2.7 requires technical documentation of the AI system across its life cycle.
+      A.6.2.7 requires technical documentation across the life cycle.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
     ref: "MAP-2.3"
-    label: "Scientific integrity and TEVV documentation"
+    label: "Data and input documentation"
     relationship: partial
     confidence: low
     rationale: >
-      NIST treats documentation as cross-cutting and has no single technical-documentation
-      subcategory; coverage is partial.
+      NIST treats documentation as cross-cutting; no single technical-documentation
+      subcategory.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
     version: "2024/1689"

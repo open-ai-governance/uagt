@@ -20,16 +20,29 @@ all at once: **openly licensed**, **anchored on a transparent normalized control
 **schema-validated and machine-readable**, **citable via DOI**, **version-controlled
 against a pinned source manifest**, and **neutrally governed** for community contribution.
 
+## Methodology
+
+UAGC is the open implementation of the **Unified AI Governance Taxonomy (UAGT)** from the
+paper *Bridging AI Risk Frameworks: Reconciling ISO/IEC 42001, the NIST AI Risk Management
+Framework, and the EU AI Act into a Unified Governance Taxonomy* (Vinod Kumar). The
+taxonomy's **5 analytical layers** and **8 regulation-stable governance domains (D1–D8)**,
+bound by a **traceability spine**, are the structure this repository encodes. See
+[`docs/methodology.md`](docs/methodology.md).
+
 ## How it works
 
 The spine is the **Master Control Set (MCS)** — a normalized catalog of governance
-controls, each expressed once and mapped *outward* to the three source frameworks. New
-frameworks (ISO 27001, SOC 2, …) can attach later without disturbing existing mappings.
+controls organised into the eight UAGT domains, each expressed once and mapped *outward* to
+the three source frameworks. Every control carries the traceability spine: an upward
+`principle`, sideways framework `mappings`, and forward `evidence` artefacts. New frameworks
+(ISO 27001, SOC 2, …) can attach later without disturbing existing mappings.
 
 Each mapping records the **nature** of correspondence — `full` / `partial` / `superset`
 / `subset` / `none` — plus a rationale, confidence, and reviewer. The `none` flags are
 deliberate: they are how genuine **gaps** surface (e.g. an EU AI Act obligation with no
-clean ISO/NIST equivalent — see [`docs/gaps.md`](docs/gaps.md)).
+clean ISO/NIST equivalent — see [`docs/gaps.md`](docs/gaps.md)). Per the methodology,
+unification is *structural, not legal*, and the three risk verdicts are preserved, not
+averaged.
 
 ```
 data/controls/*.yaml   ──►  scripts/build_tables.py  ──►  docs/  (Markdown crosswalk + gaps)

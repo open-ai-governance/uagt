@@ -41,3 +41,23 @@ frameworks:
           Journal as of this manifest date - mappings reflect 2024/1689 as enacted, with the
           Omnibus tracked in the changelog until publication triggers a MAJOR version bump.
     notes: "Referenced by Article number only; text not reproduced."
+
+# Companion sources referenced in rationale but not themselves mapped targets. They inform
+# specific domains (e.g. ISO/IEC 42005 for D2 impact assessment; the NIST Generative AI
+# Profile for D8 GPAI). Mappings still resolve only to the three anchor frameworks above.
+companions:
+  - id: ISO-IEC-42005
+    name: "ISO/IEC 42005:2025 - AI system impact assessment"
+    informs: ["d2-risk-impact-assessment"]
+  - id: NIST-AI-600-1
+    name: "NIST AI 600-1 - Generative AI Profile (2024)"
+    informs: ["d8-value-chain-gpai"]
+
+# The cited methodology this crosswalk implements (paper <-> repo reciprocal citation, FR8).
+methodology:
+  title: >
+    Bridging AI Risk Frameworks: Reconciling ISO/IEC 42001, the NIST AI Risk Management
+    Framework, and the EU AI Act into a Unified Governance Taxonomy
+  author: "Vinod Kumar"
+  taxonomy: "Unified AI Governance Taxonomy (UAGT) - 5 analytical layers, 8 governance domains"
+  doi: ""  # add the preprint/paper DOI once available

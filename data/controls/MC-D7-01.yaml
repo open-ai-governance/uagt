@@ -1,0 +1,39 @@
+id: MC-D7-01
+title: Operation monitoring and post-market surveillance
+domain: d7-lifecycle-monitoring
+objective: >
+  Monitor AI systems in operation after deployment and maintain a plan to detect and respond
+  to issues over time.
+principle: "Watch systems over their life"
+evidence:
+  - "post-market monitoring plan"
+  - "monitoring dashboards"
+  - "performance review records"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "9.1"
+    label: "Monitoring, measurement, analysis and evaluation"
+    relationship: full
+    confidence: high
+    rationale: >
+      Clause 9.1 with A.6.2.6 requires ongoing monitoring and evaluation.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MANAGE-4.1"
+    label: "Post-deployment monitoring plans implemented"
+    relationship: full
+    confidence: high
+    rationale: >
+      MANAGE 4.1 requires post-deployment monitoring plans.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.72"
+    label: "Post-market monitoring by providers"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.72 requires a documented post-market monitoring system and plan.
+    reviewer: "Vinod Dhiman"

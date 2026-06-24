@@ -5,12 +5,12 @@
   "description": "A single normalized Master Control and its mappings out to the source frameworks. One file per control under data/controls/.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "domain", "objective", "mappings"],
+  "required": ["id", "title", "domain", "objective", "principle", "evidence", "mappings"],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Stable Master Control id: MC-<DOMAIN>-<NN>.",
-      "pattern": "^MC-[A-Z]{2,3}-[0-9]{2}$"
+      "description": "Stable Master Control id: MC-D<n>-<NN>, where D<n> is the UAGT governance domain (D1-D8).",
+      "pattern": "^MC-D[1-8]-[0-9]{2}$"
     },
     "title": {
       "type": "string",
@@ -19,21 +19,34 @@
     },
     "domain": {
       "type": "string",
-      "description": "Governance domain this control belongs to.",
+      "description": "One of the eight UAGT regulation-stable governance domains (paper, Table 4).",
       "enum": [
-        "risk-management",
-        "data-governance",
-        "transparency",
-        "human-oversight",
-        "security",
-        "lifecycle",
-        "accountability"
+        "d1-accountability-governance",
+        "d2-risk-impact-assessment",
+        "d3-data-governance-quality",
+        "d4-transparency-documentation",
+        "d5-human-oversight",
+        "d6-robustness-accuracy-security",
+        "d7-lifecycle-monitoring",
+        "d8-value-chain-gpai"
       ]
     },
     "objective": {
       "type": "string",
       "description": "What the control is trying to achieve, in the project's own words (never source text).",
       "minLength": 10
+    },
+    "principle": {
+      "type": "string",
+      "description": "Traceability spine, upward link: the normative principle (normative-purpose layer) this control descends from.",
+      "minLength": 6,
+      "maxLength": 160
+    },
+    "evidence": {
+      "type": "array",
+      "description": "Traceability spine, forward link: evidence/assurance artefacts that demonstrate this control (evidence-&-assurance layer).",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 2, "maxLength": 120 }
     },
     "mappings": {
       "type": "array",

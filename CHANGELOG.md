@@ -13,11 +13,19 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 ### Added
 - Initial repository scaffolding: JSON Schema, source manifest, build pipeline
   (`scripts/build_tables.py`), governance/contribution/license files, and CI.
-- Draft Master Control Set: **23 controls across all 7 domains** (accountability,
-  risk-management, data-governance, transparency, human-oversight, security, lifecycle),
-  69 mappings total (45 full, 21 partial, 3 none). Framework identifiers verified against
-  the published structure of ISO/IEC 42001 Annex A, NIST AI RMF 1.0 (72 subcategories),
-  and the EU AI Act.
+- Master Control Set reconciled to the **UAGT taxonomy** from the methodology paper:
+  re-architected into the paper's **8 regulation-stable governance domains (D1–D8)** with
+  controls re-keyed `MC-D<n>-<NN>`. Now **28 controls, 84 mappings** (54 full, 27 partial,
+  3 none), including the previously-missing **D8 value-chain / third-party / GPAI** domain.
+  Framework identifiers verified against ISO/IEC 42001 Annex A, NIST AI RMF 1.0
+  (72 subcategories), and the EU AI Act; D2 references ISO/IEC 42005 and D8 the NIST
+  Generative AI Profile.
+- **Traceability spine** added to the schema and every control: an upward `principle`
+  (normative-purpose link) and forward `evidence` artefacts (assurance link), alongside the
+  sideways framework `mappings` — implementing the paper's central design principle.
+- `docs/methodology.md` documents the 5 analytical layers, 8 domains, the spine, and the
+  "structural not legal / preserve all three risk verdicts" boundary conditions, and links
+  the repo to the paper (reciprocal citation).
 - Documented gaps (`relationship: none`): EU AI Act Art.50 synthetic-content disclosure
   and Art.15 cybersecurity have no clean ISO/IEC 42001 equivalent (ISO defers security to
   ISO/IEC 27001).

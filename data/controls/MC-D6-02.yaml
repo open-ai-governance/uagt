@@ -1,0 +1,39 @@
+id: MC-D6-02
+title: Robustness and safety
+domain: d6-robustness-accuracy-security
+objective: >
+  Ensure AI systems remain robust and safe against errors, faults, drift, and adversarial
+  conditions over their lifecycle.
+principle: "Safe under stress and drift"
+evidence:
+  - "robustness test results"
+  - "safety case"
+  - "drift monitoring config"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.6.2.6"
+    label: "AI system operation and monitoring"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      A.6.2.6 supports detecting degradation; robustness is not a discrete Annex A control.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MEASURE-2.6"
+    label: "Safety risks evaluated; safe-fail demonstrated"
+    relationship: full
+    confidence: high
+    rationale: >
+      MEASURE 2.6 evaluates safety risks and demonstrates safe failure behaviour.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.15"
+    label: "Accuracy, robustness and cybersecurity"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.15 binds robustness, including to errors and adversarial conditions.
+    reviewer: "Vinod Dhiman"

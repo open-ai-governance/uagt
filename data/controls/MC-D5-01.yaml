@@ -1,0 +1,40 @@
+id: MC-D5-01
+title: Human oversight of AI systems
+domain: d5-human-oversight
+objective: >
+  Ensure AI systems can be effectively overseen by people during use, including
+  interpretation, intervention, and stop capability.
+principle: "Meaningful human control"
+evidence:
+  - "human-oversight design records"
+  - "intervention/override procedures"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.9.2"
+    label: "Processes for responsible use of AI systems"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Annex A.9 addresses responsible use but not per-decision human intervention controls.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "GOVERN-3.2"
+    label: "Policies define human roles and oversight"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GOVERN 3.2 sets the oversight expectation, not the operational intervention
+      capability.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.14"
+    label: "Human oversight"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.14 requires high-risk systems designed for effective human oversight,
+      intervention, and stop.
+    reviewer: "Vinod Dhiman"

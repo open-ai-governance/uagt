@@ -1,0 +1,38 @@
+id: MC-D3-02
+title: Data quality and preparation
+domain: d3-data-governance-quality
+objective: >
+  Ensure datasets used to train, validate, and test AI systems are appropriately prepared
+  and governed for quality.
+principle: "Fit-for-purpose data"
+evidence:
+  - "data quality criteria"
+  - "data preparation records"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.7.4"
+    label: "Quality of data for AI systems"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.7.4 with A.7.6 addresses data quality and preparation for AI systems.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MAP-2.3"
+    label: "Data and input documentation"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Covers documentation of data; quality thresholds implied, not prescribed.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.10"
+    label: "Data and data governance"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.10 requires relevant, sufficiently representative datasets governed for quality.
+    reviewer: "Vinod Dhiman"

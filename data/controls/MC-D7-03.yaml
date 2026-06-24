@@ -1,0 +1,42 @@
+id: MC-D7-03
+title: Performance evaluation and continual improvement
+domain: d7-lifecycle-monitoring
+objective: >
+  Evaluate the performance of the AI management system and continually improve it through
+  audit and management review.
+principle: "Continual improvement (PDCA)"
+evidence:
+  - "internal audit reports"
+  - "management review minutes"
+  - "improvement actions log"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "9.2"
+    label: "Internal audit"
+    relationship: full
+    confidence: high
+    rationale: >
+      Clauses 9.2/9.3 and 10.1 establish internal audit, management review, and continual
+      improvement.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MANAGE-2.3"
+    label: "Procedures respond to and recover from unknown risks"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      MANAGE 2.x sustains value and responds to emergent risks; improvement is distributed
+      across functions.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.72"
+    label: "Post-market monitoring by providers"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.72's monitoring feeds improvement; there is no standalone continual-improvement
+      article.
+    reviewer: "Vinod Dhiman"

@@ -1,9 +1,14 @@
-id: MC-AC-02
+id: MC-D1-02
 title: Roles, responsibilities and accountability
-domain: accountability
+domain: d1-accountability-governance
 objective: >
   Define and assign clear roles, responsibilities, and lines of accountability for the
   development, deployment, and oversight of AI systems.
+principle: "Clear ownership and accountability"
+evidence:
+  - "RACI matrix"
+  - "role and responsibility definitions"
+  - "AI governance org chart"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,7 +17,7 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      Annex A.3.2 (with clause 5.3) requires defined and communicated AI roles and
+      Annex A.3.2 with clause 5.3 requires defined, communicated AI roles and
       responsibilities.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
@@ -32,6 +37,6 @@ mappings:
     relationship: partial
     confidence: medium
     rationale: >
-      Art.16 allocates accountability to providers (Art.26 to deployers); these are
-      statutory obligations rather than an internal responsibility model, hence partial.
+      Art.16 with Art.26 allocates accountability by role; statutory obligations rather than
+      an internal RACI.
     reviewer: "Vinod Dhiman"

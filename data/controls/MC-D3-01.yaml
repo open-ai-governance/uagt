@@ -1,8 +1,12 @@
-id: MC-DG-01
+id: MC-D3-01
 title: Data acquisition and provenance
-domain: data-governance
+domain: d3-data-governance-quality
 objective: >
   Govern how data is acquired and track its origin and provenance across the AI lifecycle.
+principle: "Trustworthy data lineage"
+evidence:
+  - "data provenance records"
+  - "data acquisition log"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -11,18 +15,16 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      A.7.5 (with A.7.3 acquisition) addresses data provenance and the acquisition of data
-      for AI systems.
+      A.7.5 with A.7.3 addresses provenance and acquisition of data for AI systems.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
     ref: "MAP-2.3"
-    label: "Scientific integrity and TEVV documentation"
+    label: "Data and input documentation"
     relationship: partial
     confidence: low
     rationale: >
-      NIST documents data and input characteristics across MAP, but provenance is not a
-      discrete subcategory; coverage is partial.
+      NIST documents data across MAP; provenance is not a discrete subcategory.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
     version: "2024/1689"
@@ -31,6 +33,5 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      Art.10 requires data governance practices covering data collection and origin for
-      high-risk systems.
+      Art.10 requires governance practices covering data collection and origin.
     reviewer: "Vinod Dhiman"

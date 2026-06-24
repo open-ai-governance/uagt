@@ -1,9 +1,14 @@
-id: MC-LC-02
+id: MC-D6-04
 title: Verification, validation and testing (TEVV)
-domain: lifecycle
+domain: d6-robustness-accuracy-security
 objective: >
-  Test, evaluate, verify, and validate AI systems against defined criteria before and
-  during deployment.
+  Test, evaluate, verify, and validate AI systems against defined criteria before and during
+  deployment.
+principle: "Test before and during use"
+evidence:
+  - "TEVV plan"
+  - "test reports"
+  - "conformity assessment record"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -21,8 +26,7 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      MEASURE 2.1 (with 2.3) documents test sets, metrics, and TEVV tools used for
-      evaluation.
+      MEASURE 2.1 with 2.3 documents test sets, metrics, and TEVV tools.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
     version: "2024/1689"
@@ -32,5 +36,5 @@ mappings:
     confidence: medium
     rationale: >
       Art.15 implies testing of accuracy/robustness; formal conformity testing sits in
-      Art.43, so coverage of a general TEVV control is partial.
+      Art.43.
     reviewer: "Vinod Dhiman"

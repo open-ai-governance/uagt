@@ -4,63 +4,73 @@
 
 Source baseline (manifest `0.1.0`, updated 2026-06-23): ISO/IEC 42001 2023, NIST AI RMF 1.0, EU AI Act 2024/1689.
 
-## Accountability
+## D1 — Accountability & organisational governance
 
 | Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
 | --- | --- | --- | --- |
-| **MC-AC-01** AI policy and governance framework | `A.2.2` (full) | `GOVERN-1.4` (full) | `Art.17` (partial) |
-| **MC-AC-02** Roles, responsibilities and accountability | `A.3.2` (full) | `GOVERN-2.1` (full) | `Art.16` (partial) |
-| **MC-AC-03** AI system inventory and registration | `A.4.2` (partial) | `GOVERN-1.6` (full) | `Art.49` (partial) |
-| **MC-AC-04** AI literacy, competence and training | `A.4.6` (full) | `GOVERN-2.2` (full) | `Art.4` (full) |
+| **MC-D1-01** AI policy and governance framework | `A.2.2` (full) | `GOVERN-1.4` (full) | `Art.17` (partial) |
+| **MC-D1-02** Roles, responsibilities and accountability | `A.3.2` (full) | `GOVERN-2.1` (full) | `Art.16` (partial) |
+| **MC-D1-03** AI system inventory and registration | `A.4.2` (partial) | `GOVERN-1.6` (full) | `Art.49` (partial) |
+| **MC-D1-04** AI literacy, competence and training | `A.4.6` (full) | `GOVERN-2.2` (full) | `Art.4` (full) |
 
-## Data governance
-
-| Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
-| --- | --- | --- | --- |
-| **MC-DG-01** Data acquisition and provenance | `A.7.5` (full) | `MAP-2.3` (partial) | `Art.10` (full) |
-| **MC-DG-02** Data preparation, representativeness and bias examination | `A.7.6` (full) | `MEASURE-2.11` (partial) | `Art.10` (full) |
-| **MC-DG-03** Training data governance and quality | `A.7.4` (full) | `MAP-2.3` (partial) | `Art.10` (full) |
-| **MC-DG-04** Privacy and personal data protection | `A.4.3` (partial) | `MEASURE-2.10` (full) | `Art.10` (partial) |
-
-## Human oversight
+## D2 — Risk & impact assessment
 
 | Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
 | --- | --- | --- | --- |
-| **MC-HO-01** Human oversight of AI systems | `A.9.2` (partial) | `GOVERN-3.2` (partial) | `Art.14` (full) |
-| **MC-HO-02** Operator competence and human-AI configuration | `A.9.4` (partial) | `MAP-3.5` (full) | `Art.26` (full) |
+| **MC-D2-01** AI risk assessment and treatment | `8.2` (full) | `MANAGE-1.1` (partial) | `Art.9` (full) |
+| **MC-D2-02** AI system impact assessment | `A.5.2` (full) | `MAP-5.1` (full) | `Art.27` (full) |
+| **MC-D2-03** Risk tolerance and acceptance criteria | `6.1` (partial) | `GOVERN-1.3` (full) | `Art.9` (partial) |
 
-## Lifecycle
-
-| Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
-| --- | --- | --- | --- |
-| **MC-LC-01** Responsible design and development | `A.6.1.3` (full) | `MAP-1.1` (partial) | `Art.16` (partial) |
-| **MC-LC-02** Verification, validation and testing (TEVV) | `A.6.2.4` (full) | `MEASURE-2.1` (full) | `Art.15` (partial) |
-| **MC-LC-03** Deployment, operation and post-market monitoring | `A.6.2.6` (full) | `MANAGE-4.1` (full) | `Art.72` (full) |
-| **MC-LC-04** Record-keeping and event logging | `A.6.2.8` (full) | `MANAGE-4.1` (partial) | `Art.12` (full) |
-| **MC-LC-05** Incident reporting and corrective action | `A.8.4` (full) | `MANAGE-4.3` (full) | `Art.73` (full) |
-
-## Risk management
+## D3 — Data governance & quality
 
 | Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
 | --- | --- | --- | --- |
-| **MC-RM-01** AI risk assessment and treatment | `8.2` (full) | `MANAGE-1.1` (partial) | `Art.9` (full) |
-| **MC-RM-02** AI impact and fundamental-rights assessment | `A.5.2` (full) | `MAP-5.1` (full) | `Art.27` (full) |
-| **MC-RM-03** Risk tolerance and acceptance criteria | `6.1` (partial) | `GOVERN-1.3` (full) | `Art.9` (partial) |
+| **MC-D3-01** Data acquisition and provenance | `A.7.5` (full) | `MAP-2.3` (partial) | `Art.10` (full) |
+| **MC-D3-02** Data quality and preparation | `A.7.4` (full) | `MAP-2.3` (partial) | `Art.10` (full) |
+| **MC-D3-03** Data representativeness and bias examination | `A.7.4` (partial) | `MEASURE-2.11` (full) | `Art.10` (full) |
+| **MC-D3-04** Privacy and personal data protection | `A.4.3` (partial) | `MEASURE-2.10` (full) | `Art.10` (partial) |
 
-## Security
-
-| Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
-| --- | --- | --- | --- |
-| **MC-SE-01** Accuracy and robustness | `A.6.2.4` (partial) | `MEASURE-2.5` (full) | `Art.15` (full) |
-| **MC-SE-02** Security, cybersecurity and resilience | `—` (none) | `MEASURE-2.7` (full) | `Art.15` (full) |
-
-## Transparency
+## D4 — Transparency, documentation & records
 
 | Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
 | --- | --- | --- | --- |
-| **MC-TR-01** Transparency and information to deployers and users | `A.8.2` (full) | `MEASURE-2.8` (full) | `Art.13` (full) |
-| **MC-TR-02** Disclosure of AI-generated and synthetic content | `—` (none) | `—` (none) | `Art.50` (full) |
-| **MC-TR-03** Technical documentation | `A.6.2.7` (full) | `MAP-2.3` (partial) | `Art.11` (full) |
+| **MC-D4-01** Transparency and information to deployers and users | `A.8.2` (full) | `MEASURE-2.8` (full) | `Art.13` (full) |
+| **MC-D4-02** Technical documentation | `A.6.2.7` (full) | `MAP-2.3` (partial) | `Art.11` (full) |
+| **MC-D4-03** Record-keeping and event logging | `A.6.2.8` (full) | `MANAGE-4.1` (partial) | `Art.12` (full) |
+| **MC-D4-04** Disclosure of AI-generated and synthetic content | `—` (none) | `—` (none) | `Art.50` (full) |
+
+## D5 — Human oversight & autonomy
+
+| Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
+| --- | --- | --- | --- |
+| **MC-D5-01** Human oversight of AI systems | `A.9.2` (partial) | `GOVERN-3.2` (partial) | `Art.14` (full) |
+| **MC-D5-02** Operator competence and human-AI configuration | `A.9.4` (partial) | `MAP-3.5` (full) | `Art.26` (full) |
+
+## D6 — Robustness, accuracy & security
+
+| Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
+| --- | --- | --- | --- |
+| **MC-D6-01** Accuracy and reliability | `A.6.2.4` (partial) | `MEASURE-2.5` (full) | `Art.15` (full) |
+| **MC-D6-02** Robustness and safety | `A.6.2.6` (partial) | `MEASURE-2.6` (full) | `Art.15` (full) |
+| **MC-D6-03** Security, cybersecurity and resilience | `—` (none) | `MEASURE-2.7` (full) | `Art.15` (full) |
+| **MC-D6-04** Verification, validation and testing (TEVV) | `A.6.2.4` (full) | `MEASURE-2.1` (full) | `Art.15` (partial) |
+| **MC-D6-05** Responsible design and development | `A.6.1.3` (full) | `MAP-1.1` (partial) | `Art.16` (partial) |
+
+## D7 — Lifecycle monitoring & post-market surveillance
+
+| Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
+| --- | --- | --- | --- |
+| **MC-D7-01** Operation monitoring and post-market surveillance | `9.1` (full) | `MANAGE-4.1` (full) | `Art.72` (full) |
+| **MC-D7-02** Incident reporting and corrective action | `A.8.4` (full) | `MANAGE-4.3` (full) | `Art.73` (full) |
+| **MC-D7-03** Performance evaluation and continual improvement | `9.2` (full) | `MANAGE-2.3` (partial) | `Art.72` (partial) |
+
+## D8 — Value-chain, third-party & GPAI governance
+
+| Master Control | ISO/IEC 42001 | NIST AI RMF | EU AI Act |
+| --- | --- | --- | --- |
+| **MC-D8-01** Third-party and supplier governance | `A.10.3` (full) | `GOVERN-6.1` (full) | `Art.25` (full) |
+| **MC-D8-02** Customer and downstream responsibilities | `A.10.4` (full) | `MANAGE-1.4` (full) | `Art.26` (partial) |
+| **MC-D8-03** General-purpose AI (GPAI) model governance | `A.4.4` (partial) | `MAP-4.1` (partial) | `Art.53` (full) |
 
 ---
 

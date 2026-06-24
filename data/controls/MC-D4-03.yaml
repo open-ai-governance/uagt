@@ -1,9 +1,14 @@
-id: MC-LC-04
+id: MC-D4-03
 title: Record-keeping and event logging
-domain: lifecycle
+domain: d4-transparency-documentation
 objective: >
   Automatically record events (logs) over the lifetime of an AI system to enable
   traceability and audit.
+principle: "Traceability and auditability"
+evidence:
+  - "automatic event logs"
+  - "log retention policy"
+  - "audit trail"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -21,8 +26,8 @@ mappings:
     relationship: partial
     confidence: medium
     rationale: >
-      NIST captures logging within monitoring (MANAGE 4.1 / MEASURE 2.4) rather than as a
-      discrete record-keeping control.
+      NIST captures logging within monitoring rather than as a discrete record-keeping
+      control.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
     version: "2024/1689"
@@ -31,6 +36,5 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      Art.12 requires automatic recording of logs; Art.19 and Art.26(6) add provider and
-      deployer log-retention duties.
+      Art.12 with Art.19 and Art.26(6) requires automatic logging and retention.
     reviewer: "Vinod Dhiman"

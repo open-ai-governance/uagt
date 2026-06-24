@@ -1,0 +1,39 @@
+id: MC-D2-01
+title: AI risk assessment and treatment
+domain: d2-risk-impact-assessment
+objective: >
+  Establish a documented, repeatable process to identify, analyze, evaluate, and treat risks
+  arising from AI systems across their lifecycle.
+principle: "Risk-based, proportionate governance"
+evidence:
+  - "AI risk register"
+  - "risk treatment plan"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "8.2"
+    label: "AI risk assessment"
+    relationship: full
+    confidence: high
+    rationale: >
+      Clause 8.2 with 6.1 requires a defined AI risk assessment and treatment process.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MANAGE-1.1"
+    label: "AI risks prioritized, responded to, and managed"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Risk activity is distributed across MAP/MEASURE/MANAGE rather than one consolidated
+      process.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.9"
+    label: "Risk management system"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.9 mandates a continuous, iterative risk-management system for high-risk systems.
+    reviewer: "Vinod Dhiman"

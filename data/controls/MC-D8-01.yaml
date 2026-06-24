@@ -1,0 +1,39 @@
+id: MC-D8-01
+title: Third-party and supplier governance
+domain: d8-value-chain-gpai
+objective: >
+  Govern AI-related risks introduced by suppliers and third-party components across the
+  value chain.
+principle: "Accountability across the supply chain"
+evidence:
+  - "supplier due-diligence records"
+  - "third-party contracts/DPAs"
+  - "component risk assessments"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.10.3"
+    label: "Suppliers"
+    relationship: full
+    confidence: high
+    rationale: >
+      A.10.3 with A.10.2 governs supplier relationships and allocation of responsibilities.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "GOVERN-6.1"
+    label: "Policies address third-party risks"
+    relationship: full
+    confidence: high
+    rationale: >
+      GOVERN 6.1 with MANAGE 3.1 addresses third-party AI risks and applies controls.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.25"
+    label: "Responsibilities along the AI value chain"
+    relationship: full
+    confidence: medium
+    rationale: >
+      Art.25 allocates responsibilities along the AI value chain.
+    reviewer: "Vinod Dhiman"

@@ -1,0 +1,42 @@
+id: MC-D8-03
+title: General-purpose AI (GPAI) model governance
+domain: d8-value-chain-gpai
+objective: >
+  Govern foundational and general-purpose AI models, including documentation and systemic-
+  risk handling where applicable.
+principle: "Govern foundational/value-chain models"
+evidence:
+  - "GPAI model documentation"
+  - "GenAI risk-profile mapping"
+  - "systemic-risk evaluation (if applicable)"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.4.4"
+    label: "Tooling resources"
+    relationship: partial
+    confidence: low
+    rationale: >
+      ISO addresses GPAI/foundation models only through general controls (tooling and third-
+      party), not a dedicated provision.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MAP-4.1"
+    label: "Map AI and legal risks of components incl. third-party"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      The NIST Generative AI Profile (AI 600-1) and MAP 4.1 address generative and value-
+      chain model risks; the base RMF lacks GPAI specifics.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.53"
+    label: "Obligations for providers of general-purpose AI models"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.53 with Art.55 sets binding obligations for GPAI models, including those with
+      systemic risk.
+    reviewer: "Vinod Dhiman"

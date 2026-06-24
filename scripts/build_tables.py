@@ -41,14 +41,17 @@ FRAMEWORK_LABELS = {
     "EU-AI-ACT": "EU AI Act",
 }
 RELATIONSHIP_ORDER = ["full", "superset", "subset", "partial", "none"]
+# The eight UAGT regulation-stable governance domains (paper, Table 4). D-prefixed labels
+# sort naturally D1..D8.
 DOMAIN_LABELS = {
-    "risk-management": "Risk management",
-    "data-governance": "Data governance",
-    "transparency": "Transparency",
-    "human-oversight": "Human oversight",
-    "security": "Security",
-    "lifecycle": "Lifecycle",
-    "accountability": "Accountability",
+    "d1-accountability-governance": "D1 — Accountability & organisational governance",
+    "d2-risk-impact-assessment": "D2 — Risk & impact assessment",
+    "d3-data-governance-quality": "D3 — Data governance & quality",
+    "d4-transparency-documentation": "D4 — Transparency, documentation & records",
+    "d5-human-oversight": "D5 — Human oversight & autonomy",
+    "d6-robustness-accuracy-security": "D6 — Robustness, accuracy & security",
+    "d7-lifecycle-monitoring": "D7 — Lifecycle monitoring & post-market surveillance",
+    "d8-value-chain-gpai": "D8 — Value-chain, third-party & GPAI governance",
 }
 
 
@@ -241,6 +244,8 @@ def build_rows(controls: list[dict]) -> list[dict]:
                     "control_id": ctrl["id"],
                     "control_title": ctrl["title"],
                     "domain": ctrl["domain"],
+                    "principle": ctrl.get("principle", ""),
+                    "evidence": "; ".join(ctrl.get("evidence", [])),
                     "framework": m["framework"],
                     "version": m["version"],
                     "ref": m.get("ref") or "",

@@ -1,0 +1,39 @@
+id: MC-D8-02
+title: Customer and downstream responsibilities
+domain: d8-value-chain-gpai
+objective: >
+  Manage responsibilities and residual risks passed to customers and downstream users of AI
+  systems.
+principle: "Responsible handoff to downstream users"
+evidence:
+  - "customer guidance"
+  - "downstream residual-risk disclosures"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: "A.10.4"
+    label: "Customers"
+    relationship: full
+    confidence: medium
+    rationale: >
+      A.10.4 governs customer relationships and responsibilities.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: "MANAGE-1.4"
+    label: "Negative residual risks to downstream users documented"
+    relationship: full
+    confidence: medium
+    rationale: >
+      MANAGE 1.4 documents residual risks to downstream acquirers and end users.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.26"
+    label: "Obligations of deployers of high-risk AI systems"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.26 places downstream duties on deployers; partial to a provider-side handoff
+      control.
+    reviewer: "Vinod Dhiman"

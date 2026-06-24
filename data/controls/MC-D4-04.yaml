@@ -1,0 +1,39 @@
+id: MC-D4-04
+title: Disclosure of AI-generated and synthetic content
+domain: d4-transparency-documentation
+objective: >
+  Ensure AI-generated or manipulated content is marked and disclosed so recipients can
+  recognize it as artificial.
+principle: "Honest signalling of artificial content"
+evidence:
+  - "content marking/watermark records"
+  - "deployer disclosure notices"
+mappings:
+  - framework: ISO-IEC-42001
+    version: "2023"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 42001 contains no control specific to labelling AI-generated or synthetic
+      content; no clean equivalent.
+    reviewer: "Vinod Dhiman"
+  - framework: NIST-AI-RMF
+    version: "1.0"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      The NIST AI RMF does not prescribe synthetic-content disclosure or marking.
+    reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689"
+    ref: "Art.50"
+    label: "Transparency obligations for certain AI systems"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.50 imposes marking/disclosure duties for synthetic media and certain interactions.
+    reviewer: "Vinod Dhiman"

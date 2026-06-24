@@ -1,9 +1,14 @@
-id: MC-TR-01
+id: MC-D4-01
 title: Transparency and information to deployers and users
-domain: transparency
+domain: d4-transparency-documentation
 objective: >
-  Provide deployers and users with clear information enabling appropriate interpretation
-  and use of an AI system's outputs.
+  Provide deployers and users with clear information enabling appropriate interpretation and
+  use of an AI system's outputs.
+principle: "Transparency to those affected"
+evidence:
+  - "instructions for use"
+  - "model card"
+  - "user-facing disclosures"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,7 +17,7 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      A.8.2 requires system documentation and information for users of the AI system.
+      A.8.2 requires system documentation and information for users.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
@@ -21,8 +26,7 @@ mappings:
     relationship: full
     confidence: medium
     rationale: >
-      MEASURE 2.8 (with 2.9 explainability) examines transparency and accountability of
-      system behavior.
+      MEASURE 2.8 with 2.9 examines transparency and explainability.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
     version: "2024/1689"
@@ -31,6 +35,5 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      Art.13 requires high-risk systems to be transparent and accompanied by instructions
-      for use for deployers.
+      Art.13 requires transparency and instructions for use for deployers.
     reviewer: "Vinod Dhiman"

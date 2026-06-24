@@ -1,9 +1,13 @@
-id: MC-RM-03
+id: MC-D2-03
 title: Risk tolerance and acceptance criteria
-domain: risk-management
+domain: d2-risk-impact-assessment
 objective: >
   Define organizational risk tolerance and criteria for accepting residual AI risk, and
   align risk-management activity to them.
+principle: "Risk decisions against defined tolerance"
+evidence:
+  - "risk acceptance criteria"
+  - "residual-risk sign-off"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,8 +16,8 @@ mappings:
     relationship: partial
     confidence: medium
     rationale: >
-      Clause 6.1 frames risk criteria and treatment, but ISO does not separately codify a
-      risk-tolerance statement.
+      Clause 6.1 frames risk criteria; ISO does not separately codify a risk-tolerance
+      statement.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
@@ -22,8 +26,8 @@ mappings:
     relationship: full
     confidence: high
     rationale: >
-      GOVERN 1.3 (with MAP 1.5) sets the level of risk-management activity according to
-      documented risk tolerance.
+      GOVERN 1.3 with MAP 1.5 sets the level of activity according to documented risk
+      tolerance.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
     version: "2024/1689"
@@ -32,6 +36,6 @@ mappings:
     relationship: partial
     confidence: medium
     rationale: >
-      Art.9 requires judging acceptable residual risk within the risk-management system;
-      partial to a standalone tolerance control.
+      Art.9 requires judging acceptable residual risk; partial to a standalone tolerance
+      control.
     reviewer: "Vinod Dhiman"

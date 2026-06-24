@@ -1,9 +1,13 @@
-id: MC-DG-04
+id: MC-D3-04
 title: Privacy and personal data protection
-domain: data-governance
+domain: d3-data-governance-quality
 objective: >
   Identify and manage privacy risks and protect personal data used by AI systems, in
-  coordination with applicable data-protection law.
+  coordination with data-protection law.
+principle: "Privacy by design"
+evidence:
+  - "privacy risk assessment"
+  - "DPIA reference"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,8 +16,8 @@ mappings:
     relationship: partial
     confidence: low
     rationale: >
-      ISO/IEC 42001 manages data resources but defers privacy-specific controls to ISO/IEC
-      27701 and external regimes; coverage is partial.
+      ISO manages data resources but defers privacy-specific controls to ISO/IEC 27701 and
+      external regimes.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
@@ -31,6 +35,6 @@ mappings:
     relationship: partial
     confidence: medium
     rationale: >
-      Art.10(5) conditions special-category data processing; broader privacy obligations
-      sit in the GDPR outside the AI Act, hence partial.
+      Art.10(5) conditions special-category processing; broader privacy duties sit in the
+      GDPR.
     reviewer: "Vinod Dhiman"

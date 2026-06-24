@@ -1,9 +1,14 @@
-id: MC-AC-04
+id: MC-D1-04
 title: AI literacy, competence and training
-domain: accountability
+domain: d1-accountability-governance
 objective: >
   Ensure personnel and relevant partners have sufficient AI literacy and competence for
   their roles in the AI lifecycle.
+principle: "Competent people governing AI"
+evidence:
+  - "training records"
+  - "competence matrix"
+  - "AI literacy programme"
 mappings:
   - framework: ISO-IEC-42001
     version: "2023"
@@ -12,8 +17,7 @@ mappings:
     relationship: full
     confidence: medium
     rationale: >
-      A.4.6 (with clause 7.2 competence) addresses the competence of human resources for
-      AI systems.
+      A.4.6 with clause 7.2 addresses the competence of human resources for AI systems.
     reviewer: "Vinod Dhiman"
   - framework: NIST-AI-RMF
     version: "1.0"
@@ -32,5 +36,5 @@ mappings:
     confidence: high
     rationale: >
       Art.4 obliges providers and deployers to ensure a sufficient level of AI literacy
-      among staff operating AI systems.
+      among staff.
     reviewer: "Vinod Dhiman"
