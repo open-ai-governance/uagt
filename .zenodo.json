@@ -1,0 +1,20 @@
+{
+  "title": "UAGC — Unified AI Governance Crosswalk",
+  "upload_type": "dataset",
+  "description": "An open, machine-readable, citable, and continuously versioned crosswalk across ISO/IEC 42001:2023, the NIST AI Risk Management Framework 1.0, and the EU AI Act (Regulation (EU) 2024/1689, as amended). Built on a normalized Master Control Set with typed relationships (full/partial/superset/subset/none), rationale, and provenance for every mapping. References clause/article identifiers only; source standards are not reproduced.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    { "name": "Dhiman, Vinod" }
+  ],
+  "keywords": [
+    "AI governance",
+    "ISO/IEC 42001",
+    "NIST AI RMF",
+    "EU AI Act",
+    "crosswalk",
+    "compliance",
+    "GRC"
+  ],
+  "notes": "Tooling is licensed Apache-2.0; data and documentation are licensed CC BY 4.0. See LICENSE and LICENSE-DATA in the repository."
+}

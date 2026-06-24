@@ -29,6 +29,9 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
   watchers, 14-day traffic, release downloads) into append-only `evidence/` snapshots +
   `metrics.csv` + `dashboard.html`. Scheduled biweekly (1st & 15th) for the rolling
   traffic window. Zenodo/PyPI channels stubbed for launch. Verified live against the API.
+- Release tooling: `.zenodo.json` (DOI metadata), `.github/workflows/release.yml`
+  (tag → rebuild + bundle + GitHub Release, which triggers Zenodo DOI minting once
+  connected), and `RELEASE.md` go-live checklist for the gated public-launch steps.
 
 ### Note
 - All mappings are signed off with `reviewer: "Vinod Dhiman"`.

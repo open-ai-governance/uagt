@@ -1,0 +1,55 @@
+name: release
+
+# On a version tag (vMAJOR.MINOR.PATCH): rebuild every output from the canonical source,
+# bundle the artifacts, and publish a GitHub Release. If the repo is connected to Zenodo
+# (see RELEASE.md), publishing the release triggers Zenodo to archive it and mint a DOI.
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write   # to create the release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate, build tables + site
+        run: |
+          python scripts/build_tables.py --check
+          python scripts/build_tables.py
+          python scripts/build_site.py
+
+      - name: Bundle artifacts
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          mkdir -p dist
+          # Machine-readable exports as standalone assets.
+          cp build/crosswalk.json build/crosswalk.csv build/crosswalk.xlsx dist/ || true
+          # One reproducible archive of the canonical source + all generated outputs.
+          zip -r "dist/uagc-${TAG}.zip" \
+            data schema scripts docs site build \
+            README.md CHANGELOG.md CITATION.cff LICENSE LICENSE-DATA \
+            GOVERNANCE.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+          ls -la dist
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          gh release create "$TAG" \
+            --title "UAGC $TAG" \
+            --generate-notes \
+            dist/*
