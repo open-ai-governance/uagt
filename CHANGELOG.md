@@ -11,6 +11,23 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 ## [Unreleased]
 
 ### Added
+- **Reverse-coverage index** (`docs/reverse-coverage.md` + `scripts/build_reverse_coverage.py`,
+  with `data/source-inventory.yaml`): from each source element back to the Master Controls,
+  proving coverage of the anchor inventories and flagging orphans. Currently ISO/IEC 42001
+  20/38, NIST AI RMF 24/72, EU AI Act 18/23 — 71 orphans (source elements no control maps to
+  yet), a real source-side gap list for future controls.
+- **GitHub Pages workflow** (`.github/workflows/pages.yml`) publishing the searchable site
+  from canonical source; repository topics added.
+
+### Fixed
+- Version drift: README status now matches `CITATION.cff` / `CHANGELOG` (v2.2.0).
+- Citation integrity: `CITATION.cff` now lists the real version DOIs that exist (v1.0.0,
+  v1.1.0) and documents that v2.0.1–v2.2.0 are **not yet archived** — the Zenodo webhook did
+  not follow the org transfer (needs re-enabling under the new owner).
+- Name/noun consistency: a README note fixes *UAGT* as the name (the taxonomy / paper) and
+  *crosswalk* as the noun for the artifact; no "UAGC" remains anywhere.
+
+### Added (frameworks)
 - **COBIT 2019 and ISO/IEC 27701 attached as the 6th and 7th frameworks, across all 28
   controls** — the crosswalk now spans **seven frameworks, 196 mappings** (71 full, 4
   superset, 72 partial, 49 none). COBIT 2019 (EDM/APO/BAI/DSS/MEA) maps broadly across

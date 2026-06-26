@@ -36,6 +36,9 @@ jobs:
       - name: Build OSCAL catalog (dry run must succeed)
         run: python scripts/build_oscal.py
 
+      - name: Build reverse-coverage index (dry run must succeed)
+        run: python scripts/build_reverse_coverage.py
+
       - name: Metrics collector smoke test (no network)
         run: python scripts/collect_metrics.py --dry-run
 

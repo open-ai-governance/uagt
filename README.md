@@ -13,9 +13,14 @@ pulled toward all three at once. UAGT publishes the reconciliation between them 
 single normalized control set, so practitioners stop re-deriving the same mapping and
 the field gets a shared, maintained reference point.
 
-> **Status:** v1.0.0 — first public release. A reviewed three-way crosswalk implementing
-> the UAGT taxonomy across 8 governance domains. Not compliance certification, not legal
-> advice, and not a substitute for the source standards; references identifiers only.
+> **Status:** v2.2.0. A reviewed crosswalk across seven frameworks and eight governance
+> domains. Not compliance certification, not legal advice, and not a substitute for the
+> source standards; references identifiers only.
+>
+> **Name vs. noun:** *UAGT* (Unified AI Governance Taxonomy) is the name — the analytical
+> model, defined in the methodology paper. This repository is its concrete artifact: an open
+> **crosswalk**. "Crosswalk" is the noun used throughout for what the repo *is*; "taxonomy"
+> refers only to the named model and the paper.
 
 ## What makes this different
 
@@ -62,8 +67,11 @@ deliberate: they are how genuine **gaps** surface (e.g. an EU AI Act obligation 
 clean ISO/NIST equivalent — see [`docs/gaps.md`](docs/gaps.md)). The
 [`docs/coverage.md`](docs/coverage.md) report answers the recurring question directly — *how
 much does each framework cover, and where are the gaps?* — with per-framework and per-domain
-coverage and a hard-gap list. Per the methodology, unification is *structural, not legal*,
-and the three risk verdicts are preserved, not averaged.
+coverage and a hard-gap list. [`docs/reverse-coverage.md`](docs/reverse-coverage.md) goes the
+other way — from each source element back to the Master Controls — proving coverage of the
+anchor inventories and flagging orphans (source elements no control maps to yet). Per the
+methodology, unification is *structural, not legal*, and the three risk verdicts are
+preserved, not averaged.
 
 ```
 data/controls/*.yaml   ──►  scripts/build_tables.py  ──►  docs/  (Markdown crosswalk + gaps)
