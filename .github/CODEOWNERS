@@ -1,0 +1,10 @@
+# Code owners — required reviewers once branch protection's code-owner review is enabled.
+# GOVERNANCE.md requires every mapping change to have a rationale and a named reviewer; this
+# file makes that enforceable in CI/PR review rather than by convention alone.
+
+# Default owner for everything.
+* @VinodDhiman
+
+# The canonical data and schema are the heart of the crosswalk — guard them explicitly.
+/data/        @VinodDhiman
+/schema/      @VinodDhiman

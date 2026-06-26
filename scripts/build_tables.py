@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Vinod Dhiman and UAGT contributors
 """Build all UAGT outputs from the canonical YAML source.
 
 Single source of truth (NFR1): every output here derives from data/controls/*.yaml

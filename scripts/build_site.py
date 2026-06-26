@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Vinod Dhiman and UAGT contributors
 """Build the searchable static site from the canonical YAML source.
 
 Single self-contained HTML file (data embedded, vanilla JS, no external CDN) so it

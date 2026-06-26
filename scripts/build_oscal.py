@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Vinod Dhiman and UAGT contributors
 """Build an OSCAL catalog of the Master Control Set from the canonical YAML source.
 
 Output: build/oscal/uagt-catalog.json — an OSCAL 1.1.2 catalog where each Master Control

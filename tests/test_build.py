@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Vinod Dhiman and UAGT contributors
 """Tests for the UAGT build pipeline: validation guarantees (NFR2), reproducibility
 (NFR3), three-way coverage (FR1), relationship typing (FR3), and OSCAL output.
 

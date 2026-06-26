@@ -116,6 +116,16 @@ site/                  built static site (regenerated; not committed)
 evidence/              timestamped metric snapshots + dashboard (committed)
 ```
 
+## Related work
+
+UAGT occupies a space adjacent to several efforts but is deliberately distinct. NIST's
+official AI RMF ↔ ISO/IEC 42001 crosswalk is authoritative but two-way and static.
+Credo AI's **Unified Control Framework (UCF)** consolidates controls across regulations into
+a product-oriented set. UAGT differs on what it *is*: an **open** (CC BY 4.0), **DOI-citable**,
+**schema-validated** crosswalk anchored on a **published taxonomy** (the methodology paper),
+with **typed relationships** (`full`/`partial`/`superset`/`subset`/`none`) and explicit
+**gap flags** — not a vendor product or a login-walled tool. See [`docs/methodology.md`](docs/methodology.md).
+
 ## Licensing
 
 - **Data + docs:** [CC BY 4.0](LICENSE-DATA) — attribution is a license condition.

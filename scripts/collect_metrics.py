@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Vinod Dhiman and UAGT contributors
 """Collect organic, third-party-sourced adoption metrics into /evidence/.
 
 Design principle (section 7 + NFR5): every number must be (a) sourced from a third
@@ -112,13 +114,32 @@ def collect_github(repo: str, token: str, ts: str) -> list:
     return signals
 
 
-# --- Stubbed channels (wire these up at/after launch) -----------------------
 def collect_zenodo(record_id: str | None, ts: str) -> list:
-    """TODO: GET https://zenodo.org/api/records/<id> -> stats.views / stats.downloads.
-    Tie to each release DOI and the concept DOI once minted (FR8)."""
-    return []
+    """Zenodo record stats (views/downloads). Pass the concept record id to track all
+    versions; the concept DOI 10.5281/zenodo.<id>. No auth required for public records."""
+    if not record_id:
+        return []
+    endpoint = f"https://zenodo.org/api/records/{record_id}"
+    req = urllib.request.Request(endpoint, headers={"Accept": "application/json", "User-Agent": "uagt-metrics"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            rec = json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.HTTPError, urllib.error.URLError):
+        return []
+    stats = rec.get("stats", {}) or {}
+    signals: list = []
+    for key, sig in [
+        ("views", "zenodo_views"),
+        ("unique_views", "zenodo_unique_views"),
+        ("downloads", "zenodo_downloads"),
+        ("unique_downloads", "zenodo_unique_downloads"),
+    ]:
+        if isinstance(stats.get(key), (int, float)):
+            record(signals, sig, stats[key], "Zenodo stats", endpoint, ts)
+    return signals
 
 
+# --- Stubbed channels (wire these up at/after launch) -----------------------
 def collect_pypi(package: str | None, ts: str) -> list:
     """TODO: pypistats / npm download counts — only if an installable helper is published."""
     return []

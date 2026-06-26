@@ -30,7 +30,8 @@ jobs:
           # coverage; without it, star/fork/release signals still capture.
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          # ZENODO_RECORD_ID: ${{ vars.ZENODO_RECORD_ID }}   # uncomment once a DOI is minted
+          # Concept record id (DOI 10.5281/zenodo.20823079); override via repo variable.
+          ZENODO_RECORD_ID: ${{ vars.ZENODO_RECORD_ID || '20823079' }}
         run: python scripts/collect_metrics.py
 
       - name: Commit snapshot

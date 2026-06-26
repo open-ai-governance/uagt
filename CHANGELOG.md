@@ -17,7 +17,13 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
   20/38, NIST AI RMF 24/72, EU AI Act 18/23 — 71 orphans (source elements no control maps to
   yet), a real source-side gap list for future controls.
 - **GitHub Pages workflow** (`.github/workflows/pages.yml`) publishing the searchable site
-  from canonical source; repository topics added.
+  from canonical source; repository topics, homepage, and Discussions enabled.
+- **Community health & governance enforcement**: `SECURITY.md`, `.github/CODEOWNERS`, branch
+  protection requiring the CI check on `main`, and Apache-2.0 SPDX headers on all scripts.
+- **Zenodo metrics channel implemented** (`collect_metrics.py`): real `zenodo_views` /
+  `downloads` from the concept record; `metrics.yml` now sets `ZENODO_RECORD_ID` (resolving
+  the earlier "once a DOI is minted" contradiction).
+- README **Related work** note distinguishing UAGT from Credo AI's Unified Control Framework.
 
 ### Fixed
 - Version drift: README status now matches `CITATION.cff` / `CHANGELOG` (v2.2.0).

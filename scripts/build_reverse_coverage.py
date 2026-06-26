@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Vinod Dhiman and UAGT contributors
 """Reverse-coverage index: from each SOURCE framework element back to the Master Controls.
 
 Proves that every inventoried element of the three anchor frameworks (ISO/IEC 42001 Annex A,
