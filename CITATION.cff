@@ -40,11 +40,13 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20823132"
     description: "Version v1.1.0"
-# NOTE: v1.0.0 and v1.1.0 are archived on Zenodo. Releases v2.0.1-v2.2.0 are NOT yet
-# archived: the Zenodo<->GitHub webhook stayed on the pre-transfer repo and did not follow
-# the move to the open-ai-governance org. To restore version-DOI continuity, re-enable the
-# repo in Zenodo (zenodo.org/account/settings/github) under the new owner and publish a
-# release; the concept DOI above remains valid and citable in the meantime.
+  - type: doi
+    value: "10.5281/zenodo.20891681"
+    description: "Version v2.3.0"
+# NOTE: v1.0.0, v1.1.0 and v2.3.0 are archived on Zenodo under the concept DOI above, which
+# resolves to v2.3.0. The intermediate tags v2.0.1-v2.2.0 fell in a window when the Zenodo
+# webhook was disconnected (after the repo moved to the open-ai-governance org); they are
+# not separately archived and are superseded by v2.3.0. Archival continuity is now restored.
 references:
   - type: article
     title: "Bridging AI Risk Frameworks: Reconciling ISO/IEC 42001, the NIST AI Risk Management Framework, and the EU AI Act into a Unified Governance Taxonomy"
