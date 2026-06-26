@@ -134,6 +134,14 @@ def test_oscal_uuids_are_deterministic():
 
 # --- OSCAL structure -------------------------------------------------------
 
+def test_coverage_report_renders_all_frameworks():
+    md = bt.render_coverage_md(CONTROLS, MANIFEST)
+    assert "## Coverage by framework" in md
+    assert "## Coverage by domain × framework" in md
+    for fw in bt.FRAMEWORK_ORDER:
+        assert bt.FRAMEWORK_LABELS[fw] in md
+
+
 def test_oscal_catalog_shape():
     cat = build_oscal.build_catalog(CONTROLS, MANIFEST)["catalog"]
     assert cat["metadata"]["oscal-version"] == build_oscal.OSCAL_VERSION

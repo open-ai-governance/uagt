@@ -53,9 +53,11 @@ ISMS is not an AI-governance framework. The same mechanism extends to further fr
 Each mapping records the **nature** of correspondence — `full` / `partial` / `superset`
 / `subset` / `none` — plus a rationale, confidence, and reviewer. The `none` flags are
 deliberate: they are how genuine **gaps** surface (e.g. an EU AI Act obligation with no
-clean ISO/NIST equivalent — see [`docs/gaps.md`](docs/gaps.md)). Per the methodology,
-unification is *structural, not legal*, and the three risk verdicts are preserved, not
-averaged.
+clean ISO/NIST equivalent — see [`docs/gaps.md`](docs/gaps.md)). The
+[`docs/coverage.md`](docs/coverage.md) report answers the recurring question directly — *how
+much does each framework cover, and where are the gaps?* — with per-framework and per-domain
+coverage and a hard-gap list. Per the methodology, unification is *structural, not legal*,
+and the three risk verdicts are preserved, not averaged.
 
 ```
 data/controls/*.yaml   ──►  scripts/build_tables.py  ──►  docs/  (Markdown crosswalk + gaps)

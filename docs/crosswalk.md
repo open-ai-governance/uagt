@@ -74,4 +74,4 @@ Source baseline (manifest `0.1.0`, updated 2026-06-23): ISO/IEC 42001 2023, NIST
 
 ---
 
-Relationship legend: **full** · **superset** · **subset** · **partial** · **none** (gap). See [gaps.md](gaps.md) for the gap-only view.
+Relationship legend: **full** · **superset** · **subset** · **partial** · **none** (gap). See [gaps.md](gaps.md) for the gap-only view and [coverage.md](coverage.md) for the per-framework / per-domain coverage report.
