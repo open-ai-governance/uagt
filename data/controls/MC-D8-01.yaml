@@ -57,3 +57,23 @@ mappings:
       CC9.2 directly governs vendor and business-partner risk - a strong match for third-
       party and supplier governance.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO10"
+    label: "Managed vendors"
+    relationship: full
+    confidence: high
+    rationale: >
+      APO10 governs vendor selection, relationships, and risk - a strong match for third-
+      party and supplier governance.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

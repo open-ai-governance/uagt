@@ -56,3 +56,22 @@ mappings:
       SOC 2's Processing Integrity category concerns complete and accurate processing of
       inputs; it partially touches data quality but not ML data governance.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO14"
+    label: "Managed data (data quality)"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      APO14 includes data quality management; not specific to AI training-data preparation.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "7.4.3"
+    label: "Accuracy and quality"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Clause 7.4.3 addresses accuracy and quality of PII; relevant to data quality where the
+      data is personal.
+    reviewer: "Vinod Dhiman"

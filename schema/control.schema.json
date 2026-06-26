@@ -63,7 +63,7 @@
       "properties": {
         "framework": {
           "type": "string",
-          "enum": ["ISO-IEC-42001", "NIST-AI-RMF", "EU-AI-ACT", "ISO-IEC-27001", "SOC-2"]
+          "enum": ["ISO-IEC-42001", "NIST-AI-RMF", "EU-AI-ACT", "ISO-IEC-27001", "SOC-2", "COBIT-2019", "ISO-IEC-27701"]
         },
         "version": {
           "type": "string",

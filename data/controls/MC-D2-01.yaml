@@ -58,3 +58,23 @@ mappings:
       SOC 2 CC3 establishes a risk assessment process (CC3.2); methodology aligns but its
       scope is trust-services (security) risk, not the breadth of AI risk.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO12"
+    label: "Managed risk"
+    relationship: full
+    confidence: high
+    rationale: >
+      APO12 establishes an enterprise risk management process - a strong match for AI risk
+      assessment and treatment.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

@@ -57,3 +57,23 @@ mappings:
       SOC 2 reports define complementary user-entity controls - responsibilities to be
       performed by the customer - partially matching downstream handoff of residual risk.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO09"
+    label: "Managed service agreements"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      APO09 defines consumer-facing service agreements and responsibilities; partially
+      matches downstream handoff.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "7.5"
+    label: "PII sharing, transfer, and disclosure"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Clause 7.5 governs PII sharing and disclosure to third parties; relevant to downstream
+      handoff where personal data is involved.
+    reviewer: "Vinod Dhiman"

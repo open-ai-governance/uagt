@@ -57,3 +57,23 @@ mappings:
       Model-level robustness and safety have no direct SOC 2 equivalent; availability
       controls address service uptime, not model behaviour.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "BAI04"
+    label: "Managed availability and capacity"
+    relationship: partial
+    confidence: low
+    rationale: >
+      BAI04 (with DSS04 continuity) addresses availability and resilience; partially
+      relevant to robustness, not model safety.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

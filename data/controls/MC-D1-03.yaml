@@ -59,3 +59,23 @@ mappings:
       SOC 2 requires a system description and boundaries but has no asset-inventory
       criterion equivalent to an AI system register.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "BAI09"
+    label: "Managed assets"
+    relationship: full
+    confidence: medium
+    rationale: >
+      BAI09 maintains an inventory of assets across their lifecycle - directly analogous to
+      an AI system register.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

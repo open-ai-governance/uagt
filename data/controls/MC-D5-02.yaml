@@ -58,3 +58,23 @@ mappings:
       CC1.4 supports operator competence generally but does not address human-AI
       configuration or oversight.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO07"
+    label: "Managed human resources"
+    relationship: partial
+    confidence: low
+    rationale: >
+      APO07 manages competence of personnel; not specific to human-AI configuration or
+      oversight.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

@@ -57,3 +57,23 @@ mappings:
       CC2.3 covers external communication of objectives and responsibilities; it partially
       supports providing information to deployers but not AI-output transparency.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO09"
+    label: "Managed service agreements"
+    relationship: partial
+    confidence: low
+    rationale: >
+      APO09 defines service agreements and information provided to service consumers;
+      partially relevant to information for deployers.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "7.3.2"
+    label: "Determining information for PII principals"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Clause 7.3.2-7.3.3 require providing information to PII principals; a privacy-scoped
+      form of transparency.
+    reviewer: "Vinod Dhiman"

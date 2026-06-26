@@ -57,3 +57,22 @@ mappings:
     rationale: >
       SOC 2 has no human-oversight-of-AI control.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      COBIT 2019 has no human-oversight-of-AI objective.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "7.3.9"
+    label: "Automated decision making"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Clause 7.3.9 addresses PII principals' rights regarding automated decision-making;
+      relevant to oversight only for personal-data decisions.
+    reviewer: "Vinod Dhiman"

@@ -60,3 +60,23 @@ mappings:
       CC1.3 requires management to establish structures, reporting lines, and assign
       authorities and responsibilities - directly analogous to AI governance roles.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO01"
+    label: "Managed I&T management framework (roles and structures)"
+    relationship: full
+    confidence: medium
+    rationale: >
+      APO01 defines organizational structures, roles, and responsibilities for I&T
+      governance.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

@@ -59,3 +59,23 @@ mappings:
       CC8.1 governs the development and change lifecycle (design, test, authorize), a
       partial analog to responsible AI design and development.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "BAI03"
+    label: "Managed solutions identification and build"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      BAI03 governs solution design and build; a partial analog to responsible AI design and
+      development.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

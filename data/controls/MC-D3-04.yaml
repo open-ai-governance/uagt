@@ -59,3 +59,24 @@ mappings:
       retention, and disposal of personal information; applies when Privacy is in the audit
       scope, hence partial.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO14"
+    label: "Managed data (privacy handling)"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      APO14 with MEA03 (external compliance) addresses data privacy handling; broader
+      privacy obligations sit outside COBIT.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "Clause 7"
+    label: "PIMS-specific guidance for PII controllers"
+    relationship: superset
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy information management system that comprehensively governs
+      PII collection, processing, principals' rights, and sharing - broader than this single
+      privacy control.
+    reviewer: "Vinod Dhiman"

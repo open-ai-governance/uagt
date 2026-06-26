@@ -67,6 +67,28 @@ frameworks:
     required: false
     notes: "2017 TSC (with 2022 revised points of focus). Referenced by criterion id only; text not reproduced."
 
+  # COBIT 2019 - broad IT/enterprise-governance framework (OPTIONAL). Maps widely across
+  # governance, risk, lifecycle, monitoring, and vendor management.
+  - id: COBIT-2019
+    name: "COBIT 2019 - Governance and management of enterprise I&T"
+    version: "2019"
+    structure: "40 governance/management objectives across EDM, APO, BAI, DSS, MEA domains"
+    issuer: "ISACA"
+    obtain_from: "https://www.isaca.org/resources/cobit"
+    required: false
+    notes: "Referenced by objective id only; text not reproduced."
+
+  # ISO/IEC 27701 - privacy information management extension to ISO/IEC 27001 (OPTIONAL).
+  # Narrow/privacy-focused: maps strongly to privacy and data controls, none elsewhere.
+  - id: ISO-IEC-27701
+    name: "ISO/IEC 27701:2019 - Privacy information management system (PIMS)"
+    version: "2019"
+    structure: "Extends ISO/IEC 27001/27002 + PIMS-specific guidance (clause 7 PII controllers, clause 8 PII processors)"
+    issuer: "ISO/IEC"
+    obtain_from: "https://www.iso.org/standard/71670.html"
+    required: false
+    notes: "Referenced by clause id only; text not reproduced."
+
 # Companion sources referenced in rationale but not themselves mapped targets. They inform
 # specific domains (e.g. ISO/IEC 42005 for D2 impact assessment; the NIST Generative AI
 # Profile for D8 GPAI). Mappings still resolve only to the three anchor frameworks above.

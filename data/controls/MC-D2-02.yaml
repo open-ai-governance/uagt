@@ -56,3 +56,23 @@ mappings:
     rationale: >
       SOC 2 has no equivalent to an AI or fundamental-rights impact assessment.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      COBIT 2019 manages enterprise risk (APO12/EDM03) but has no fundamental-rights impact
+      assessment.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "7.2.5"
+    label: "Privacy impact assessment"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Clause 7.2.5 requires a privacy impact assessment; a privacy-scoped subset of a full
+      AI or fundamental-rights impact assessment.
+    reviewer: "Vinod Dhiman"

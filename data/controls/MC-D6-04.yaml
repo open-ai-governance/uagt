@@ -58,3 +58,23 @@ mappings:
       CC8.1 requires changes to be tested and authorized before deployment; it aligns with
       TEVV but is scoped to change/security testing.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "BAI07"
+    label: "Managed IT change acceptance and transitioning"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      BAI07 requires acceptance testing before transition; aligns with TEVV but is change-
+      acceptance-scoped.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

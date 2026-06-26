@@ -59,3 +59,23 @@ mappings:
       SOC 2 CC5.3 deploys controls through policies and procedures; it establishes the
       policy mechanism but is not an AI-specific policy.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO01"
+    label: "Managed I&T management framework"
+    relationship: full
+    confidence: medium
+    rationale: >
+      APO01 establishes the I&T management framework including policies and governance
+      structures.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

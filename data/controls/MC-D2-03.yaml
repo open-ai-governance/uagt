@@ -59,3 +59,23 @@ mappings:
       CC3.1 requires specifying objectives with sufficient clarity to identify risk and
       define tolerances; scoped to trust-services risk.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "EDM03"
+    label: "Ensured risk optimization"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      EDM03 sets enterprise risk appetite and tolerance; scoped to enterprise I&T risk
+      rather than AI risk broadly.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

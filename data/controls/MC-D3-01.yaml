@@ -54,3 +54,23 @@ mappings:
     rationale: >
       SOC 2 has no control for training-data provenance or lineage.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO14"
+    label: "Managed data"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      APO14 governs data management across its lifecycle; partially covers data acquisition
+      and provenance.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "7.2.1"
+    label: "Identify and document purpose"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Clause 7.2.1 documents purpose and basis for PII collection; relevant to data
+      acquisition where the data is personal.
+    reviewer: "Vinod Dhiman"

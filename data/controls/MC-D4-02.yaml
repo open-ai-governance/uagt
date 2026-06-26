@@ -57,3 +57,22 @@ mappings:
       SOC 2 has no AI technical-documentation criterion; its system description documents
       the service organization, not AI system design.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "BAI08"
+    label: "Managed knowledge"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      BAI08 manages documentation and knowledge; partially covers technical documentation.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

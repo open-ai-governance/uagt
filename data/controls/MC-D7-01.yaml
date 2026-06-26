@@ -57,3 +57,23 @@ mappings:
       CC7.2 (with CC4.1) provides ongoing operational monitoring; it supports post-
       deployment monitoring but is security-focused, not AI post-market surveillance.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "MEA01"
+    label: "Managed performance and conformance monitoring"
+    relationship: full
+    confidence: medium
+    rationale: >
+      MEA01 (with DSS01) provides ongoing performance and conformance monitoring - a strong
+      match for operation monitoring.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

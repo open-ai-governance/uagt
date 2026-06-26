@@ -2,9 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20823079.svg)](https://doi.org/10.5281/zenodo.20823079)
 
-An open, machine-readable, citable, and continuously versioned crosswalk across
+An open, machine-readable, citable, and continuously versioned crosswalk anchored on
 **ISO/IEC 42001:2023**, the **NIST AI Risk Management Framework 1.0**, and the
-**EU AI Act (Regulation (EU) 2024/1689, as amended)**.
+**EU AI Act (Regulation (EU) 2024/1689, as amended)**, with optional cross-mappings to
+**ISO/IEC 27001**, **SOC 2 (Trust Services Criteria)**, **COBIT 2019**, and
+**ISO/IEC 27701** — seven frameworks in all.
 
 Organizations adopting AI rarely get to pick a single governance regime — they are
 pulled toward all three at once. UAGT publishes the reconciliation between them as a
@@ -40,15 +42,19 @@ the source frameworks. Every control carries the traceability spine: an upward `
 sideways framework `mappings`, and forward `evidence` artefacts.
 
 The three anchor frameworks (ISO/IEC 42001, NIST AI RMF, EU AI Act) are **required** on
-every control (FR1). Further frameworks attach *optionally* to the Master Control Set
-without disturbing the anchor mappings. **ISO/IEC 27001:2022** and **SOC 2 (Trust Services
-Criteria)** are both attached across **all 28 controls** — mapped where each ISMS/trust
-framework aligns (governance, lifecycle, logging, security, incidents, suppliers) and
-flagged `none` where they don't reach AI-specific concerns (data quality, bias,
-transparency, human oversight, GPAI). Both independently fill the security gap where ISO/IEC
-42001 defers out (`MC-D6-03`: 42001 `none` → 27001 *and* SOC 2 `superset`). Their coverage
-shape — many `none`s on AI-specific controls — is itself the analytical point: a security
-ISMS is not an AI-governance framework. The same mechanism extends to further frameworks.
+every control (FR1). Four further frameworks attach *optionally* to the Master Control Set
+without disturbing the anchor mappings, each across all 28 controls:
+
+- **ISO/IEC 27001:2022**, **SOC 2 (Trust Services Criteria)**, and **COBIT 2019** — strong on
+  governance, lifecycle, security, monitoring, and vendor management; `none` on AI-specific
+  concerns (bias, transparency, human oversight, GPAI). All three independently fill the
+  security gap where ISO/IEC 42001 defers out (`MC-D6-03`: 42001 `none` → `superset` in each).
+- **ISO/IEC 27701** — privacy-only; `superset` on the privacy control and `none` almost
+  everywhere else.
+
+Their coverage shape (see [`docs/coverage.md`](docs/coverage.md): anchors 61–68% strong vs.
+the others 4–32%) is itself the analytical point — a security/governance/privacy framework
+is not an AI-governance framework. The same mechanism extends to further frameworks.
 
 Each mapping records the **nature** of correspondence — `full` / `partial` / `superset`
 / `subset` / `none` — plus a rationale, confidence, and reviewer. The `none` flags are

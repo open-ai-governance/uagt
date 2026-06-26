@@ -61,3 +61,23 @@ mappings:
       CC4.1-CC4.2 (monitoring and deficiency remediation) provide performance evaluation and
       continual improvement of the control environment.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "MEA02"
+    label: "Managed system of internal control"
+    relationship: full
+    confidence: medium
+    rationale: >
+      MEA02 (with MEA01) evaluates internal control and drives improvement - performance
+      evaluation and continual improvement.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

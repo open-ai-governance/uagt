@@ -58,3 +58,23 @@ mappings:
       CC7.2 relies on logging and monitoring of system components for anomalies; it supports
       event record-keeping but is security-event-scoped.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "DSS01"
+    label: "Managed operations"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      DSS01 (with DSS05) covers operational logging and monitoring; supports record-keeping
+      but is operations-scoped.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: "7.2.8"
+    label: "Records related to processing of PII"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Clause 7.2.8 requires records of PII processing; a privacy-scoped record-keeping
+      analog.
+    reviewer: "Vinod Dhiman"

@@ -10,6 +10,17 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 
 ## [Unreleased]
 
+### Added
+- **COBIT 2019 and ISO/IEC 27701 attached as the 6th and 7th frameworks, across all 28
+  controls** — the crosswalk now spans **seven frameworks, 196 mappings** (71 full, 4
+  superset, 72 partial, 49 none). COBIT 2019 (EDM/APO/BAI/DSS/MEA) maps broadly across
+  governance, risk, lifecycle, monitoring, and vendor management (32% strong); ISO/IEC 27701
+  is privacy-only (`superset` on the privacy control, `none` almost everywhere — 4% strong).
+  Both add a 3rd/4th independent `superset` fill of the `MC-D6-03` security gap (COBIT) and
+  give privacy its own column (27701).
+- Descriptions updated to reflect the full framework set (README, CITATION abstract/keywords,
+  `.zenodo.json`, and the GitHub repository description).
+
 ## [2.2.0] - 2026-06-26
 
 ### Added

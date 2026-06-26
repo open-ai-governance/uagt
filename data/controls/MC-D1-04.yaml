@@ -58,3 +58,22 @@ mappings:
       CC1.4 (commitment to competence) supports training and capability, but is not AI-
       literacy-specific.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO07"
+    label: "Managed human resources"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      APO07 manages skills and competencies; partially supports AI literacy and training.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

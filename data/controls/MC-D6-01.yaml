@@ -57,3 +57,23 @@ mappings:
       SOC 2's Processing Integrity (PI1.5) addresses complete and accurate outputs; a
       partial analog for AI accuracy and reliability.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "APO11"
+    label: "Managed quality"
+    relationship: partial
+    confidence: low
+    rationale: >
+      APO11 manages quality of solutions and services; a weak analog to AI accuracy and
+      reliability.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"

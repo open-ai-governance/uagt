@@ -57,3 +57,23 @@ mappings:
       CC7.3-CC7.5 establish incident evaluation, response, and recovery - a strong match for
       incident reporting and corrective action.
     reviewer: "Vinod Dhiman"
+  - framework: COBIT-2019
+    version: "2019"
+    ref: "DSS02"
+    label: "Managed service requests and incidents"
+    relationship: full
+    confidence: medium
+    rationale: >
+      DSS02 (with DSS03 problems) establishes incident management - a strong match for
+      incident reporting and corrective action.
+    reviewer: "Vinod Dhiman"
+  - framework: ISO-IEC-27701
+    version: "2019"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
+      equivalent for this non-privacy control.
+    reviewer: "Vinod Dhiman"
