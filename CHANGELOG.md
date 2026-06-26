@@ -24,6 +24,13 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
   `downloads` from the concept record; `metrics.yml` now sets `ZENODO_RECORD_ID` (resolving
   the earlier "once a DOI is minted" contradiction).
 - README **Related work** note distinguishing UAGT from Credo AI's Unified Control Framework.
+- **Omnibus pre-staging** (`docs/omnibus-tracking.md`): the EU AI Act Digital Omnibus update
+  is pre-staged with the affected references, a release checklist, an article-renumbering
+  check step, and a pre-drafted MAJOR-bump changelog stub, so OJ publication (~July 2026)
+  fires cleanly.
+- **Mapping review log** (`docs/review-log.md`): audited all 72 `partial` relationship calls
+  (27 anchor partials individually) — no mis-types; the audit method and borderline cases are
+  recorded, and per-mapping `confidence` remains the in-band drift signal.
 
 ### Fixed
 - Version drift: README status now matches `CITATION.cff` / `CHANGELOG` (v2.2.0).

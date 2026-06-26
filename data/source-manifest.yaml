@@ -34,6 +34,7 @@ frameworks:
       - name: "Digital Omnibus on AI"
         status: "Provisional political agreement 7 May 2026; formal adoption expected ~June-July 2026"
         tracked: true
+        tracking_doc: "docs/omnibus-tracking.md"  # pre-staged update + release checklist
         notes: >
           High-risk obligations for Annex III deferred to 2 Dec 2027 and Annex I to 2 Aug 2028;
           new Art.5 prohibition (NCII/CSAM) from 2 Dec 2026; Art.50 transparency, GPAI penalty
