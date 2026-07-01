@@ -23,6 +23,21 @@ jobs:
         with:
           python-version: "3.12"
 
+      # The durable, append-only evidence trail lives on the unprotected `metrics`
+      # data branch (main is protected by a required status check, so a scheduled
+      # bot cannot push there — see the Publish step). Pull the latest trail into
+      # the working tree first so metrics.csv / dashboard.html keep accumulating.
+      - name: Load accumulated evidence trail
+        run: |
+          git fetch origin metrics || true
+          if git show-ref --verify --quiet refs/remotes/origin/metrics; then
+            rm -rf evidence
+            git checkout origin/metrics -- evidence
+            echo "restored evidence trail from origin/metrics"
+          else
+            echo "no metrics branch yet — seeding from main's evidence/"
+          fi
+
       - name: Collect metrics
         env:
           # The Traffic API requires push access. The default github.token usually cannot
@@ -34,14 +49,32 @@ jobs:
           ZENODO_RECORD_ID: ${{ vars.ZENODO_RECORD_ID || '20823079' }}
         run: python scripts/collect_metrics.py
 
-      - name: Commit snapshot
+      # Publish the snapshot to the `metrics` data branch. This keeps the evidence
+      # trail version-controlled and tamper-evident without pushing to protected
+      # main. The branch is orphan/evidence-only, so pushes are always fast-forward
+      # and never blocked by main's required-status-check rule.
+      - name: Publish evidence to the metrics data branch
         run: |
+          set -e
           git config user.name "uagt-metrics-bot"
           git config user.email "actions@github.com"
-          git add evidence/
+          tmp="$(mktemp -d)"
+          cp -R evidence "$tmp/evidence"
+          git reset --hard                       # drop working changes (saved in $tmp)
+          git fetch origin metrics || true
+          if git show-ref --verify --quiet refs/remotes/origin/metrics; then
+            git checkout -B metrics origin/metrics
+          else
+            git checkout --orphan metrics
+            git rm -rfq . 2>/dev/null || true    # evidence-only branch: clear main's tree
+          fi
+          rm -rf evidence
+          cp -R "$tmp/evidence" evidence
+          git add -A
           if git diff --cached --quiet; then
             echo "no metric changes to commit"
           else
-            git commit -m "metrics: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            git commit -q -m "metrics: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin metrics
+            echo "published snapshot to the metrics branch"
           fi
