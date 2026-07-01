@@ -1,0 +1,3 @@
+# Timestamped, append-only metric snapshots land here (design section 7).
+# Committed so the adoption evidence trail is itself version-controlled and tamper-evident.
+# The metrics pipeline (scripts/collect_metrics.py) is a later phase (roadmap phase 4).
