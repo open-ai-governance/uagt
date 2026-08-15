@@ -1,0 +1,76 @@
+{
+  "captured_at_utc": "2026-08-15T06:30:54Z",
+  "repo": "open-ai-governance/uagt",
+  "signals": [
+    {
+      "signal": "stars",
+      "value": 1,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/open-ai-governance/uagt",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "forks",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/open-ai-governance/uagt",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "watchers",
+      "value": 1,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/open-ai-governance/uagt",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "network",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/open-ai-governance/uagt",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "open_issues",
+      "value": 0,
+      "source": "GitHub REST API",
+      "endpoint": "/repos/open-ai-governance/uagt",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "release_downloads",
+      "value": 11,
+      "source": "GitHub Releases API",
+      "endpoint": "/repos/open-ai-governance/uagt/releases",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "zenodo_views",
+      "value": 30,
+      "source": "Zenodo stats",
+      "endpoint": "https://zenodo.org/api/records/20823079",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "zenodo_unique_views",
+      "value": 28,
+      "source": "Zenodo stats",
+      "endpoint": "https://zenodo.org/api/records/20823079",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "zenodo_downloads",
+      "value": 3,
+      "source": "Zenodo stats",
+      "endpoint": "https://zenodo.org/api/records/20823079",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    },
+    {
+      "signal": "zenodo_unique_downloads",
+      "value": 3,
+      "source": "Zenodo stats",
+      "endpoint": "https://zenodo.org/api/records/20823079",
+      "timestamp_utc": "2026-08-15T06:30:54Z"
+    }
+  ]
+}
