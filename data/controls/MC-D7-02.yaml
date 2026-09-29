@@ -29,7 +29,7 @@ mappings:
       MANAGE 4.3 requires incidents and errors communicated with tracking and recovery.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.73"
     label: "Reporting of serious incidents"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.73 requires providers to report serious incidents to authorities.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.5.24"
     label: "Information security incident management planning and preparation"
     relationship: full
@@ -77,3 +77,13 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.32(2)"
+    label: "Submission of safety implementation results"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Art.32(2) requires submitting implementation results to MSIT, and Art.40(3) lets MSIT
+      order suspension or correction. There is no general serious-incident reporting duty.
+    reviewer: "PENDING REVIEW"

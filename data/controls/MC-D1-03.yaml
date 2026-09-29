@@ -30,7 +30,7 @@ mappings:
       priority.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.49"
     label: "Registration"
     relationship: partial
@@ -40,7 +40,7 @@ mappings:
       external register, narrower than an internal inventory.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.5.9"
     label: "Inventory of information and other associated assets"
     relationship: partial
@@ -79,3 +79,14 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.33"
+    label: "Confirmation of high-impact AI"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.33 requires operators to pre-review whether their AI is high-impact and lets them
+      ask MSIT to confirm. This is a classification step with no registration database,
+      narrower than an internal inventory.
+    reviewer: "PENDING REVIEW"

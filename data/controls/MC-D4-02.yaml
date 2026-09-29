@@ -29,7 +29,7 @@ mappings:
       subcategory.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.11"
     label: "Technical documentation"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.11 with Annex IV prescribes technical documentation for high-risk systems.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -76,3 +76,13 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.34(1)(5)"
+    label: "Documentation of safety and reliability measures"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.34(1)(5) requires documents that evidence the safety and reliability measures taken.
+      This is narrower than full system technical documentation.
+    reviewer: "PENDING REVIEW"

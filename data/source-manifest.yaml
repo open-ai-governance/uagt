@@ -4,8 +4,8 @@
 # here (enforced in CI by scripts/build_tables.py --check). Bumping a version here is
 # a deliberate, changelog-worthy event (see GOVERNANCE.md and section 8.6 of the design).
 
-manifest_version: "0.1.0"
-updated: "2026-06-23"
+manifest_version: "0.2.0"
+updated: "2026-09-28"
 
 frameworks:
   - id: ISO-IEC-42001
@@ -25,22 +25,31 @@ frameworks:
     notes: "Subcategory ids used, e.g. MAP-2.3, GOVERN-1.1."
 
   - id: EU-AI-ACT
-    name: "Regulation (EU) 2024/1689 (EU AI Act)"
-    version: "2024/1689"
-    structure: "113 articles + 13 annexes, risk-tiered obligations"
+    name: "Regulation (EU) 2024/1689 (EU AI Act), as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)"
+    version: "2024/1689 am. 2026/1744"
+    structure: "113 articles + 14 annexes, risk-tiered obligations"
     issuer: "European Union"
     obtain_from: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     amendments:
       - name: "Digital Omnibus on AI"
-        status: "Provisional political agreement 7 May 2026; formal adoption expected ~June-July 2026"
-        tracked: true
-        tracking_doc: "docs/omnibus-tracking.md"  # pre-staged update + release checklist
+        citation: "Regulation (EU) 2026/1744 of 8 July 2026"
+        eli: "http://data.europa.eu/eli/reg/2026/1744/oj"
+        status: "Published in the Official Journal; in force 27 July 2026"
+        tracked: false
+        tracking_doc: "docs/omnibus-tracking.md"
+        verified: "2026-09-28 against the official text (EU Publications Office, CELEX 32026R1744)"
+        application_dates:
+          art5_ncii_csam: "2026-12-02"      # Art.5(1)(ba)-(bb), 5(1a), 5(1b)
+          art50_2_legacy_systems: "2026-12-02"  # Art.111(4): systems on the market before 2 Aug 2026
+          high_risk_annex_iii: "2027-12-02"   # Chapter III s.1-3, Art.6(2)
+          high_risk_annex_i: "2028-08-02"     # Chapter III s.1-3, Art.6(1)
+          penalties_arts_102_110: "2026-07-27"
         notes: >
-          High-risk obligations for Annex III deferred to 2 Dec 2027 and Annex I to 2 Aug 2028;
-          new Art.5 prohibition (NCII/CSAM) from 2 Dec 2026; Art.50 transparency, GPAI penalty
-          powers and market surveillance remain live for 2 Aug 2026. Not yet in the Official
-          Journal as of this manifest date - mappings reflect 2024/1689 as enacted, with the
-          Omnibus tracked in the changelog until publication triggers a MAJOR version bump.
+          Mapping effects: Art.4 AI literacy rewritten to a duty to take measures to support it,
+          with no guaranteed level (MC-D1-04 full to partial). New Art.4a (special-category data for bias
+          detection) replaces deleted Art.10(5) (MC-D3-04 retargeted; added to MC-D3-03). New
+          Art.5(1)(ba)-(bb) NCII/CSAM prohibitions (MC-D6-05). Art.49 registration retained
+          (Annex VIII section B trimmed). No renumbering of mapped articles.
     notes: "Referenced by Article number only; text not reproduced."
 
   # ISO/IEC 27001 is an OPTIONAL attached framework (not part of the required three-way
@@ -49,13 +58,15 @@ frameworks:
   # anchor mappings. Coverage is partial/in-progress, concentrated where 27001's ISMS controls
   # apply (security, logging, incidents, suppliers, governance).
   - id: ISO-IEC-27001
-    name: "ISO/IEC 27001:2022 - Information security management system"
-    version: "2022"
+    name: "ISO/IEC 27001:2022 - Information security management system (incl. Amd 1:2024)"
+    version: "2022/Amd 1:2024"
     structure: "Management-system clauses (4-10) + Annex A: 93 controls in 4 themes (A.5 Organizational, A.6 People, A.7 Physical, A.8 Technological)"
     issuer: "ISO/IEC"
     obtain_from: "https://www.iso.org/standard/27001"
     required: false
-    notes: "Referenced by Annex A control id only; text not reproduced."
+    notes: >
+      Referenced by Annex A control id only; text not reproduced. Amd 1:2024 adds climate-change
+      consideration to clauses 4.1/4.2 only; no Annex A control changed, so mappings are unaffected.
 
   # SOC 2 (AICPA Trust Services Criteria) - a second OPTIONAL attached framework. Strong on
   # security/governance/operations (Common Criteria), absent on AI-specific concerns.
@@ -88,7 +99,30 @@ frameworks:
     issuer: "ISO/IEC"
     obtain_from: "https://www.iso.org/standard/71670.html"
     required: false
+    superseded_by:
+      name: "ISO/IEC 27701:2025 (standalone PIMS; own clauses 4-10 + Annex A controller/processor/shared tables)"
+      published: "2025-10"
+      status: "Tracked, not yet remapped. The 2019 clause-7 refs remain pinned until they are remapped via the Annex F 2019-to-2025 correspondence."
     notes: "Referenced by clause id only; text not reproduced."
+
+  # Korea AI Basic Act - OPTIONAL attached framework (first non-EU/US statute). Maps strongly
+  # on transparency/labelling, human oversight and high-impact risk management; none on
+  # data quality, bias, privacy and security, which the Act leaves to other laws.
+  - id: KR-AI-BASIC-ACT
+    name: "Republic of Korea - Framework Act on the Development of Artificial Intelligence and Establishment of Trust (AI Basic Act)"
+    version: "Act No. 20676 am. 21311"
+    structure: "Act articles (Ch. IV Arts. 27-36: ethics, transparency, safety, high-impact AI, impact assessment, domestic representative) + Enforcement Decree (Presidential Decree No. 36053, as amended by Nos. 36506 and 36580)"
+    issuer: "Republic of Korea (MSIT)"
+    obtain_from: "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=282791&efYd=20260721&chrClsCd=010202&ancYnChk=0"
+    required: false
+    in_force: "2026-01-22"
+    verified: "2026-09-28 against the Korean consolidated text (law.go.kr)"
+    notes: >
+      Referenced by Act article/paragraph/item, e.g. Art.34(1)(4). A ref prefixed "Decree" cites the
+      Enforcement Decree. Cite the Korean text: the CSET English translation renders Art.31(2) as
+      advance notice, whereas the Korean text requires labelling the outputs. MSIT has announced
+      a grace period of at least 1 year for fines (Art.43, up to KRW 30M); this is policy, not
+      in the statute.
 
 # Companion sources referenced in rationale but not themselves mapped targets. They inform
 # specific domains (e.g. ISO/IEC 42005 for D2 impact assessment; the NIST Generative AI
@@ -100,6 +134,13 @@ companions:
   - id: NIST-AI-600-1
     name: "NIST AI 600-1 - Generative AI Profile (2024)"
     informs: ["d8-value-chain-gpai"]
+  - id: EN-18286
+    name: "EN 18286:2026 - Artificial intelligence - Quality management system for EU AI Act regulatory purposes (CEN-CENELEC JTC 21)"
+    published: "2026-07"
+    informs: ["d1-accountability-governance"]
+    notes: >
+      First AI Act standard (supports Art.17 QMS). Not yet cited in the OJ as a harmonised standard,
+      so it confers no presumption of conformity yet. Watch for the OJ citation.
 
 # The cited methodology this crosswalk implements (paper <-> repo reciprocal citation, FR8).
 methodology:

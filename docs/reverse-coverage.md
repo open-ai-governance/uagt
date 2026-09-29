@@ -9,7 +9,7 @@
 | --- | ---: | ---: | ---: |
 | ISO/IEC 42001 | 20 | 38 | 18 |
 | NIST AI RMF | 24 | 72 | 48 |
-| EU AI Act | 18 | 23 | 5 |
+| EU AI Act | 20 | 25 | 5 |
 
 ## ISO/IEC 42001 — 20/38 elements covered
 
@@ -133,14 +133,16 @@
 | `MANAGE-4.2` Continual improvement integrated into updates | — **orphan (no Master Control)** |
 | `MANAGE-4.3` Incidents and errors communicated; recovery documented | MC-D7-02 (full) |
 
-## EU AI Act — 18/23 elements covered
+## EU AI Act — 20/25 elements covered
 
 | Source element | Mapped Master Controls |
 | --- | --- |
-| `Art.4` AI literacy | MC-D1-04 (full) |
+| `Art.4` AI literacy | MC-D1-04 (partial) |
+| `Art.4a` Processing of special categories of personal data for bias detection and correction | MC-D3-03 (partial), MC-D3-04 (partial) |
 | `Art.5` Prohibited AI practices | — **orphan (no Master Control)** |
+| `Art.5(1)(ba)-(bb)` Prohibited practices: non-consensual intimate material and CSAM (from 2 Dec 2026) | MC-D6-05 (partial) |
 | `Art.9` Risk management system | MC-D2-01 (full), MC-D2-03 (partial) |
-| `Art.10` Data and data governance | MC-D3-01 (full), MC-D3-02 (full), MC-D3-03 (full), MC-D3-04 (partial) |
+| `Art.10` Data and data governance | MC-D3-01 (full), MC-D3-02 (full), MC-D3-03 (full) |
 | `Art.11` Technical documentation | MC-D4-02 (full) |
 | `Art.12` Record-keeping | MC-D4-03 (full) |
 | `Art.13` Transparency and provision of information to deployers | MC-D4-01 (full) |

@@ -27,7 +27,7 @@ mappings:
       NIST documents data across MAP; provenance is not a discrete subcategory.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.10"
     label: "Data and data governance"
     relationship: full
@@ -36,7 +36,7 @@ mappings:
       Art.10 requires governance practices covering data collection and origin.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -74,3 +74,13 @@ mappings:
       Clause 7.2.1 documents purpose and basis for PII collection; relevant to data
       acquisition where the data is personal.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.34(1)(2)"
+    label: "Explanation plan incl. overview of training data"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Art.34(1)(2) requires explaining an overview of the training data used, which is
+      disclosure of data sources. It imposes no data acquisition or provenance controls.
+    reviewer: "PENDING REVIEW"

@@ -25,6 +25,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Refuse to release unreviewed mappings
+        run: |
+          if grep -rl 'reviewer: "PENDING REVIEW"' data/controls/; then
+            echo "::error::Mappings above are still PENDING REVIEW; sign them off before tagging."
+            exit 1
+          fi
+
       - name: Validate, build tables + site + OSCAL
         run: |
           python scripts/build_tables.py --check

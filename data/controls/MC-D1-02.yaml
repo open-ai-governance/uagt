@@ -31,7 +31,7 @@ mappings:
       lines.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.16"
     label: "Obligations of providers of high-risk AI systems"
     relationship: partial
@@ -41,7 +41,7 @@ mappings:
       an internal RACI.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.5.2"
     label: "Information security roles and responsibilities"
     relationship: full
@@ -80,3 +80,14 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.34(1)(4)"
+    label: "High-impact AI: human management and supervision"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.34(1)(4) requires human management and supervision of high-impact AI, and
+      Enforcement Decree Art.27 requires the responsible person's name and contact to be
+      published. It assigns accountability for oversight, not a full roles framework.
+    reviewer: "PENDING REVIEW"

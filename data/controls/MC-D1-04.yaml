@@ -29,17 +29,19 @@ mappings:
       GOVERN 2.2 requires that personnel and partners receive AI risk-management training.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.4"
     label: "AI literacy"
-    relationship: full
+    relationship: partial
     confidence: high
     rationale: >
-      Art.4 obliges providers and deployers to ensure a sufficient level of AI literacy
-      among staff.
+      Art.4 (as replaced by Reg. (EU) 2026/1744) obliges providers and deployers to take
+      measures to support the development of staff AI literacy, and expressly does not require
+      guaranteeing any specific level. Narrower than a control that ensures competence;
+      downgraded from full (pre-Omnibus "ensure a sufficient level").
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.6.3"
     label: "Information security awareness, education and training"
     relationship: partial
@@ -77,3 +79,14 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      The Act places AI-literacy and training duties on the State (Arts. 21, 29(4)) and on
+      optional ethics committees (Art.28). It sets no competence or training obligation on
+      operators.
+    reviewer: "PENDING REVIEW"

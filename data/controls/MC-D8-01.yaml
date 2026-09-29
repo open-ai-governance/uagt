@@ -29,7 +29,7 @@ mappings:
       GOVERN 6.1 with MANAGE 3.1 addresses third-party AI risks and applies controls.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.25"
     label: "Responsibilities along the AI value chain"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.25 allocates responsibilities along the AI value chain.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.5.19"
     label: "Information security in supplier relationships"
     relationship: full
@@ -77,3 +77,14 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Decree Art.27"
+    label: "Deployer information requests to developers"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Enforcement Decree Art.27 lets a deployer that does not substantially modify a system
+      rely on the developer's Art.34(1)(1)-(3) compliance and request information from it.
+      This is a light value-chain allocation, not supplier governance.
+    reviewer: "PENDING REVIEW"
