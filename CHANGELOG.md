@@ -10,6 +10,47 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 
 ## [Unreleased]
 
+### Changed — MAJOR: EU AI Act Digital Omnibus applied
+- **EU AI Act now pinned as `2024/1689 am. 2026/1744`.** The Digital Omnibus on AI is
+  Regulation (EU) 2026/1744 of 8 July 2026, in force 27 July 2026. All EU mappings were
+  re-pinned and checked against the official text (CELEX 32026R1744). No mapped article was
+  renumbered.
+- `MC-D1-04` Art.4 AI literacy **full → partial**. Art.4 now requires measures to *support*
+  literacy and expressly guarantees no specific level.
+- `MC-D3-04` retargeted from Art.10 to **new Art.4a**, because Art.10(5) (special-category data
+  for bias) was deleted and moved to Art.4a. Art.4a is also added to `MC-D3-03` as an enabling
+  condition for bias examination.
+- **New mapping:** Art.5(1)(ba)–(bb) prohibitions (AI-generated NCII / CSAM, from 2 Dec 2026)
+  added to `MC-D6-05` Responsible design (partial, as a design-safeguard duty). This is not
+  mapped to `MC-D4-04` as the v2.3.0 pre-staging had suggested, because the obligation is
+  prevention, not disclosure.
+- Art.49 registration is **retained** by the final text, so `MC-D1-03` is unchanged. Timing
+  changes (Annex III → 2 Dec 2027, Annex I → 2 Aug 2028, Art.50(2) legacy → 2 Dec 2026) are
+  recorded in the manifest's `application_dates`. They do not change relationships.
+- `docs/omnibus-tracking.md` now describes the applied update. The reverse-coverage inventory
+  adds `Art.4a` and `Art.5(1)(ba)-(bb)`, giving EU 20/25 elements covered.
+- ISO/IEC 27001 is re-pinned as `2022/Amd 1:2024`. The amendment changes only clauses 4.1/4.2
+  (climate), not Annex A, so no mapping changed.
+
+### Added
+- **8th framework: Korea AI Basic Act** (`KR-AI-BASIC-ACT`, Act No. 20676 as amended by No. 21311,
+  in force 22 Jan 2026), mapped across all 28 controls with article refs checked against the
+  Korean consolidated text on law.go.kr. Result: 3 full / 16 partial / 9 none (11% strong).
+  Strong on Art.31(2)-(3) output labelling (`MC-D4-04`), Art.34(1)(4) human supervision
+  (`MC-D5-01`) and the Art.34(1)(1) risk management plan (`MC-D2-01`); the impact assessment
+  (Art.35) is best-efforts only (partial). `none` on data quality, bias, privacy and security,
+  which the Act leaves to other law.
+- Release guard: `release.yml` refuses to tag while any mapping is `PENDING REVIEW`.
+- Companion source **EN 18286:2026** (CEN-CENELEC AI QMS supporting Art.17). It informs D1 and
+  confers no presumption of conformity until it is cited in the OJ.
+- **ISO/IEC 27701:2025 supersession tracked** in the manifest. The 2019 clause-7 refs stay
+  pinned until they are remapped via the standard's Annex F correspondence.
+
+### Fixed
+- `collect_metrics.py` now retries transient network failures. A mid-read `TimeoutError`
+  crashed the 2026-09-01 scheduled run.
+- GitHub Actions upgraded off the deprecated Node 20 runtime.
+
 ## [2.3.0] - 2026-06-26
 
 ### Added

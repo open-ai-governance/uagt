@@ -29,7 +29,7 @@ mappings:
       MANAGE 4.1 requires post-deployment monitoring plans.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.72"
     label: "Post-market monitoring by providers"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.72 requires a documented post-market monitoring system and plan.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.8.16"
     label: "Monitoring activities"
     relationship: partial
@@ -77,3 +77,13 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.32(1)(2)"
+    label: "Risk-management system monitoring safety incidents"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.32(1)(2) requires a risk-management system that monitors and responds to AI safety
+      incidents. It applies only to high-compute systems.
+    reviewer: "PENDING REVIEW"

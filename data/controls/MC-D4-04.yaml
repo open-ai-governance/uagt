@@ -29,7 +29,7 @@ mappings:
       The NIST AI RMF does not prescribe synthetic-content disclosure or marking.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.50"
     label: "Transparency obligations for certain AI systems"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.50 imposes marking/disclosure duties for synthetic media and certain interactions.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -75,3 +75,14 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.31(2)-(3)"
+    label: "Labelling of generative AI outputs and deepfakes"
+    relationship: full
+    confidence: high
+    rationale: >
+      Art.31(2) requires generative-AI outputs to be labelled as generated. Art.31(3) requires
+      clear notice or labelling of realistic synthetic audio, images or video (with lighter
+      handling for artistic works). Methods are set by Enforcement Decree Art.23.
+    reviewer: "PENDING REVIEW"

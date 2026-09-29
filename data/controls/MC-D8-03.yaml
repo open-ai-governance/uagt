@@ -31,7 +31,7 @@ mappings:
       chain model risks; the base RMF lacks GPAI specifics.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.53"
     label: "Obligations for providers of general-purpose AI models"
     relationship: full
@@ -41,7 +41,7 @@ mappings:
       systemic risk.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -77,3 +77,14 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.32"
+    label: "Safety obligations for high-compute AI"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.32 applies safety duties above a training-compute threshold (Enforcement Decree
+      Art.24: 10^26 FLOPs). This is analogous to EU systemic-risk GPAI duties, but with no
+      general GPAI documentation or copyright obligations.
+    reviewer: "PENDING REVIEW"

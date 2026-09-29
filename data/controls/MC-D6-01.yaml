@@ -29,7 +29,7 @@ mappings:
       MEASURE 2.5 with 2.3 demonstrates validity and reliability.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.15"
     label: "Accuracy, robustness and cybersecurity"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.15 binds appropriate accuracy for high-risk systems.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -77,3 +77,13 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      Art.34(1) aims at "safety and reliability" through the listed measures but sets no
+      accuracy or performance requirement.
+    reviewer: "PENDING REVIEW"

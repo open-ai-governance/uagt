@@ -29,7 +29,7 @@ mappings:
       MEASURE 2.11 evaluates fairness and harmful bias.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.10"
     label: "Data and data governance"
     relationship: full
@@ -37,8 +37,21 @@ mappings:
     rationale: >
       Art.10 requires examination of datasets in view of possible biases.
     reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689 am. 2026/1744"
+    ref: "Art.4a"
+    label: "Processing of special categories of personal data for bias detection and correction"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.4a (inserted by Reg. (EU) 2026/1744) provides the legal basis to process
+      special-category data where strictly necessary for bias detection and correction: for
+      high-risk providers under Art.10(2)(f)-(g), and via Art.4a(2) for other AI systems and
+      models and high-risk deployers. An enabling condition for bias examination, not the
+      examination duty itself.
+    reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -74,3 +87,13 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      There is no explicit bias or representativeness duty. Bias is reached only indirectly
+      through the fundamental-rights impact assessment (Art.35, best-efforts).
+    reviewer: "PENDING REVIEW"

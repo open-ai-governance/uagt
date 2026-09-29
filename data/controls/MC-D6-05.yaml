@@ -30,7 +30,7 @@ mappings:
       MAP 1.1 documents purpose, context, and requirements driving design.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.16"
     label: "Obligations of providers of high-risk AI systems"
     relationship: partial
@@ -39,8 +39,21 @@ mappings:
       Art.16 obliges providers to design systems to meet requirements; there is no single
       lifecycle article.
     reviewer: "Vinod Dhiman"
+  - framework: EU-AI-ACT
+    version: "2024/1689 am. 2026/1744"
+    ref: "Art.5(1)(ba)-(bb)"
+    label: "Prohibited practices: non-consensual intimate material and CSAM"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      New prohibitions (Reg. (EU) 2026/1744, applicable 2 Dec 2026). Under Art.5(1a)(a)(ii),
+      a system for which such generation is a reasonably foreseeable, reproducible outcome is
+      prohibited unless it has reasonable and adequate technical safeguards to reliably prevent
+      it and to correct misuse. That is a design-time safeguard duty, narrower than
+      responsible design generally.
+    reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.8.25"
     label: "Secure development life cycle"
     relationship: partial
@@ -79,3 +92,13 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.27"
+    label: "AI ethics principles"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Under Art.27 the government issues AI ethics principles: safety and reliability,
+      accessibility, and human well-being. They guide design but do not bind operators.
+    reviewer: "PENDING REVIEW"

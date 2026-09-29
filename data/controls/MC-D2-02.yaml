@@ -29,7 +29,7 @@ mappings:
       MAP 5.1 requires documenting the likelihood and magnitude of each impact.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.27"
     label: "Fundamental rights impact assessment for high-risk AI systems"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.27 mandates a fundamental-rights impact assessment for certain deployers.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -76,3 +76,14 @@ mappings:
       Clause 7.2.5 requires a privacy impact assessment; a privacy-scoped subset of a full
       AI or fundamental-rights impact assessment.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.35"
+    label: "High-impact AI impact assessment"
+    relationship: partial
+    confidence: high
+    rationale: >
+      Art.35(1) asks operators to endeavour (a best-efforts duty) to assess impacts on
+      fundamental rights in advance, reflecting vulnerable groups (amended 2026). Its contents
+      are set by Enforcement Decree Art.28. It is not mandatory.
+    reviewer: "PENDING REVIEW"

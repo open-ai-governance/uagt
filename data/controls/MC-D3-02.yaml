@@ -28,7 +28,7 @@ mappings:
       Covers documentation of data; quality thresholds implied, not prescribed.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.10"
     label: "Data and data governance"
     relationship: full
@@ -37,7 +37,7 @@ mappings:
       Art.10 requires relevant, sufficiently representative datasets governed for quality.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -75,3 +75,13 @@ mappings:
       Clause 7.4.3 addresses accuracy and quality of PII; relevant to data quality where the
       data is personal.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act imposes no data-quality or data-preparation duty on operators. Art.15 training-
+      data policy binds the government only.
+    reviewer: "PENDING REVIEW"

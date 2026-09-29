@@ -30,7 +30,7 @@ mappings:
       tolerance.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.9"
     label: "Risk management system"
     relationship: partial
@@ -40,7 +40,7 @@ mappings:
       control.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "6.1.2"
     label: "Information security risk assessment (risk acceptance criteria)"
     relationship: partial
@@ -79,3 +79,13 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act does not require defining risk tolerance or acceptance criteria. The
+      Art.34(1)(1) risk management plan specifies no acceptance thresholds.
+    reviewer: "PENDING REVIEW"

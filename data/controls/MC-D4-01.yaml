@@ -29,7 +29,7 @@ mappings:
       MEASURE 2.8 with 2.9 examines transparency and explainability.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.13"
     label: "Transparency and provision of information to deployers"
     relationship: full
@@ -38,7 +38,7 @@ mappings:
       Art.13 requires transparency and instructions for use for deployers.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -77,3 +77,14 @@ mappings:
       Clause 7.3.2-7.3.3 require providing information to PII principals; a privacy-scoped
       form of transparency.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.34(1)(2)"
+    label: "Explanation plan for outputs and key criteria"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.34(1)(2) requires a plan to explain final outputs, their key criteria and the
+      training data, where technically feasible. Art.31(1) adds advance notice that a service
+      is AI-based. Scope is limited to high-impact and generative AI.
+    reviewer: "PENDING REVIEW"

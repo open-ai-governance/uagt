@@ -30,7 +30,7 @@ mappings:
       policies and controls.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.17"
     label: "Quality management system"
     relationship: partial
@@ -40,7 +40,7 @@ mappings:
       than a single AI policy.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: "A.5.1"
     label: "Policies for information security"
     relationship: partial
@@ -79,3 +79,14 @@ mappings:
       ISO/IEC 27701 is a privacy (PII) management extension to ISO/IEC 27001; it has no
       equivalent for this non-privacy control.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.28"
+    label: "Private autonomous AI ethics committees"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Art.28 lets operators set up an AI ethics committee overseeing compliance, safety,
+      human-rights research and staff ethics training. It is optional ("may") and the Act
+      mandates no organizational AI policy.
+    reviewer: "PENDING REVIEW"

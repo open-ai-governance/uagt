@@ -120,7 +120,9 @@ NIST-AI-RMF:
 
 EU-AI-ACT:
   - {ref: "Art.4", title: "AI literacy"}
+  - {ref: "Art.4a", title: "Processing of special categories of personal data for bias detection and correction"}
   - {ref: "Art.5", title: "Prohibited AI practices"}
+  - {ref: "Art.5(1)(ba)-(bb)", title: "Prohibited practices: non-consensual intimate material and CSAM (from 2 Dec 2026)"}
   - {ref: "Art.9", title: "Risk management system"}
   - {ref: "Art.10", title: "Data and data governance"}
   - {ref: "Art.11", title: "Technical documentation"}

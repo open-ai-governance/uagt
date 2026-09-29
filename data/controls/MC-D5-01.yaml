@@ -29,7 +29,7 @@ mappings:
       capability.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.14"
     label: "Human oversight"
     relationship: full
@@ -39,7 +39,7 @@ mappings:
       intervention, and stop.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -76,3 +76,12 @@ mappings:
       Clause 7.3.9 addresses PII principals' rights regarding automated decision-making;
       relevant to oversight only for personal-data decisions.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.34(1)(4)"
+    label: "Human management and supervision of high-impact AI"
+    relationship: full
+    confidence: medium
+    rationale: >
+      Art.34(1)(4) directly requires human management and supervision of high-impact AI.
+    reviewer: "PENDING REVIEW"

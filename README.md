@@ -4,16 +4,16 @@
 
 An open, machine-readable, citable, and continuously versioned crosswalk anchored on
 **ISO/IEC 42001:2023**, the **NIST AI Risk Management Framework 1.0**, and the
-**EU AI Act (Regulation (EU) 2024/1689, as amended)**, with optional cross-mappings to
-**ISO/IEC 27001**, **SOC 2 (Trust Services Criteria)**, **COBIT 2019**, and
-**ISO/IEC 27701** — seven frameworks in all.
+**EU AI Act (Regulation (EU) 2024/1689, as amended by the Digital Omnibus, Regulation (EU) 2026/1744)**,
+with optional cross-mappings to **ISO/IEC 27001**, **SOC 2 (Trust Services Criteria)**,
+**COBIT 2019**, **ISO/IEC 27701**, and the **Korea AI Basic Act** — eight frameworks in all.
 
 Organizations adopting AI rarely get to pick a single governance regime — they are
 pulled toward all three at once. UAGT publishes the reconciliation between them as a
 single normalized control set, so practitioners stop re-deriving the same mapping and
 the field gets a shared, maintained reference point.
 
-> **Status:** v2.2.0. A reviewed crosswalk across seven frameworks and eight governance
+> **Status:** v2.3.0. A reviewed crosswalk across eight frameworks and eight governance
 > domains. Not compliance certification, not legal advice, and not a substitute for the
 > source standards; references identifiers only.
 >
@@ -47,7 +47,7 @@ the source frameworks. Every control carries the traceability spine: an upward `
 sideways framework `mappings`, and forward `evidence` artefacts.
 
 The three anchor frameworks (ISO/IEC 42001, NIST AI RMF, EU AI Act) are **required** on
-every control (FR1). Four further frameworks attach *optionally* to the Master Control Set
+every control (FR1). Five further frameworks attach *optionally* to the Master Control Set
 without disturbing the anchor mappings, each across all 28 controls:
 
 - **ISO/IEC 27001:2022**, **SOC 2 (Trust Services Criteria)**, and **COBIT 2019** — strong on
@@ -56,8 +56,11 @@ without disturbing the anchor mappings, each across all 28 controls:
   security gap where ISO/IEC 42001 defers out (`MC-D6-03`: 42001 `none` → `superset` in each).
 - **ISO/IEC 27701** — privacy-only; `superset` on the privacy control and `none` almost
   everywhere else.
+- **Korea AI Basic Act** (Act No. 20676, in force 22 Jan 2026) — the first non-EU/US statute.
+  It is strong on synthetic-content labelling, human oversight and high-impact risk management,
+  and `none` on data quality, bias, privacy and security, which it leaves to other Korean law.
 
-Their coverage shape (see [`docs/coverage.md`](docs/coverage.md): anchors 61–68% strong vs.
+Their coverage shape (see [`docs/coverage.md`](docs/coverage.md): anchors 61–64% strong vs.
 the others 4–32%) is itself the analytical point — a security/governance/privacy framework
 is not an AI-governance framework. The same mechanism extends to further frameworks.
 

@@ -28,7 +28,7 @@ mappings:
       MANAGE 1.4 documents residual risks to downstream acquirers and end users.
     reviewer: "Vinod Dhiman"
   - framework: EU-AI-ACT
-    version: "2024/1689"
+    version: "2024/1689 am. 2026/1744"
     ref: "Art.26"
     label: "Obligations of deployers of high-risk AI systems"
     relationship: partial
@@ -38,7 +38,7 @@ mappings:
       control.
     reviewer: "Vinod Dhiman"
   - framework: ISO-IEC-27001
-    version: "2022"
+    version: "2022/Amd 1:2024"
     ref: null
     label: null
     relationship: none
@@ -77,3 +77,13 @@ mappings:
       Clause 7.5 governs PII sharing and disclosure to third parties; relevant to downstream
       handoff where personal data is involved.
     reviewer: "Vinod Dhiman"
+  - framework: KR-AI-BASIC-ACT
+    version: "Act No. 20676 am. 21311"
+    ref: "Art.34(1)(3)"
+    label: "User protection plan"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Art.34(1)(3) requires high-impact AI operators to establish and operate user-protection
+      measures. A summary must be published under Enforcement Decree Art.27.
+    reviewer: "PENDING REVIEW"

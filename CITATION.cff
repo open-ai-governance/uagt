@@ -12,7 +12,7 @@ abstract: >
   An open, machine-readable, citable, and continuously versioned crosswalk anchored on
   ISO/IEC 42001:2023, the NIST AI Risk Management Framework 1.0, and the EU AI Act
   (Regulation (EU) 2024/1689, as amended), with optional cross-mappings to ISO/IEC 27001,
-  SOC 2 (Trust Services Criteria), COBIT 2019, and ISO/IEC 27701 — seven frameworks across
+  SOC 2 (Trust Services Criteria), COBIT 2019, ISO/IEC 27701, and the Korea AI Basic Act — eight frameworks across
   eight governance domains. Built on a normalized Master Control Set with typed
   relationships (full/partial/superset/subset/none), rationale, and provenance for every
   mapping.
@@ -25,6 +25,7 @@ keywords:
   - SOC 2
   - COBIT 2019
   - ISO/IEC 27701
+  - Korea AI Basic Act
   - crosswalk
   - compliance
 license: CC-BY-4.0
