@@ -34,6 +34,7 @@ import csv
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -59,13 +60,29 @@ def gh_get(path: str, token: str):
             "User-Agent": "uagt-metrics",
         },
     )
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8")), None
-    except urllib.error.HTTPError as e:
-        return None, f"HTTP {e.code} on {path}"
-    except urllib.error.URLError as e:
-        return None, f"network error on {path}: {e.reason}"
+    return fetch_json(req, path)
+
+
+def fetch_json(req: urllib.request.Request, label: str, attempts: int = 3):
+    """Fetch and decode JSON with retry/backoff on transient failures. Returns
+    (data, error_message). A read timeout surfaces as a bare TimeoutError (not a
+    URLError), so OSError is caught too; 4xx client errors are not retried."""
+    err = None
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read().decode("utf-8")), None
+        except urllib.error.HTTPError as e:
+            err = f"HTTP {e.code} on {label}"
+            if e.code < 500 and e.code != 429:
+                return None, err
+        except urllib.error.URLError as e:
+            err = f"network error on {label}: {e.reason}"
+        except OSError as e:  # includes TimeoutError raised mid-read
+            err = f"network error on {label}: {e}"
+        if attempt < attempts - 1:
+            time.sleep(2 ** (attempt + 1))
+    return None, err
 
 
 def record(signals: list, signal: str, value, source: str, endpoint: str, ts: str, extra=None):
@@ -121,10 +138,8 @@ def collect_zenodo(record_id: str | None, ts: str) -> list:
         return []
     endpoint = f"https://zenodo.org/api/records/{record_id}"
     req = urllib.request.Request(endpoint, headers={"Accept": "application/json", "User-Agent": "uagt-metrics"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            rec = json.loads(resp.read().decode("utf-8"))
-    except (urllib.error.HTTPError, urllib.error.URLError):
+    rec, err = fetch_json(req, endpoint)
+    if err:
         return []
     stats = rec.get("stats", {}) or {}
     signals: list = []
