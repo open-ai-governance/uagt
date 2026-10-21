@@ -10,7 +10,7 @@ additional mappings, and new Master Controls are all welcome.
    and the EU. PRs that reproduce standard text will be declined.
 2. **Every mapping needs a rationale and a reviewer.** A mapping without a defensible,
    reviewable justification is not mergeable.
-3. **One file per Master Control**, named exactly `<id>.yaml` (e.g. `MC-DG-03.yaml`),
+3. **One file per Master Control**, named exactly `<id>.yaml` (e.g. `MC-D3-03.yaml`),
    under `data/controls/`.
 4. **The build is the source of truth.** Never hand-edit anything in `docs/` or
    `build/` — regenerate with `python scripts/build_tables.py`.
@@ -20,13 +20,19 @@ additional mappings, and new Master Controls are all welcome.
 See [`schema/control.schema.json`](schema/control.schema.json) for the authoritative
 rules and any existing file in `data/controls/` for a worked example. In short:
 
-- `id` — `MC-<DOMAIN>-<NN>` (e.g. `MC-RM-01`).
-- `domain` — one of: risk-management, data-governance, transparency, human-oversight,
-  security, lifecycle, accountability.
+- `id` — `MC-D<N>-<NN>`, where `<N>` is the domain number 1–8 (e.g. `MC-D2-01`).
+- `domain` — one of the eight UAGT domains: `d1-accountability-governance`,
+  `d2-risk-impact-assessment`, `d3-data-governance-quality`,
+  `d4-transparency-documentation`, `d5-human-oversight`,
+  `d6-robustness-accuracy-security`, `d7-lifecycle-monitoring`, `d8-value-chain-gpai`.
 - `objective` — what the control achieves, in our own words.
 - `mappings` — **all three frameworks** (ISO-IEC-42001, NIST-AI-RMF, EU-AI-ACT) must
   appear (FR1). If there is genuinely no equivalent, set `relationship: none` with a
   rationale — do not omit the framework.
+- Optional frameworks (`required: false` in the manifest, e.g. ISO-IEC-27001,
+  KR-AI-BASIC-ACT) are added the same way. Adding a new one also means adding its id to
+  the framework enum in the schema and to `FRAMEWORK_ORDER` in `scripts/build_tables.py`;
+  propose it as an issue first (see [GOVERNANCE.md](GOVERNANCE.md)).
 
 ### Relationship types (FR3)
 
