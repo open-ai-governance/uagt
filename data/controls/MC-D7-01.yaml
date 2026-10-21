@@ -86,4 +86,4 @@ mappings:
     rationale: >
       Art.32(1)(2) requires a risk-management system that monitors and responds to AI safety
       incidents. It applies only to high-compute systems.
-    reviewer: "PENDING REVIEW"
+    reviewer: "Vinod Dhiman"

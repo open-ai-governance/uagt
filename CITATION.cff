@@ -29,8 +29,8 @@ keywords:
   - crosswalk
   - compliance
 license: CC-BY-4.0
-version: "2.3.0"
-date-released: "2026-06-26"
+version: "3.0.0"
+date-released: "2026-10-21"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20823079"

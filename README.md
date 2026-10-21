@@ -13,7 +13,7 @@ pulled toward all three at once. UAGT publishes the reconciliation between them 
 single normalized control set, so practitioners stop re-deriving the same mapping and
 the field gets a shared, maintained reference point.
 
-> **Status:** v2.3.0. A reviewed crosswalk across eight frameworks and eight governance
+> **Status:** v3.0.0. A reviewed crosswalk across eight frameworks and eight governance
 > domains. Not compliance certification, not legal advice, and not a substitute for the
 > source standards; references identifiers only.
 >
