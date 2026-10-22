@@ -44,8 +44,11 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20891681"
     description: "Version v2.3.0"
-# NOTE: v1.0.0, v1.1.0 and v2.3.0 are archived on Zenodo under the concept DOI above, which
-# resolves to v2.3.0. The intermediate tags v2.0.1-v2.2.0 fell in a window when the Zenodo
+  - type: doi
+    value: "10.5281/zenodo.23549492"
+    description: "Version v3.0.0"
+# NOTE: v1.0.0, v1.1.0, v2.3.0 and v3.0.0 are archived on Zenodo under the concept DOI above,
+# which resolves to the latest (v3.0.0). The intermediate tags v2.0.1-v2.2.0 fell in a window when the Zenodo
 # webhook was disconnected (after the repo moved to the open-ai-governance org); they are
 # not separately archived and are superseded by v2.3.0. Archival continuity is now restored.
 references:
