@@ -9,7 +9,8 @@ on:
   pull_request:
 
 jobs:
-  build:
+  # Job id must match the required status check on main's branch protection.
+  validate-and-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
