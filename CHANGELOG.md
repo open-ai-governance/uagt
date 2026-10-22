@@ -10,6 +10,8 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 
 ## [Unreleased]
 
+## [3.0.0] - 2026-10-21
+
 ### Changed — MAJOR: EU AI Act Digital Omnibus applied
 - **EU AI Act now pinned as `2024/1689 am. 2026/1744`.** The Digital Omnibus on AI is
   Regulation (EU) 2026/1744 of 8 July 2026, in force 27 July 2026. All EU mappings were
@@ -50,6 +52,9 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 - `collect_metrics.py` now retries transient network failures. A mid-read `TimeoutError`
   crashed the 2026-09-01 scheduled run.
 - GitHub Actions upgraded off the deprecated Node 20 runtime.
+
+### Note
+- All 28 Korea AI Basic Act mappings are signed off with `reviewer: "Vinod Dhiman"`.
 
 ## [2.3.0] - 2026-06-26
 
