@@ -90,3 +90,13 @@ timestamp_utc,repo,signal,value,source
 2026-11-01T12:36:42Z,open-ai-governance/uagt,zenodo_unique_views,73,Zenodo stats
 2026-11-01T12:36:42Z,open-ai-governance/uagt,zenodo_downloads,7,Zenodo stats
 2026-11-01T12:36:42Z,open-ai-governance/uagt,zenodo_unique_downloads,7,Zenodo stats
+2026-11-15T13:22:59Z,open-ai-governance/uagt,stars,1,GitHub REST API
+2026-11-15T13:22:59Z,open-ai-governance/uagt,forks,0,GitHub REST API
+2026-11-15T13:22:59Z,open-ai-governance/uagt,watchers,1,GitHub REST API
+2026-11-15T13:22:59Z,open-ai-governance/uagt,network,0,GitHub REST API
+2026-11-15T13:22:59Z,open-ai-governance/uagt,open_issues,1,GitHub REST API
+2026-11-15T13:22:59Z,open-ai-governance/uagt,release_downloads,17,GitHub Releases API
+2026-11-15T13:22:59Z,open-ai-governance/uagt,zenodo_views,92,Zenodo stats
+2026-11-15T13:22:59Z,open-ai-governance/uagt,zenodo_unique_views,90,Zenodo stats
+2026-11-15T13:22:59Z,open-ai-governance/uagt,zenodo_downloads,9,Zenodo stats
+2026-11-15T13:22:59Z,open-ai-governance/uagt,zenodo_unique_downloads,9,Zenodo stats
