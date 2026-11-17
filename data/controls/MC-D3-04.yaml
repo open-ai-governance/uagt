@@ -92,3 +92,17 @@ mappings:
       The Act does not regulate personal data. That falls to Korea's Personal Information
       Protection Act, which is outside this framework's scope.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1705(1)(a)(I)"
+    label: "Request and correction of personal data used in a decision"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      After an adverse outcome the deployer must, on request, give instructions for
+      obtaining the personal data used and correcting factually incorrect or materially
+      inaccurate personal data, consistent with 6-1-1306. The adverse-outcome disclosure
+      must also give a process to request details of the ADMT and the types, categories and
+      sources of personal data used, to the extent the deployer has them from the developer
+      (6-1-1704(3)(b)). Wider privacy duties sit outside this framework.
+    reviewer: "PENDING REVIEW"

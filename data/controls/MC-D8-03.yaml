@@ -88,3 +88,16 @@ mappings:
       Art.24: 10^26 FLOPs). This is analogous to EU systemic-risk GPAI duties, but with no
       general GPAI documentation or copyright obligations.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      The Act regulates the use of ADMT in consequential decisions, not models. Foundation
+      models and large language models appear only in exclusions (6-1-1701(2)(b)(I)(L),
+      (3)(b)(III)), and conversational tools are excluded where they are not intended for
+      consequential decisions and an acceptable-use policy prohibits that use
+      (6-1-1701(2)(b)(III)(A)-(B)).
+    reviewer: "PENDING REVIEW"

@@ -90,3 +90,14 @@ mappings:
     rationale: >
       The Act contains no cybersecurity or information-security obligation.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      The Act contains no cybersecurity or information-security obligation. Cybersecurity
+      uses are excluded from consequential decisions (6-1-1701(3)(b)(VI)), and disclosures
+      may be withheld where they would compromise security programmes (6-1-1704(7)).
+    reviewer: "PENDING REVIEW"

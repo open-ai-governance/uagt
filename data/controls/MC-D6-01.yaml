@@ -87,3 +87,13 @@ mappings:
       Art.34(1) aims at "safety and reliability" through the listed measures but sets no
       accuracy or performance requirement.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act sets no accuracy or performance requirement. Developers disclose known
+      limitations (6-1-1702(1)(c)), but no level of accuracy is required.
+    reviewer: "PENDING REVIEW"

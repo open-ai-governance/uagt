@@ -89,3 +89,16 @@ mappings:
       management plan, with details set by the Enforcement Decree and an MSIT notice. High-
       compute systems carry an equivalent lifecycle duty under Art.32(1)(1).
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      This law has no risk-management duty. It repealed and replaced SB24-205, under which
+      deployers had to implement a risk management policy and program (former 6-1-1703(2))
+      and developers and deployers owed a duty of reasonable care against algorithmic
+      discrimination (former 6-1-1702(1), 6-1-1703(1)). SB26-189 keeps neither; developers
+      only disclose known limitations and risks to deployers (6-1-1702(1)(c)).
+    reviewer: "PENDING REVIEW"

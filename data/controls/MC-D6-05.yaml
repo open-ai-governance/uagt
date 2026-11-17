@@ -102,3 +102,14 @@ mappings:
       Under Art.27 the government issues AI ethics principles: safety and reliability,
       accessibility, and human well-being. They guide design but do not bind operators.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act sets no design or development process duty. SB24-205's developer duty of
+      reasonable care against algorithmic discrimination (former 6-1-1702(1)) was repealed
+      by this law and not reenacted.
+    reviewer: "PENDING REVIEW"

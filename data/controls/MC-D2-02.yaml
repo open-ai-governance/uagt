@@ -87,3 +87,14 @@ mappings:
       fundamental rights in advance, reflecting vulnerable groups (amended 2026). Its contents
       are set by Enforcement Decree Art.28. It is not mandatory.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      No impact assessment is required. SB24-205, which this law repealed and replaced,
+      required deployers to complete impact assessments, at least annually and after
+      substantial modifications (former 6-1-1703(3)). SB26-189 dropped the requirement.
+    reviewer: "PENDING REVIEW"

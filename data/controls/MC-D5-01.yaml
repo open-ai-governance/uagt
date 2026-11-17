@@ -85,3 +85,15 @@ mappings:
     rationale: >
       Art.34(1)(4) directly requires human management and supervision of high-impact AI.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1705(1)(a)(II)"
+    label: "Meaningful human review and reconsideration"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      After an adverse outcome a consumer may request meaningful human review and
+      reconsideration of the decision, to the extent commercially reasonable; the reviewer
+      must have authority to override it (6-1-1701(15)). This is after-the-fact review on
+      request, not oversight during operation or a stop capability.
+    reviewer: "PENDING REVIEW"

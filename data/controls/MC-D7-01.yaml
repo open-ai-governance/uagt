@@ -87,3 +87,15 @@ mappings:
       Art.32(1)(2) requires a risk-management system that monitors and responds to AI safety
       incidents. It applies only to high-compute systems.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1702(2)"
+    label: "Notice of material updates to deployers"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Developers must notify deployers within a reasonable time of material updates,
+      substantial modifications and changes to intended use, limitations or risk mitigation
+      (6-1-1702(2)), and give instructions for monitoring (6-1-1702(1)(d)). No one is
+      required to monitor the system in operation. Judgement call: partial rather than none.
+    reviewer: "PENDING REVIEW"

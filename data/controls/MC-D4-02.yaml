@@ -86,3 +86,16 @@ mappings:
       Art.34(1)(5) requires documents that evidence the safety and reliability measures taken.
       This is narrower than full system technical documentation.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1702(4)"
+    label: "Developer records demonstrating compliance"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Developers must keep, for at least 3 years, records reasonably necessary to show
+      compliance, including version identifiers, changelogs and the update notices sent to
+      deployers (6-1-1702(4)). With the 6-1-1702(1) documentation this covers
+      deployer-facing information, not full technical documentation of how the system was
+      built and tested.
+    reviewer: "PENDING REVIEW"

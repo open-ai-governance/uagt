@@ -87,3 +87,17 @@ mappings:
       Art.34(1)(3) requires high-impact AI operators to establish and operate user-protection
       measures. A summary must be published under Enforcement Decree Art.27.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1702(1)-(2)"
+    label: "Developer handoff of uses, limits and updates"
+    relationship: full
+    confidence: medium
+    rationale: >
+      Developers must give deployers the known harmful uses, known limitations and risks,
+      circumstances where the ADMT should not be used, and instructions for use and human
+      review (6-1-1702(1)), and notify them of updates and changes to risk mitigation
+      (6-1-1702(2)). Developer liability follows the intended and contracted uses
+      (6-1-1707(5)). Judgement call: full, because this handoff is the core of the
+      developer's duties; partial is arguable, since it is an information duty only.
+    reviewer: "PENDING REVIEW"

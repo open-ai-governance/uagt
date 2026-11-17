@@ -90,3 +90,14 @@ mappings:
       optional ethics committees (Art.28). It sets no competence or training obligation on
       operators.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act sets no AI-literacy or general training duty. Its only training element is
+      that the person conducting meaningful human review must be trained to do it
+      (6-1-1701(15)(b)); that is mapped under MC-D5-02, not here.
+    reviewer: "PENDING REVIEW"

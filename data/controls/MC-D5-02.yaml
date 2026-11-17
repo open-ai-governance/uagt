@@ -87,3 +87,16 @@ mappings:
     rationale: >
       The Act does not address operator competence or configuring the human-AI interface.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1701(15)"
+    label: "Qualifications for meaningful human review"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Meaningful human review requires a trained reviewer who considers the available
+      primary evidence, does not default to the system output, and has enough information to
+      understand the output's intended use, limitations, inputs and principal factors.
+      Developers must supply instructions for human review (6-1-1702(1)(d)). It covers only
+      review of adverse decisions on request, not operators generally.
+    reviewer: "PENDING REVIEW"

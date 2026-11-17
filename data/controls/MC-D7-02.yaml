@@ -87,3 +87,15 @@ mappings:
       Art.32(2) requires submitting implementation results to MSIT, and Art.40(3) lets MSIT
       order suspension or correction. There is no general serious-incident reporting duty.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      There is no incident-reporting duty. SB24-205 required developers and deployers to
+      tell the attorney general within 90 days of discovering algorithmic discrimination
+      (former 6-1-1702(5), 6-1-1703(7)); SB26-189 dropped this. The attorney general's
+      annual report under 6-1-1706(3)(e) concerns enforcement, not incidents.
+    reviewer: "PENDING REVIEW"
