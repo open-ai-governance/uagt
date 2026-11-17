@@ -86,3 +86,14 @@ mappings:
       clear notice or labelling of realistic synthetic audio, images or video (with lighter
       handling for artistic works). Methods are set by Enforcement Decree Art.23.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      The Act has no labelling or disclosure duty for AI-generated or synthetic content. Its
+      notices disclose that ADMT was used in a decision, not that content is artificial.
+      Chatbots are regulated separately by HB26-1263, which is not part of this framework.
+    reviewer: "PENDING REVIEW"

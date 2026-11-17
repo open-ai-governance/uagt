@@ -88,3 +88,13 @@ mappings:
       safety-incident risk system, but only for systems above the compute threshold in
       Enforcement Decree Art.24 (10^26 FLOPs plus further criteria).
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      The Act sets no robustness or safety requirement. It regulates disclosure and consumer
+      rights around decisions, not the system's technical behaviour.
+    reviewer: "PENDING REVIEW"

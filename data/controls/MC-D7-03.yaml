@@ -90,3 +90,12 @@ mappings:
     rationale: >
       The Act sets no performance-evaluation or continual-improvement requirement.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act sets no performance-evaluation, audit or continual-improvement requirement.
+    reviewer: "PENDING REVIEW"

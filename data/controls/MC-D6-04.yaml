@@ -89,3 +89,13 @@ mappings:
       providing high-impact AI. This is best-efforts and third-party oriented, not an internal
       TEVV regime.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act sets no testing, evaluation, verification or validation duty on developers or
+      deployers.
+    reviewer: "PENDING REVIEW"

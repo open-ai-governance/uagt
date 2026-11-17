@@ -84,3 +84,14 @@ mappings:
       Art.34(1)(2) requires explaining an overview of the training data used, which is
       disclosure of data sources. It imposes no data acquisition or provenance controls.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1702(1)(b)"
+    label: "Developer disclosure of training-data categories"
+    relationship: partial
+    confidence: low
+    rationale: >
+      6-1-1702(1)(b) requires developers to tell deployers the categories of data, including
+      personal data, used to train the covered ADMT, to the extent known. This is disclosure
+      of data sources, not control over how data is acquired or a provenance trail.
+    reviewer: "PENDING REVIEW"

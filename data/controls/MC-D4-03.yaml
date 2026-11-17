@@ -88,3 +88,15 @@ mappings:
       Art.34(1)(5), with Enforcement Decree Art.27, requires documents to be kept for 5 years.
       There is no automatic event-logging requirement.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1703"
+    label: "Deployer record retention"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      Deployers must keep records reasonably necessary to show compliance for at least 3
+      years after each consequential decision, which may include version identifiers and
+      changelogs (6-1-1703; developers likewise under 6-1-1702(4)). There is no automatic
+      event-logging requirement.
+    reviewer: "PENDING REVIEW"

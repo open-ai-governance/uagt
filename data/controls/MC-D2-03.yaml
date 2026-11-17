@@ -89,3 +89,14 @@ mappings:
       The Act does not require defining risk tolerance or acceptance criteria. The
       Art.34(1)(1) risk management plan specifies no acceptance thresholds.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      No risk tolerance or acceptance criteria are required. The SB24-205 risk management
+      policy and program (former 6-1-1703(2)) was repealed by this law and not replaced, so
+      there is no risk process for acceptance criteria to attach to.
+    reviewer: "PENDING REVIEW"

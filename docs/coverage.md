@@ -16,21 +16,22 @@ How each framework covers the 28 Master Controls. **Strong** = `full` + `superse
 | COBIT 2019 | 8 | 1 | 14 | 0 | 5 | 0 | 32% |
 | ISO/IEC 27701 | 0 | 1 | 7 | 0 | 20 | 0 | 4% |
 | Korea AI Basic Act | 3 | 0 | 16 | 0 | 9 | 0 | 11% |
+| Colorado ADMT Act | 1 | 0 | 11 | 0 | 17 | 0 | 4% |
 
 ## Coverage by domain × framework
 
 Each cell: **strong-coverage controls / total controls** in that domain (strong = full or superset).
 
-| Domain | ISO/IEC 42001 | NIST AI RMF | EU AI Act | ISO/IEC 27001 | SOC 2 (TSC) | COBIT 2019 | ISO/IEC 27701 | Korea AI Basic Act |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D1 — Accountability & organisational governance | 3/4 | 4/4 | 0/4 | 1/4 | 1/4 | 3/4 | 0/4 | 0/4 |
-| D2 — Risk & impact assessment | 2/3 | 2/3 | 2/3 | 0/3 | 0/3 | 1/3 | 0/3 | 1/3 |
-| D3 — Data governance & quality | 2/4 | 2/4 | 3/4 | 0/4 | 0/4 | 0/4 | 1/4 | 0/4 |
-| D4 — Transparency, documentation & records | 3/4 | 1/4 | 4/4 | 1/4 | 0/4 | 0/4 | 0/4 | 1/4 |
-| D5 — Human oversight & autonomy | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 | 0/2 | 0/2 | 1/2 |
-| D6 — Robustness, accuracy & security | 2/5 | 4/5 | 3/5 | 1/5 | 1/5 | 1/5 | 0/5 | 0/5 |
-| D7 — Lifecycle monitoring & post-market surveillance | 3/3 | 2/3 | 2/3 | 2/3 | 2/3 | 3/3 | 0/3 | 0/3 |
-| D8 — Value-chain, third-party & GPAI governance | 2/3 | 2/3 | 2/3 | 1/3 | 1/3 | 1/3 | 0/3 | 0/3 |
+| Domain | ISO/IEC 42001 | NIST AI RMF | EU AI Act | ISO/IEC 27001 | SOC 2 (TSC) | COBIT 2019 | ISO/IEC 27701 | Korea AI Basic Act | Colorado ADMT Act |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D1 — Accountability & organisational governance | 3/4 | 4/4 | 0/4 | 1/4 | 1/4 | 3/4 | 0/4 | 0/4 | 0/4 |
+| D2 — Risk & impact assessment | 2/3 | 2/3 | 2/3 | 0/3 | 0/3 | 1/3 | 0/3 | 1/3 | 0/3 |
+| D3 — Data governance & quality | 2/4 | 2/4 | 3/4 | 0/4 | 0/4 | 0/4 | 1/4 | 0/4 | 0/4 |
+| D4 — Transparency, documentation & records | 3/4 | 1/4 | 4/4 | 1/4 | 0/4 | 0/4 | 0/4 | 1/4 | 0/4 |
+| D5 — Human oversight & autonomy | 0/2 | 1/2 | 2/2 | 0/2 | 0/2 | 0/2 | 0/2 | 1/2 | 0/2 |
+| D6 — Robustness, accuracy & security | 2/5 | 4/5 | 3/5 | 1/5 | 1/5 | 1/5 | 0/5 | 0/5 | 0/5 |
+| D7 — Lifecycle monitoring & post-market surveillance | 3/3 | 2/3 | 2/3 | 2/3 | 2/3 | 3/3 | 0/3 | 0/3 | 0/3 |
+| D8 — Value-chain, third-party & GPAI governance | 2/3 | 2/3 | 2/3 | 1/3 | 1/3 | 1/3 | 0/3 | 0/3 | 1/3 |
 
 ## Hard gaps (an anchor framework has no equivalent)
 

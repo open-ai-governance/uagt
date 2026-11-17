@@ -90,3 +90,16 @@ mappings:
       human-rights research and staff ethics training. It is optional ("may") and the Act
       mandates no organizational AI policy.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      The Act imposes no organisational AI policy or governance-framework duty; its
+      obligations are documentation, records, consumer notice and consumer rights (6-1-1702
+      to 6-1-1705). SB24-205, which this law repealed and replaced, required deployers to
+      implement a risk management policy and program (former 6-1-1703(2)). That duty was not
+      carried over.
+    reviewer: "PENDING REVIEW"

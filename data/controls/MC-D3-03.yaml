@@ -97,3 +97,16 @@ mappings:
       There is no explicit bias or representativeness duty. Bias is reached only indirectly
       through the fundamental-rights impact assessment (Art.35, best-efforts).
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: high
+    rationale: >
+      There is no bias-examination or representativeness duty. SB24-205's duty of reasonable
+      care to protect consumers from algorithmic discrimination (former 6-1-1702(1),
+      6-1-1703(1)) was repealed by this law and not reenacted. Discrimination is left to
+      existing anti-discrimination law; 6-1-1707 only allocates fault between developers and
+      deployers in such actions.
+    reviewer: "PENDING REVIEW"

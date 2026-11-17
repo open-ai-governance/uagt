@@ -91,3 +91,16 @@ mappings:
       Enforcement Decree Art.27 requires the responsible person's name and contact to be
       published. It assigns accountability for oversight, not a full roles framework.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: "C.R.S. 6-1-1701(15)"
+    label: "Meaningful human review by a designated reviewer"
+    relationship: partial
+    confidence: low
+    rationale: >
+      6-1-1701(15) requires the reviewer to be an individual designated by the deployer with
+      authority to approve, modify or override the decision, and 6-1-1707(2) allocates fault
+      between developers and deployers in discrimination actions. Both assign accountability
+      at specific points, not a roles-and-responsibilities framework. Judgement call:
+      partial rather than none.
+    reviewer: "PENDING REVIEW"

@@ -6,7 +6,8 @@ An open, machine-readable, citable, and continuously versioned crosswalk anchore
 **ISO/IEC 42001:2023**, the **NIST AI Risk Management Framework 1.0**, and the
 **EU AI Act (Regulation (EU) 2024/1689, as amended by the Digital Omnibus, Regulation (EU) 2026/1744)**,
 with optional cross-mappings to **ISO/IEC 27001**, **SOC 2 (Trust Services Criteria)**,
-**COBIT 2019**, **ISO/IEC 27701**, and the **Korea AI Basic Act** — eight frameworks in all.
+**COBIT 2019**, **ISO/IEC 27701**, the **Korea AI Basic Act**, and **Colorado's ADMT law
+(SB26-189)** — nine frameworks in all.
 
 Organizations adopting AI rarely get to pick a single governance regime — they are
 pulled toward all three at once. UAGT publishes the reconciliation between them as a
@@ -47,7 +48,7 @@ the source frameworks. Every control carries the traceability spine: an upward `
 sideways framework `mappings`, and forward `evidence` artefacts.
 
 The three anchor frameworks (ISO/IEC 42001, NIST AI RMF, EU AI Act) are **required** on
-every control (FR1). Five further frameworks attach *optionally* to the Master Control Set
+every control (FR1). Six further frameworks attach *optionally* to the Master Control Set
 without disturbing the anchor mappings, each across all 28 controls:
 
 - **ISO/IEC 27001:2022**, **SOC 2 (Trust Services Criteria)**, and **COBIT 2019** — strong on
@@ -59,6 +60,10 @@ without disturbing the anchor mappings, each across all 28 controls:
 - **Korea AI Basic Act** (Act No. 20676, in force 22 Jan 2026) — the first non-EU/US statute.
   It is strong on synthetic-content labelling, human oversight and high-impact risk management,
   and `none` on data quality, bias, privacy and security, which it leaves to other Korean law.
+- **Colorado ADMT law** (SB26-189, C.R.S. 6-1-1701 to 6-1-1709, in force 1 Jan 2027) — the first
+  US state statute. It is strong on developer-to-deployer documentation, with partial coverage of
+  consumer notice, human review and personal-data correction, and `none` on risk management,
+  impact assessment and bias, duties its predecessor SB24-205 had and SB26-189 repealed.
 
 Their coverage shape (see [`docs/coverage.md`](docs/coverage.md): anchors 61–64% strong vs.
 the others 4–32%) is itself the analytical point — a security/governance/privacy framework

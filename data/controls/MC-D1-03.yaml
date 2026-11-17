@@ -90,3 +90,14 @@ mappings:
       ask MSIT to confirm. This is a classification step with no registration database,
       narrower than an internal inventory.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      There is no registration, filing or inventory duty. Deployer records under 6-1-1703
+      may include ADMT version identifiers, but that is compliance record-keeping, not an
+      inventory of AI systems.
+    reviewer: "PENDING REVIEW"

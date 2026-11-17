@@ -85,3 +85,14 @@ mappings:
       The Act imposes no data-quality or data-preparation duty on operators. Art.15 training-
       data policy binds the government only.
     reviewer: "Vinod Dhiman"
+  - framework: US-CO-ADMT
+    version: "SB26-189 (Sess. Laws 2026, ch. 131)"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Act sets no quality duty for training, validation or test data. Correction of a
+      consumer's inaccurate personal data after an adverse outcome (6-1-1705(1)(a)(I))
+      concerns individual input records and is mapped under MC-D3-04.
+    reviewer: "PENDING REVIEW"
