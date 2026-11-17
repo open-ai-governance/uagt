@@ -97,3 +97,15 @@ mappings:
       The Act sets no accuracy or performance requirement. Developers disclose known
       limitations (6-1-1702(1)(c)), but no level of accuracy is required.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.4(5)"
+    label: "Accuracy and reliability of generated content"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GenAI Art.4(5) requires effective measures, suited to the service type, to improve the
+      accuracy and reliability of generated content. Accuracy and reliability are undefined and
+      concern generated content, not system performance; no levels or metrics are set. GenAI
+      Art.4 binds both providers and users of the service.
+    reviewer: "PENDING REVIEW"

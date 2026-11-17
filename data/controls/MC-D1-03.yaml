@@ -101,3 +101,17 @@ mappings:
       may include ADMT version identifiers, but that is compliance record-keeping, not an
       inventory of AI systems.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.17"
+    label: "Security assessment and algorithm filing"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.17 requires providers of services with public-opinion attributes or
+      social-mobilisation capacity to carry out a security assessment under relevant national
+      provisions (in practice the security-assessment rules, not mapped) and to complete
+      algorithm filing under the Algorithmic Recommendation Provisions (not mapped). An
+      external filing for a subset of services, not an internal inventory. See also Labeling
+      Art.12 (labelling materials at filing and assessment).
+    reviewer: "PENDING REVIEW"

@@ -104,3 +104,15 @@ mappings:
       at specific points, not a roles-and-responsibilities framework. Judgement call:
       partial rather than none.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.9 para.1"
+    label: "Provider bears content-producer and handler responsibility"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.9 para.1 makes the provider bear, under law, a content producer's
+      responsibilities and network information security obligations, and a personal-information
+      handler's where personal information is involved. It fixes where legal accountability for
+      the service lies but assigns no internal roles. Judgement call: partial rather than none.
+    reviewer: "PENDING REVIEW"

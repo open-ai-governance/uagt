@@ -100,3 +100,17 @@ mappings:
       changelogs (6-1-1703; developers likewise under 6-1-1702(4)). There is no automatic
       event-logging requirement.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "Labeling Art.9"
+    label: "Logs of output supplied without explicit labels (6 months)"
+    relationship: partial
+    confidence: low
+    rationale: >
+      Labeling Art.9 lets a provider supply content without explicit labels at a user's request,
+      once the user agreement sets the user's labelling duty, provided it keeps logs, including
+      recipients, for at least six months: an event-specific record, not lifecycle logging. See
+      also GenAI Art.14 para.2 (records of unlawful use); Cybersecurity Law Art.23(3) (six-month
+      network logs; outside this framework); Deep Synthesis Provisions Art.16 (not mapped;
+      labels plus log retention under other law; Labeling Art.5 cites it for labels only).
+    reviewer: "PENDING REVIEW"

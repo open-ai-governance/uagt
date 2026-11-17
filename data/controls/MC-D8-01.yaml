@@ -101,3 +101,14 @@ mappings:
       information duties in 6-1-1702 this is a value-chain allocation, not a
       supplier-governance process.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.7(1)"
+    label: "Lawful-source foundation models and data"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.7(1) requires providers to use data and foundation models with lawful
+      sources, which reaches third-party components. There is no wider
+      supplier-governance duty. Judgement call: partial rather than none.
+    reviewer: "PENDING REVIEW"

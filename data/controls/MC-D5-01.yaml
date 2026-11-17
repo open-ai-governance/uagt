@@ -97,3 +97,15 @@ mappings:
       must have authority to override it (6-1-1701(15)). This is after-the-fact review on
       request, not oversight during operation or a stop capability.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments require no human oversight of the system in use. GenAI Art.14 para.1
+      requires stopping generation and transmission of unlawful content once found, which is a
+      content-handling duty triggered by the content, not a means for people to interpret,
+      intervene in or stop the system in use. Judgement call: none rather than partial.
+    reviewer: "PENDING REVIEW"

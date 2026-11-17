@@ -99,3 +99,16 @@ mappings:
       The Act sets no testing, evaluation, verification or validation duty on developers or
       deployers.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments set no test, evaluation, verification or validation regime. GenAI
+      Art.8 covers annotation quality checks only, and GenAI Art.17 itself sets no test criteria
+      for its security assessment (credited under MC-D2-01), whose content is set under relevant
+      national provisions (in practice the security-assessment rules, not mapped). See also the
+      recommended GB/T 45654-2025 Annex B (companion, not mapped; test-based assessment).
+    reviewer: "PENDING REVIEW"

@@ -103,3 +103,18 @@ mappings:
       implement a risk management policy and program (former 6-1-1703(2)). That duty was not
       carried over.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments impose no organisational AI policy or governance-framework duty.
+      GenAI Art.9 para.1 assigns legal responsibility and GenAI Art.8 requires data-annotation
+      rules, but neither is an AI policy. The AI ethics review measures (not mapped) require an
+      AI ethics committee where research involves ethics-sensitive fields (Art.9, applying the
+      2023 S&T Ethics Review Measures Art.4). In-scope activities must go to the unit's
+      committee or, where the unit has none or its committee is not competent, to a service
+      centre the unit has entrusted (Art.12; centres are set up under Art.11).
+    reviewer: "PENDING REVIEW"

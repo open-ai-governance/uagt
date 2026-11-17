@@ -110,3 +110,16 @@ mappings:
       existing anti-discrimination law; 6-1-1707 only allocates fault between developers and
       deployers in such actions.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.4(2)"
+    label: "Anti-discrimination in design and data selection"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GenAI Art.4(2) requires effective measures against discrimination on listed grounds in
+      algorithm design, training-data selection, model generation and optimisation, and service
+      provision. There is no duty to examine datasets for bias or representativeness. GenAI
+      Art.4 binds both providers and users of the service. See also GenAI Art.7(4)
+      (training-data diversity).
+    reviewer: "PENDING REVIEW"

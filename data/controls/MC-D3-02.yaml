@@ -96,3 +96,15 @@ mappings:
       consumer's inaccurate personal data after an adverse outcome (6-1-1705(1)(a)(I))
       concerns individual input records and is mapped under MC-D3-04.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.7(4)"
+    label: "Improving training-data quality"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GenAI Art.7(4) requires effective measures to improve training-data quality, naming
+      truthfulness, accuracy, objectivity and diversity. It sets no quality criteria and
+      does not address validation or test data. See also GenAI Art.8 (annotation rules,
+      annotation quality assessment and sample checks).
+    reviewer: "PENDING REVIEW"

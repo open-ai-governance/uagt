@@ -98,3 +98,18 @@ mappings:
       required deployers to complete impact assessments, at least annually and after
       substantial modifications (former 6-1-1703(3)). SB26-189 dropped the requirement.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments require no impact assessment; the GenAI Art.17 security assessment
+      covers only some services. A gap in the mapped instruments, partly filled elsewhere, for
+      example by: the Personal Information Protection Law Art.55 (prior personal-information
+      protection impact assessment for specified processing, including automated
+      decision-making, item (2)); the ethics-risk assessment in ethics review under the AI
+      ethics review measures (not mapped; Art.12); and the security assessment under the
+      Anthropomorphic AI Interactive Services measures (not mapped; Arts.22-23).
+    reviewer: "PENDING REVIEW"

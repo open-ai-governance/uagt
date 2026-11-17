@@ -101,3 +101,15 @@ mappings:
       that the person conducting meaningful human review must be trained to do it
       (6-1-1701(15)(b)); that is mapped under MC-D5-02, not here.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments set no AI-literacy or competence duty for staff. GenAI Art.8
+      requires providers to give data annotators necessary training, but its stated aim is the
+      annotators' awareness of and compliance with the law, not AI competence, and it
+      covers one role only. Judgement call: none rather than partial.
+    reviewer: "PENDING REVIEW"

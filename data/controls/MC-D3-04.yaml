@@ -106,3 +106,17 @@ mappings:
       sources of personal data used, to the extent the deployer has them from the developer
       (6-1-1704(3)(b)). Wider privacy duties sit outside this framework.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.11 para.1"
+    label: "Protecting user inputs and usage records"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GenAI Art.11 para.1 requires providers to protect users' inputs and usage records, collect
+      no unnecessary personal information, and not unlawfully share them or retain identifying
+      ones. No privacy-risk assessment duty: where personal information is involved, GenAI Art.9
+      para.1 makes the provider its handler, with wider duties under personal-information law,
+      outside this framework. See also GenAI Art.7(3) (training data); GenAI Art.11 para.2
+      (individuals' requests).
+    reviewer: "PENDING REVIEW"

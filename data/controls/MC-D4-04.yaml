@@ -97,3 +97,22 @@ mappings:
       notices disclose that ADMT was used in a decision, not that content is artificial.
       Chatbots are regulated separately by HB26-1263, which is not part of this framework.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "Labeling Arts.4-6"
+    label: "Explicit, implicit and platform labels on generated content"
+    relationship: full
+    confidence: medium
+    rationale: >
+      Labeling Art.4 requires explicit labels that users can perceive, on the content or the
+      interface and in exported files, where the service may confuse or mislead the public (per
+      Deep Synthesis Provisions Art.17 para.1, not mapped; the list ends in a catch-all).
+      Platforms must add prominent labels to content that its metadata, the uploader's
+      declaration or detected traces show to be generated (Labeling Art.6), and publishing users
+      must declare and label it (Labeling Art.10 para.1). Labeling Art.5 adds machine-readable
+      implicit labels in the file metadata of generated content files (per Deep Synthesis
+      Provisions Art.16, not mapped). Methods: GB 45438 cl.5 (explicit); GB 45438 cl.6.1 with
+      Annex E (implicit). Judgement call: full because content that may mislead must carry
+      visible labels and platforms must surface the marks; partial is arguable because explicit
+      labels are conditional and waivable on request (Labeling Art.9).
+    reviewer: "PENDING REVIEW"
