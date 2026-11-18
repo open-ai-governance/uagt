@@ -19,14 +19,21 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
   limits and updates (`MC-D8-02`). Partial on developer documentation to deployers and on
   consumer notice and post-adverse-outcome explanation (`MC-D4-01`, 6-1-1702(1) and
   6-1-1704(1), (3)), consumer personal-data correction (`MC-D3-04`), meaningful human review (`MC-D5-01`, `MC-D5-02`),
-  record retention (`MC-D4-02`, `MC-D4-03`) and fault allocation (`MC-D8-01`).
+  record retention (`MC-D4-02`, `MC-D4-03`) and fault allocation (`MC-D8-01`), and also, at
+  low confidence, on accountability points (`MC-D1-02`), training-data disclosure
+  (`MC-D3-01`) and update notice (`MC-D7-01`).
 - The `none` mappings on risk management (`MC-D2-01`, `MC-D2-03`), impact assessment
   (`MC-D2-02`) and the duty of care (`MC-D3-03`, `MC-D6-05`) are deliberate: SB26-189 repealed and
   reenacted part 17, dropping SB24-205's risk management program, impact assessments and duty
   of reasonable care against algorithmic discrimination.
-- The Attorney General's implementing rules (4 CCR 904-6, proposed 11 Aug 2026, hearing
-  26 Oct 2026) are **listed in the manifest, not mapped**. The pin will move once they are
-  adopted. HB26-1263 (Chatbot Safety Act) is not part of this framework.
+- The Attorney General's implementing rules (4 CCR 904-6, proposed 11 Aug 2026, interim draft
+  6 Oct, hearing held 26 Oct 2026, not adopted as of 18 Nov 2026) are **listed in the manifest,
+  not mapped**. The pin will move once they are adopted. HB26-1263 (Chatbot Safety Act) is not
+  part of this framework.
+- Enforcement from 1 Jan 2027 may be qualified by a federal stay order (X.AI v. Weiser, ECF 24,
+  para 1 of which refers to legislation replacing or amending SB24-205 enacted this session
+  without naming SB26-189; its reach to SB26-189 is unresolved) and an Attorney General statement of enforcement discretion; see
+  the manifest notes.
 - All 29 Colorado mappings (28 controls) carry `reviewer: "PENDING REVIEW"`.
 
 ## [3.0.0] - 2026-10-21

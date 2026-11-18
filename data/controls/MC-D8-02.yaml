@@ -96,8 +96,15 @@ mappings:
     rationale: >
       Developers must give deployers the known harmful uses, known limitations and risks,
       circumstances where the ADMT should not be used, and instructions for use and human
-      review (6-1-1702(1)), and notify them of updates and changes to risk mitigation
-      (6-1-1702(2)). Developer liability follows the intended and contracted uses
-      (6-1-1707(5)). Judgement call: full, because this handoff is the core of the
-      developer's duties; partial is arguable, since it is an information duty only.
+      review (6-1-1702(1)), and notify them of material updates, intentional and substantial
+      modifications and changes to intended use, limitations or risk mitigation
+      (6-1-1702(2)). In an action alleging unlawful discrimination, developer liability is limited
+      to uses intended, documented, marketed, advertised, configured, or contracted for by the
+      developer (6-1-1707(5)(a)(I)). Judgement call: full, because this handoff is the core of the
+      developer's duties; partial is arguable, since it is an information duty only, runs
+      to deployers rather than other downstream users, applies only where the ADMT was
+      marketed, advertised, configured, contracted, sold, or licensed to be used to materially
+      influence a consequential decision (6-1-1702(3), (5)), lets trade secrets be
+      withheld with notice (6-1-1702(1)(e)), and does not apply to some insurers, HIPAA
+      covered entities and FDA-overseen medical devices (6-1-1708).
     reviewer: "PENDING REVIEW"

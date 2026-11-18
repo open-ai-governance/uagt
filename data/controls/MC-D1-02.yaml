@@ -98,9 +98,11 @@ mappings:
     relationship: partial
     confidence: low
     rationale: >
-      6-1-1701(15) requires the reviewer to be an individual designated by the deployer with
-      authority to approve, modify or override the decision, and 6-1-1707(2) allocates fault
-      between developers and deployers in discrimination actions. Both assign accountability
-      at specific points, not a roles-and-responsibilities framework. Judgement call:
-      partial rather than none.
+      6-1-1701(15) defines meaningful human review as review by an individual designated by
+      the deployer with authority to approve, modify or override the decision, which the
+      deployer must offer on request after an adverse outcome, to the extent commercially
+      reasonable (6-1-1705(1)(a)(II)), and
+      6-1-1707(2) allocates fault between developers and deployers in discrimination
+      actions. Both assign accountability at specific points, not a roles-and-responsibilities
+      framework. Judgement call: partial rather than none.
     reviewer: "PENDING REVIEW"
