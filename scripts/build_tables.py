@@ -40,7 +40,7 @@ BUILD_DIR = ROOT / "build"
 # (e.g. ISO/IEC 27001) attach optionally to the Master Control Set where an equivalent exists.
 REQUIRED_FRAMEWORKS = ["ISO-IEC-42001", "NIST-AI-RMF", "EU-AI-ACT"]
 # Display order for frameworks (columns): anchors first, then optional frameworks.
-FRAMEWORK_ORDER = REQUIRED_FRAMEWORKS + ["ISO-IEC-27001", "SOC-2", "COBIT-2019", "ISO-IEC-27701", "KR-AI-BASIC-ACT", "US-CO-ADMT"]
+FRAMEWORK_ORDER = REQUIRED_FRAMEWORKS + ["ISO-IEC-27001", "SOC-2", "COBIT-2019", "ISO-IEC-27701", "KR-AI-BASIC-ACT", "US-CO-ADMT", "CN-GENAI"]
 FRAMEWORK_LABELS = {
     "ISO-IEC-42001": "ISO/IEC 42001",
     "NIST-AI-RMF": "NIST AI RMF",
@@ -51,6 +51,7 @@ FRAMEWORK_LABELS = {
     "ISO-IEC-27701": "ISO/IEC 27701",
     "KR-AI-BASIC-ACT": "Korea AI Basic Act",
     "US-CO-ADMT": "Colorado ADMT Act",
+    "CN-GENAI": "China GenAI Measures",
 }
 RELATIONSHIP_ORDER = ["full", "superset", "subset", "partial", "none"]
 # The eight UAGT regulation-stable governance domains (paper, Table 4). D-prefixed labels

@@ -10,6 +10,31 @@ standard changes, MINOR for added controls/mappings, PATCH for corrections.
 
 ## [Unreleased]
 
+### Added — MINOR: China generative-AI measures
+- **10th framework: China's generative-AI regime** (`CN-GENAI`), one entry for three binding
+  instruments (issue #2): the Interim Measures for the Management of Generative AI Services (CAC
+  Order No. 15, in force 15 Aug 2023), the Measures for Labeling AI-Generated Synthetic Content
+  (in force 1 Sep 2025) and the mandatory standard GB 45438-2025 (in force 1 Sep 2025). Optional
+  (`required: false`), mapped across all 28 controls against the official Chinese texts. Result:
+  **1 full / 18 partial / 9 none** (4% strong; 10 of the 18 partials low confidence). Strong on
+  synthetic-content labelling (`MC-D4-04`). Partial on training data, bias and personal
+  information (`MC-D3-01` to `MC-D3-04`), user information and agreements (`MC-D4-01`,
+  `MC-D8-02`), accuracy (`MC-D6-01`) and unlawful content (`MC-D7-02`), and weakly on roles,
+  registration, risk assessment, documentation, records, robustness, security, design,
+  monitoring and suppliers. Where other law bears on a gap (such as the Cybersecurity Law or
+  the Personal Information Protection Law), the rationale names it. Four provisions back 8 of
+  the 18 partials: GenAI Art.17 (`MC-D1-03`, `MC-D2-01`), Art.7(1) (`MC-D3-01`, `MC-D8-01`),
+  Art.4(2) (`MC-D3-03`, `MC-D6-05`) and Art.13 (`MC-D6-02`, `MC-D6-03`).
+- **Not mapped:** the Deep Synthesis Provisions and the algorithm filing rules (agreed in issue
+  #2), the security-assessment rules (same reasoning, for the maintainer to confirm), the
+  Interim Measures for the Management of Anthropomorphic AI Interactive Services and the AI
+  ethics review measures. **Tracked:** the draft State Council Provisions on minors' healthy
+  and safe use of the internet, the draft revision of the Internet Information Services
+  Measures and comprehensive AI legislation. No draft amendment to the three mapped
+  instruments was found as of 17 Nov 2026.
+- GB/T 45654-2025 (recommended) is under `companions`, cited in rationales, not mapped. All 28
+  China mappings carry `reviewer: "PENDING REVIEW"`.
+
 ### Added — MINOR: Colorado ADMT law
 - **9th framework: Colorado SB26-189** (`US-CO-ADMT`, Automated Decision-Making Technology,
   C.R.S. 6-1-1701 to 6-1-1709; signed 14 May 2026, Sess. Laws 2026 ch. 131, in force 1 Jan 2027),

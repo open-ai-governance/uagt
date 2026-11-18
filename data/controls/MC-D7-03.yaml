@@ -99,3 +99,13 @@ mappings:
     rationale: >
       The Act sets no performance-evaluation, audit or continual-improvement requirement.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments set no performance-evaluation, audit or continual-improvement
+      requirement for a management system.
+    reviewer: "PENDING REVIEW"

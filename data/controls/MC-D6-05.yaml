@@ -113,3 +113,15 @@ mappings:
       reasonable care against algorithmic discrimination (former 6-1-1702(1)) was repealed
       by this law and not reenacted.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.4(2)"
+    label: "Anti-discrimination across design stages"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.4(2) requires effective measures against discrimination across algorithm design,
+      training-data selection, model generation and optimisation, and service provision. One
+      risk only, not a documented design and development process. GenAI Art.4 binds both
+      providers and users of the service. Judgement call: partial rather than none.
+    reviewer: "PENDING REVIEW"

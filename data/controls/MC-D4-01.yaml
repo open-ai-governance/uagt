@@ -114,3 +114,15 @@ mappings:
       not the system's general operation. Scope is limited to covered ADMT in consequential
       decisions.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.10"
+    label: "Disclosure of intended users, settings and uses"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GenAI Art.10 requires providers to publish the users, settings and uses their service
+      suits, to guide users' understanding and lawful use of the technology, and to prevent
+      minors' over-reliance. It does not require instructions for interpreting outputs. See also
+      GenAI Art.4(5) (undefined measures to increase transparency).
+    reviewer: "PENDING REVIEW"

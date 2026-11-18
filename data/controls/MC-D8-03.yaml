@@ -101,3 +101,16 @@ mappings:
       consequential decisions and an acceptable-use policy prohibits that use
       (6-1-1701(2)(b)(III)(A)-(B)).
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The Interim Measures regulate generative AI services offered to the public in China,
+      including via API (GenAI Art.2; GenAI Art.22(2)), not models as such; development without
+      a public service is excluded (GenAI Art.2 para.3). GenAI Art.7(1) and (2) bind the
+      provider's training-data activity and set no documentation or copyright-policy duty. None
+      of the three instruments sets a model-level regime.
+    reviewer: "PENDING REVIEW"

@@ -100,3 +100,14 @@ mappings:
       policy and program (former 6-1-1703(2)) was repealed by this law and not replaced, so
       there is no risk process for acceptance criteria to attach to.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments set no risk tolerance or residual-risk acceptance criteria. GenAI
+      Art.3 states the State's policy of inclusive, prudent, classified and graded supervision;
+      it imposes no duty on providers.
+    reviewer: "PENDING REVIEW"

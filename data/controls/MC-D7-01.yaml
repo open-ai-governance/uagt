@@ -99,3 +99,15 @@ mappings:
       (6-1-1702(2)), and give instructions for monitoring (6-1-1702(1)(d)). No one is
       required to monitor the system in operation. Judgement call: partial rather than none.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.15"
+    label: "Complaint and reporting channel"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.15 requires a complaint and reporting mechanism with a published process and
+      response times. It surfaces issues in operation but is not a monitoring plan. See also
+      GenAI Art.14 para.1 (acting on unlawful content once discovered; no monitoring duty as
+      such).
+    reviewer: "PENDING REVIEW"

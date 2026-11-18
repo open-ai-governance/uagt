@@ -99,3 +99,15 @@ mappings:
       deployer-facing information, not full technical documentation of how the system was
       built and tested.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.19 para.1"
+    label: "Explanations to regulators on inspection"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.19 para.1 requires providers, on inspection, to explain their training data,
+      annotation rules and algorithm mechanisms, with technical and data support. A duty to
+      explain on request, not standing technical documentation. Judgement call: partial rather
+      than none.
+    reviewer: "PENDING REVIEW"

@@ -101,3 +101,18 @@ mappings:
       uses are excluded from consequential decisions (6-1-1701(3)(b)(VI)), and disclosures
       may be withheld where they would compromise security programmes (6-1-1704(7)).
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.13"
+    label: "Secure, stable and continuous service"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.13 requires a secure, stable and continuous service: it reaches resilience to
+      failures that interrupt the service, but names no threats or security measures. GenAI
+      Art.9 para.1's network information security concerns content and personal information
+      (the Cybersecurity Law's sense). Outside this framework: Cybersecurity Law Art.23
+      (multi-level protection) and Network Data Security Management Regulations Art.19
+      (training-data security). See also GB/T 45654-2025 (recommended companion, not mapped).
+      Judgement call: partial rather than none.
+    reviewer: "PENDING REVIEW"

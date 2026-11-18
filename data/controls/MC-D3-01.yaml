@@ -95,3 +95,15 @@ mappings:
       personal data, used to train the covered ADMT, to the extent known. This is disclosure
       of data sources, not control over how data is acquired or a provenance trail.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.7(1)"
+    label: "Lawful sources of training data and models"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GenAI Art.7(1) requires training data and foundation models to come from lawful sources.
+      It governs acquisition but sets no duty to record or track provenance; the recommended
+      GB/T 45654-2025 cl.4.1.3 (companion, not mapped) covers source traceability. See also
+      GenAI Art.19 para.1 (explaining training-data sources on inspection).
+    reviewer: "PENDING REVIEW"

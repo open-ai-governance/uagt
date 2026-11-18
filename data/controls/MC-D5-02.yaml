@@ -100,3 +100,15 @@ mappings:
       Developers must supply instructions for human review (6-1-1702(1)(d)). It covers only
       review of adverse decisions on request, not operators generally.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: null
+    label: null
+    relationship: none
+    confidence: medium
+    rationale: >
+      The three instruments do not address operator competence or configuring the human-AI
+      interface. GenAI Art.10 requires providers to guide users and to prevent minors'
+      over-reliance on or addiction to the service, which concerns end users, not operators
+      overseeing the system.
+    reviewer: "PENDING REVIEW"

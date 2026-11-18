@@ -102,3 +102,17 @@ mappings:
       discrimination (former 6-1-1702(1), 6-1-1703(1)). SB26-189 keeps neither; developers
       only disclose known limitations and risks to deployers (6-1-1702(1)(c)).
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.17"
+    label: "Security assessment for public-opinion services"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.17 requires a security assessment, under relevant national provisions (in
+      practice the security-assessment rules, not mapped), for services with public-opinion
+      attributes or social-mobilisation capacity. A form of risk assessment, not a continuous
+      lifecycle process; those provisions, not Art.17, set its timing (at launch and on
+      specified changes) and content. Judgement call: partial rather than none. See also GB/T
+      45654-2025 Annex B (recommended companion, not mapped).
+    reviewer: "PENDING REVIEW"

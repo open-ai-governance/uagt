@@ -98,3 +98,15 @@ mappings:
       The Act sets no robustness or safety requirement. It regulates disclosure and consumer
       rights around decisions, not the system's technical behaviour.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.13"
+    label: "Secure, stable and continuous service"
+    relationship: partial
+    confidence: low
+    rationale: >
+      GenAI Art.13 requires providers to keep their service secure, stable and continuous so
+      that users can use it normally. An operating duty: it reaches faults that interrupt the
+      service, but not errors in outputs, drift or adversarial conditions, and it sets no
+      robustness measures. Judgement call: partial rather than none.
+    reviewer: "PENDING REVIEW"

@@ -4,8 +4,8 @@
 # here (enforced in CI by scripts/build_tables.py --check). Bumping a version here is
 # a deliberate, changelog-worthy event (see GOVERNANCE.md and section 8.6 of the design).
 
-manifest_version: "0.3.0"
-updated: "2026-11-16"
+manifest_version: "0.4.0"
+updated: "2026-11-17"
 
 frameworks:
   - id: ISO-IEC-42001
@@ -163,6 +163,119 @@ frameworks:
       (SB26-189 section 5(2)). Enforcement is by the Attorney General only, as a deceptive trade
       practice; there is no private right of action (6-1-1706).
 
+  # China generative-AI regime - OPTIONAL attached framework. One ID for three binding
+  # instruments (issue #2), one mapping per control. Strong on synthetic-content labelling;
+  # partial on training data, bias and personal information, user information and agreements,
+  # accuracy and unlawful content, and weakly on roles, registration, risk assessment,
+  # documentation, records, robustness, security, design, monitoring and suppliers; none on AI
+  # policy, staff AI literacy, impact assessment, risk tolerance, human oversight, operator
+  # competence, testing, continual improvement and model-level governance. 28 mappings:
+  # 1 full / 18 partial / 9 none.
+  - id: CN-GENAI
+    name: "People's Republic of China - Interim Measures for the Management of Generative AI Services, Measures for Labeling AI-Generated Synthetic Content, and GB 45438-2025"
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    structure: "Interim Measures (24 articles in 5 chapters: general provisions, technology development and governance, service norms, supervision and liability, supplementary) + Labeling Measures (14 articles: explicit and implicit labels, platform and app-store duties, user agreements, logs, user declarations) + GB 45438-2025 (mandatory national standard on labelling methods: explicit labels cl.5, implicit labels cl.6, metadata format Annex E)"
+    issuer: "People's Republic of China (CAC with other departments for the two Measures; SAMR and SAC for GB 45438-2025)"
+    obtain_from: "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    required: false
+    in_force: "2025-09-01"
+    verified: "2026-11-17 against the official Chinese texts: the two Measures (cac.gov.cn) and the full text of GB 45438-2025 as posted by TC260 (tc260.org.cn); standards metadata on ndls.org.cn"
+    amendments:
+      # Pending changes that would touch this regime, tracked like Colorado's AG rules.
+      # As of 2026-11-17 no draft amendment to the three mapped instruments was found.
+      - name: "Provisions of the State Council on Ensuring Minors' Healthy and Safe Use of the Internet (draft for comment)"
+        status: >
+          Draft published by CAC for comment 18 Sep 2026; comments closed 17 Oct 2026. Not
+          adopted as of the verified date; draft Art.25 gives the year 2026 for entry into
+          force and leaves the month and day blank.
+        tracked: true
+        notes: >
+          Listed, not mapped. The draft would require AI services that may affect minors'
+          cognition to be offered to under-16s through a minors' mode (draft Art.5(3)). Source:
+          https://www.cac.gov.cn/2026-09/18/c_1791482017777471.htm
+      - name: "Measures for the Administration of Internet Information Services, revision (draft for comment, second round)"
+        status: >
+          Second consultation draft published by CAC 3 Jul 2026 (drafted with MIIT and the
+          Ministry of Public Security); comments closed 2 Aug 2026. A draft, not in force.
+          On the State Council 2026 legislative work plan.
+        tracked: true
+        notes: >
+          Listed, not mapped. Its section on intelligent information services (draft
+          Arts.55-64) would restate core GenAI and labelling duties in an administrative
+          regulation, add public disclosure of operating mechanisms and training-data sources
+          (draft Art.56) and widen the stop-and-report duty to significant security risks
+          (draft Art.64). If adopted, re-check MC-D1-03, MC-D2-01, MC-D2-02, MC-D3-01, MC-D3-02,
+          MC-D4-01, MC-D4-03, MC-D4-04, MC-D5-01, MC-D6-03, MC-D7-01, MC-D7-02, MC-D8-01 and
+          MC-D8-02. Source:
+          https://www.cac.gov.cn/2026-07/03/c_1784822399677167.htm
+      - name: "Comprehensive national AI legislation"
+        status: >
+          The State Council 2026 legislative work plan (Guobanfa [2026] No. 14) commits to
+          accelerating comprehensive legislation for the healthy development of AI. No draft has
+          been published as of the verified date.
+        tracked: true
+        notes: >
+          Listed, not mapped. Source:
+          https://www.gov.cn/zhengce/zhengceku/202605/content_7068346.htm
+    notes: >
+      Mappings are semantic judgements against the official Chinese texts, not translations.
+      One mapping per control: the ref cites the best-fit provision and the rationale names
+      related ones. Refs and cited provisions start with the instrument's prefix: "GenAI",
+      "Labeling" or "GB 45438" (e.g. GenAI Art.7(4), Labeling Art.9, GB 45438 cl.6.1).
+      Numbers in parentheses are items (xiang); "para." is a paragraph (kuan); "cl." is a
+      clause of the standard.
+      GenAI: Interim Measures for the Management of Generative AI Services
+      (《生成式人工智能服务管理暂行办法》), a departmental rule issued as CAC
+      Order No. 15 by CAC, NDRC, the Ministry of Education, MOST, MIIT, the Ministry of Public
+      Security and NRTA; adopted 23 May 2023, signed 10 Jul 2023, published 13 Jul 2023, in
+      force 15 Aug 2023 (Art.24). It applies to services offered to the public in mainland
+      China (GenAI Art.2 para.1), not to development or use without such a service (GenAI
+      Art.2 para.3).
+      Labeling: Measures for Labeling AI-Generated Synthetic Content
+      (《人工智能生成合成内容标识办法》), issued by notice Guoxinban Tongzi [2025]
+      No. 2 of 7 Mar 2025 by CAC, MIIT, the Ministry of Public Security and NRTA; published
+      14 Mar 2025, in force 1 Sep 2025 (Art.14);
+      https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm. It applies to providers within
+      the Algorithmic Recommendation Provisions, the Deep Synthesis Provisions or the Interim
+      Measures (Labeling Art.2), with duties also on content-dissemination platforms, app
+      stores and users (Labeling Arts.6, 7 and 10).
+      GB 45438: GB 45438-2025, Cybersecurity technology - Labeling method for content generated
+      by artificial intelligence (《网络安全技术 人工智能生成合成内容标识方法》),
+      mandatory national standard issued by SAMR and SAC, administered (guikou) by the Office
+      of the Central Cyberspace Affairs Commission; published 28 Feb 2025, in force 1 Sep 2025;
+      applies to generation and content-dissemination service providers (GB 45438 cl.1). It
+      sets methods for Labeling duties (Labeling Art.11), so it is cited by clause number,
+      never as a ref; no standard text is reproduced. Full text as posted by TC260:
+      https://www.tc260.org.cn/tc260/tzgg/202503/d547a7044108462b9982228eb2c744ba.shtml;
+      record: https://www.ndls.org.cn/standard/detail/2b0a677a2b9c6d7d4dbcadf47730fa33.
+      in_force is when the last of the three took effect.
+      Parent laws (GenAI Art.1): the Cybersecurity Law (amended with effect from 1 Jan 2026;
+      https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm), the Data Security Law, the
+      Personal Information Protection Law and the Science and Technology Progress Law. Also
+      outside this framework: the Network Data Security Management Regulations (State Council
+      Order No. 790), whose Art.19 sets training-data security duties for generative AI
+      providers.
+      NOT in the mapped set: (1) the Deep Synthesis Provisions; (2) the algorithm filing rules
+      of the Algorithmic Recommendation Provisions; (3) the security-assessment rules: the
+      Provisions on Security Assessment of Internet Information Services with Public-Opinion
+      Attributes or Social-Mobilisation Capacity (published 15 Nov 2018, in force 30 Nov 2018;
+      https://www.cac.gov.cn/2018-11/15/c_1123716072.htm), which GenAI Art.17 and Labeling
+      Art.12 refer to without naming. (1) and (2) as agreed in issue #2;
+      (3) by the same reasoning, for the maintainer to confirm. Rationales mark references to
+      them "not mapped". CAC enforcement applies (1) and (3) alongside the mapped instruments
+      (typical cases, 15 Sep 2026,
+      https://www.cac.gov.cn/2026-09/15/c_1790876152357946.htm). Also not mapped, each left
+      for the maintainer to decide: the Interim Measures for the Management of Anthropomorphic AI
+      Interactive Services (CAC Order No. 21, in force 15 Jul 2026), for continuous
+      emotional-interaction (companion) services; and the Measures for AI Science and
+      Technology Ethics Review and Services (Trial) (Gongxinbu Lianke [2026] No. 75, MIIT and
+      nine other departments; "the AI ethics review measures"), which require an AI ethics
+      committee where research involves ethics-sensitive fields (its Art.9, applying the 2023
+      S&T Ethics Review Measures Art.4) and an ethics-risk assessment in ethics review of
+      in-scope AI R&D (its Arts.2 and 12); in-scope activities must go to the unit's committee
+      or, where the unit has none or its committee is not competent, to a service centre the
+      unit has entrusted (its Art.12; centres are set up under its Art.11).
+
 # Companion sources referenced in rationale but not themselves mapped targets. They inform
 # specific domains (e.g. ISO/IEC 42005 for D2 impact assessment; the NIST Generative AI
 # Profile for D8 GPAI). Mappings still resolve only to the three anchor frameworks above.
@@ -180,6 +293,22 @@ companions:
     notes: >
       First AI Act standard (supports Art.17 QMS). Not yet cited in the OJ as a harmonised standard,
       so it confers no presumption of conformity yet. Watch for the OJ citation.
+  - id: GB-T-45654
+    name: "GB/T 45654-2025 - Cybersecurity technology - Basic security requirements for generative artificial intelligence service"
+    published: "2025-04-25"
+    in_force: "2025-11-01"
+    administered_by: "National Cybersecurity Standardization Technical Committee (TC260)"
+    informs: ["d2-risk-impact-assessment", "d3-data-governance-quality",
+              "d6-robustness-accuracy-security", "d7-lifecycle-monitoring"]
+    notes: >
+      Recommended (GB/T), not binding, so kept out of CN-GENAI (issue #2) and cited in its
+      rationales instead. Could become its own entry if it turns out to carry real weight.
+      Issued by SAMR and SAC; administered (guikou) by TC260. Aimed chiefly at services with
+      public-opinion attributes or social-mobilisation capacity (its introduction), which ties
+      it to GenAI Art.17; Annex B (informative) is a security-assessment reference method. Full
+      text as posted by TC260:
+      https://www.tc260.org.cn/tc260/xwdt1/202506/739067714b9f40daa20219ea8fd7bf6d.shtml;
+      record: https://www.ndls.org.cn/standard/detail/19d53d40666b1c2635e6fb1c3998c1c2.
 
 # The cited methodology this crosswalk implements (paper <-> repo reciprocal citation, FR8).
 methodology:

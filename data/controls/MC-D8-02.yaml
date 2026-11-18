@@ -101,3 +101,16 @@ mappings:
       (6-1-1707(5)). Judgement call: full, because this handoff is the core of the
       developer's duties; partial is arguable, since it is an information duty only.
     reviewer: "PENDING REVIEW"
+  - framework: CN-GENAI
+    version: "Interim Measures 2023 + Labeling Measures 2025 + GB 45438-2025"
+    ref: "GenAI Art.9 para.2"
+    label: "Service agreement with users"
+    relationship: partial
+    confidence: medium
+    rationale: >
+      GenAI Art.9 para.2 requires a service agreement with registered users setting out both
+      sides' rights and obligations. It allocates responsibilities by contract but does not say
+      which residual risks must be passed on. See also Labeling Arts.8-9 (labelling terms in
+      user agreements; user duties for content without explicit labels); Labeling Art.10 para.1
+      (users declare and label what they publish).
+    reviewer: "PENDING REVIEW"
