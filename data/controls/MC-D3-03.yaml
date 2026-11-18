@@ -107,6 +107,8 @@ mappings:
       There is no bias-examination or representativeness duty. SB24-205's duty of reasonable
       care to protect consumers from algorithmic discrimination (former 6-1-1702(1),
       6-1-1703(1)) was repealed by this law and not reenacted. Discrimination is left to
-      existing anti-discrimination law; 6-1-1707 only allocates fault between developers and
-      deployers in such actions.
+      existing anti-discrimination law; 6-1-1707(1)-(7) operate in actions alleging unlawful
+      discrimination under state anti-discrimination laws such as the Colorado
+      Anti-Discrimination Act (6-1-1707(1)), where they allocate fault between developers and
+      deployers, limit developer liability and void certain indemnities.
     reviewer: "PENDING REVIEW"

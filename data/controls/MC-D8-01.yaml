@@ -95,9 +95,12 @@ mappings:
     relationship: partial
     confidence: low
     rationale: >
-      6-1-1707 allocates fault between developers and deployers by relative fault, limits
-      developer liability to intended or contracted uses, and voids contract terms that
-      indemnify a party for its own discriminatory acts. With the developer-to-deployer
+      In an action alleging unlawful discrimination under state anti-discrimination laws
+      (6-1-1707(1)), 6-1-1707 allocates fault between developers and deployers by relative
+      fault, limits developer liability to uses intended, documented, marketed, advertised,
+      configured, or contracted for by the developer (6-1-1707(5)(a)(I)), and, with
+      exceptions, voids contract terms that indemnify a party for its own acts or omissions
+      in violation of Colorado anti-discrimination law (6-1-1707(7)). With the developer-to-deployer
       information duties in 6-1-1702 this is a value-chain allocation, not a
       supplier-governance process.
     reviewer: "PENDING REVIEW"

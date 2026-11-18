@@ -61,9 +61,11 @@ without disturbing the anchor mappings, each across all 28 controls:
   It is strong on synthetic-content labelling, human oversight and high-impact risk management,
   and `none` on data quality, bias, privacy and security, which it leaves to other Korean law.
 - **Colorado ADMT law** (SB26-189, C.R.S. 6-1-1701 to 6-1-1709, in force 1 Jan 2027) — the first
-  US state statute. It is strong on developer-to-deployer documentation, with partial coverage of
-  consumer notice, human review and personal-data correction, and `none` on risk management,
-  impact assessment and bias, duties its predecessor SB24-205 had and SB26-189 repealed.
+  US state statute. It is strong only on the developer-to-deployer handoff of limits and updates
+  (`MC-D8-02`), with partial coverage of developer documentation, consumer notice, human review
+  and personal-data correction, and `none` on risk management, impact assessment and bias, duties
+  its predecessor SB24-205 had and SB26-189 repealed. Enforcement may be qualified by a federal stay
+  order (para 1 refers to legislation replacing or amending SB24-205 enacted this session; it does not name SB26-189, and its reach to SB26-189 is unresolved) and an Attorney General enforcement-discretion statement (see the manifest notes).
 
 Their coverage shape (see [`docs/coverage.md`](docs/coverage.md): anchors 61–64% strong vs.
 the others 4–32%) is itself the analytical point — a security/governance/privacy framework

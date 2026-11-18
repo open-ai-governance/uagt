@@ -95,7 +95,11 @@ mappings:
     confidence: low
     rationale: >
       Developers must notify deployers within a reasonable time of material updates,
-      substantial modifications and changes to intended use, limitations or risk mitigation
-      (6-1-1702(2)), and give instructions for monitoring (6-1-1702(1)(d)). No one is
+      intentional and substantial modifications, and changes to the intended use of,
+      limitations for, or risk mitigation for the covered ADMT (6-1-1702(2)(a)); public
+      release notes suffice if each deployer gets direct notice (6-1-1702(2)(b)). This applies
+      only where the ADMT was marketed, advertised, configured, contracted, sold, or licensed to
+      be used to materially influence a consequential decision (6-1-1702(3)). Developers
+      also give instructions for monitoring (6-1-1702(1)(d)). No one is
       required to monitor the system in operation. Judgement call: partial rather than none.
     reviewer: "PENDING REVIEW"

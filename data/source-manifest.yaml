@@ -124,10 +124,11 @@ frameworks:
       a grace period of at least 1 year for fines (Art.43, up to KRW 30M); this is policy, not
       in the statute.
 
-  # Colorado ADMT law - OPTIONAL attached framework (first US state statute). Maps strongly on
-  # developer-to-deployer documentation and value-chain handoff, partly on consumer notice,
-  # human review and personal-data correction; none on risk management, impact assessment and
-  # the duty of care, which SB24-205 had and SB26-189 repealed.
+  # Colorado ADMT law - OPTIONAL attached framework (first US state statute). Maps strongly
+  # only on the developer-to-deployer handoff of limits and updates (MC-D8-02), partly on
+  # developer documentation, consumer notice, human review and personal-data correction; none
+  # on risk management, impact assessment and the duty of care, which SB24-205 had and
+  # SB26-189 repealed.
   - id: US-CO-ADMT
     name: "Colorado SB26-189 - Automated Decision-Making Technology in Consequential Decisions (C.R.S. 6-1-1701 to 6-1-1709)"
     version: "SB26-189 (Sess. Laws 2026, ch. 131)"
@@ -136,32 +137,65 @@ frameworks:
     obtain_from: "https://leg.colorado.gov/bills/sb26-189"
     required: false
     in_force: "2027-01-01"
-    verified: "2026-11-16 against the signed act and Session Laws 2026 ch. 131 (leg.colorado.gov)"
+    verified: "2026-11-18 against Session Laws 2026 ch. 131 (text), the coag.gov/ai rulemaking page, the Attorney General's 6 Oct 2026 interim cover letter, ECF 24 and the CourtListener docket in X.AI v. Weiser"
     amendments:
       # Implementing rules, tracked the way the EU Digital Omnibus was while pending.
       - name: "Attorney General rules for the ADMT and Chatbot Safety Acts (4 CCR 904-6, proposed)"
         status: >
-          Notice of proposed rulemaking 11 Aug 2026; comment period opened 11 Aug 2026; hearing
-          set for 26 Oct 2026, continuing as needed. Not adopted as of the verified date. The Act
-          requires the 1704(4) and 1705(3) rules on or before 1 Jan 2027.
+          Notice of proposed rulemaking 11 Aug 2026; interim draft rules and cover page 6 Oct
+          2026; regulatory analysis 21 Oct 2026; formal hearing held 26 Oct 2026; written comments
+          considered if received by 26 Oct 2026 11:59 PM MST (or the last day of the hearing, if
+          it continued, per the 6 Oct cover page). The Attorney General says it is drafting the
+          final rules. Not adopted as of the coag.gov page of 18 Nov 2026. The Act requires the
+          1704(4) and 1705(3) rules on or before 1 Jan 2027.
         tracked: true
         notes: >
           Listed, not mapped. Mappings reflect the statute only; pin once the rules are adopted,
           with a changelog entry. Authority per the notice: C.R.S. 6-1-108(1) and 6-1-1707 (as
           enacted by SB24-205), and 6-1-1704(4), 6-1-1705(3) and 6-1-1706(5) (as amended by
           SB26-189). Source: https://coag.gov/ai/. The rules also implement HB26-1263 (Chatbot
-          Safety Act), which is not part of this framework. A federal court order of 27 Apr 2026
-          in X.AI LLC v. Weiser (D. Colo.) bars enforcement of SB24-205 or legislation amending
-          it until the Attorney General completes rulemaking and the court rules (per the
-          Legislative Council final fiscal note of 8 Sep 2026).
+          Safety Act), which is not part of this framework. X.AI LLC v. Weiser, No.
+          1:26-cv-01515-DDD-CYC (D. Colo.), ECF 24, minute order of 27 Apr 2026, entered by a
+          Magistrate Judge on a joint stipulated motion to stay (ECF 22); it is not an
+          injunction. Para 1: the defendant shall not initiate enforcement, including an
+          investigation, for violations of SB24-205 (or legislation replacing or amending it
+          enacted this legislative session) that occurred or may occur on or before 14 days
+          after the court rules on xAI's forthcoming preliminary-injunction motion. Para 2: that
+          motion is due within 28 days after final adoption of the rules. Para 3: case deadlines
+          are stayed. The order does not name SB26-189; para 1 refers to legislation replacing or
+          amending SB24-205 enacted this legislative session, and whether it reaches SB26-189 is
+          unresolved. No ruling on that motion appears on the CourtListener docket as fetched
+          18 Nov 2026. Mappings to re-check on adoption of the rules: MC-D1-02, MC-D3-04,
+          MC-D4-01, MC-D5-01, MC-D5-02, MC-D8-01, MC-D8-02, MC-D8-03 (drafts differ; cite the
+          interim draft of 6 Oct 2026, e.g. Rule 4.2 (titled Midstream Developers on 11 Aug,
+          retitled in the interim draft), Rule 4.3 Third-Party ADMT, Rule 5 Covered ADMT
+          Developer Obligations).
     notes: >
       Referenced by C.R.S. section, e.g. C.R.S. 6-1-1704(3). SB26-189 section 1 repealed and
       reenacted part 17, which SB24-205 had created, so the same section numbers carry different
       text: refs here mean the reenacted part, and "former" in a rationale cites SB24-205. Signed
       14 May 2026. The Act takes effect 1 Jan 2027 and applies to consequential decisions made on
-      or after that date; 6-1-1704(4), 6-1-1705(3) and 6-1-1706(6) took effect on passage
-      (SB26-189 section 5(2)). Enforcement is by the Attorney General only, as a deceptive trade
-      practice; there is no private right of action (6-1-1706).
+      or after that date. Section 5(2) lists 6-1-1704(4), 6-1-1705(3) and 6-1-1706(6) as taking
+      effect on passage; 6-1-1706(6) is the joinder clause and the Attorney General's
+      rulemaking power is 6-1-1706(5), so the cite may be a drafting slip. The Attorney General
+      enforces 6-1-1702 to 6-1-1705 exclusively (6-1-1706(1)(b)), as a deceptive trade practice
+      (6-1-1706(2)(a)), after a notice of violation with 60 days to cure where cure is deemed
+      possible, and without a cure period for knowing or repeated violations (6-1-1706(3)(a)-(c);
+      repealed 1 Jan 2030, 6-1-1706(3)(f)). The Act creates no new private right of action and
+      leaves existing remedies in place (6-1-1706(4), 6-1-1709(1)); 6-1-1707 sets liability in
+      discrimination actions under existing law. Enforcement from 1 Jan 2027 may be qualified by the
+      X.AI v. Weiser stay in the amendment note above (which does not name SB26-189; whether it
+      reaches SB26-189 is unresolved), and by the Attorney General's statement in
+      the 6 Oct 2026 interim cover letter that its policy is to focus on egregious and
+      intentional violations and to use appropriate discretion while entities come into
+      compliance; that is practice, not statute. Scope: the duties fall on a developer or
+      deployer, each a person doing business in Colorado (6-1-1701(7), (8)(a)), and only for
+      covered ADMT in consequential decisions in the covered domains (6-1-1701(3), (5), (6)).
+      6-1-1708 deems some insurers compliant, disapplies 6-1-1701 to 6-1-1706 for HIPAA covered
+      entities and their business associates (with exceptions, including employment decisions)
+      and for FDA-overseen medical devices, and 6-1-1704(6) and (9) give creditors and
+      FERPA-subject deployers notice routes. The Attorney General's 6 Oct 2026 cover letter says
+      the law does not apply to governments (that is its view, not statute).
 
 # Companion sources referenced in rationale but not themselves mapped targets. They inform
 # specific domains (e.g. ISO/IEC 42005 for D2 impact assessment; the NIST Generative AI

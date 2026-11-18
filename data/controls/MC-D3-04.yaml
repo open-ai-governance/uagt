@@ -100,9 +100,11 @@ mappings:
     confidence: medium
     rationale: >
       After an adverse outcome the deployer must, on request, give instructions for
-      obtaining the personal data used and correcting factually incorrect or materially
-      inaccurate personal data, consistent with 6-1-1306. The adverse-outcome disclosure
+      requesting the personal data used and correcting factually incorrect or materially
+      inaccurate personal data, consistent with 6-1-1306 (outside part 17; not mapped). The adverse-outcome disclosure
       must also give a process to request details of the ADMT and the types, categories and
       sources of personal data used, to the extent the deployer has them from the developer
-      (6-1-1704(3)(b)). Wider privacy duties sit outside this framework.
+      (6-1-1704(3)(b)). The Attorney General's rules on these disclosures and on this section
+      are still pending (6-1-1704(4)(b), 6-1-1705(3)). Wider privacy duties sit outside this
+      framework.
     reviewer: "PENDING REVIEW"

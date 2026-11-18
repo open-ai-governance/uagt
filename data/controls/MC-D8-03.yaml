@@ -93,11 +93,15 @@ mappings:
     ref: null
     label: null
     relationship: none
-    confidence: high
+    confidence: medium
     rationale: >
-      The Act regulates the use of ADMT in consequential decisions, not models. Foundation
-      models and large language models appear only in exclusions (6-1-1701(2)(b)(I)(L),
-      (3)(b)(III)), and conversational tools are excluded where they are not intended for
-      consequential decisions and an acceptable-use policy prohibits that use
-      (6-1-1701(2)(b)(III)(A)-(B)).
+      The Act regulates the use of ADMT in consequential decisions and sets no model-specific
+      or systemic-risk duty. A person who develops a component designed, marketed or
+      contracted for use as part of a covered ADMT is a developer (6-1-1701(8)(a)(II)),
+      unless the component was integrated without its actual knowledge (6-1-1701(8)(b)(III)).
+      Foundation models and large language models appear only in exclusions
+      (6-1-1701(2)(b)(I)(L), (3)(b)(III)), and conversational tools are excluded where they
+      are not intended for consequential decisions and an acceptable-use policy prohibits
+      that use (6-1-1701(2)(b)(III)(A)-(B)). Attorney General draft rule 4.2 on developers
+      that integrate others' ADMT is pending, not adopted.
     reviewer: "PENDING REVIEW"

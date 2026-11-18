@@ -92,8 +92,10 @@ mappings:
     relationship: partial
     confidence: medium
     rationale: >
-      After an adverse outcome a consumer may request meaningful human review and
-      reconsideration of the decision, to the extent commercially reasonable; the reviewer
-      must have authority to override it (6-1-1701(15)). This is after-the-fact review on
-      request, not oversight during operation or a stop capability.
+      After an adverse outcome a consumer may request, and the deployer must provide, an
+      opportunity for meaningful human review and reconsideration of the decision, to the
+      extent commercially reasonable; the reviewer must have authority to override it
+      (6-1-1701(15)). The Attorney General's rules on this section are still pending
+      (6-1-1705(3)). This is after-the-fact review on request, not oversight during operation
+      or a stop capability.
     reviewer: "PENDING REVIEW"
